@@ -1,0 +1,50 @@
+[
+  {
+    "primary_emotion": "anger",
+    "secondary_emotion": null,
+    "intensity": 0.9566895365715027,
+    "confidence": 0.9566895365715027,
+    "context": {
+      "weather": null,
+      "temperature": null,
+      "time_of_day": "afternoon",
+      "day_of_week": "saturday",
+      "calendar_stress": 0.3,
+      "social_situation": "unknown",
+      "location_type": "unknown"
+    },
+    "timestamp": "2025-07-12T13:52:28.693888"
+  },
+  {
+    "primary_emotion": "anger",
+    "secondary_emotion": null,
+    "intensity": 0.9566895365715027,
+    "confidence": 0.9566895365715027,
+    "context": {
+      "weather": null,
+      "temperature": null,
+      "time_of_day": "afternoon",
+      "day_of_week": "saturday",
+      "calendar_stress": 0.3,
+      "social_situation": "unknown",
+      "location_type": "unknown"
+    },
+    "timestamp": "2025-07-12T13:53:47.675428"
+  },
+  {
+    "primary_emotion": "anger",
+    "secondary_emotion": null,
+    "intensity": 0.9566895365715027,
+    "confidence": 0.9566895365715027,
+    "context": {
+      "weather": null,
+      "temperature": null,
+      "time_of_day": "afternoon",
+      "day_of_week": "saturday",
+      "calendar_stress": 0.3,
+      "social_situation": "unknown",
+      "location_type": "unknown"
+    },
+    "timestamp": "2025-07-12T13:55:21.482466"
+  }
+]

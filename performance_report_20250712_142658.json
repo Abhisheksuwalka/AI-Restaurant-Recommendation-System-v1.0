@@ -1,0 +1,36 @@
+{
+  "dataset_size": {
+    "restaurants": 5000,
+    "users": 2000,
+    "ratings": 25000,
+    "reviews": 15000
+  },
+  "training_metrics": {
+    "train_time": 6.324175119400024,
+    "memory_usage_mb": -218.90625
+  },
+  "accuracy_metrics": {
+    "rmse": Infinity,
+    "mae": Infinity,
+    "coverage": 0.0,
+    "samples_evaluated": 0
+  },
+  "speed_metrics": {
+    "avg_response_time": Infinity,
+    "min_response_time": Infinity,
+    "max_response_time": Infinity,
+    "p95_response_time": Infinity,
+    "throughput_recs_per_sec": 0
+  },
+  "business_metrics": {
+    "diversity_score": 0,
+    "avg_user_satisfaction": 0,
+    "unique_restaurants_recommended": 0,
+    "total_recommendations_made": 0
+  },
+  "quality_metrics": {
+    "emotional_intelligence_success_rate": 0.0,
+    "emotional_contexts_tested": 4,
+    "emotional_responses_generated": 0
+  }
+}

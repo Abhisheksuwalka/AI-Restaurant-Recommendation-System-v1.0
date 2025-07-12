@@ -1,0 +1,101 @@
+user_id,age,location,preferred_cuisine,dietary_restrictions,price_preference,registration_date
+1,56,North Judithbury,Italian,None,$$,2023-08-07
+2,69,East Jill,Greek,None,$$$$,2024-04-06
+3,46,New Roberttown,Thai,Vegan,$$,2024-08-18
+4,32,East Jessetown,Greek,Vegetarian,$$$,2024-05-21
+5,60,Lake Debra,French,Vegetarian,$,2023-08-11
+6,25,Robinsonshire,Italian,Vegetarian,$$$$,2024-04-03
+7,38,Lisatown,French,None,$,2025-05-24
+8,56,Lake Roberto,French,Keto,$,2025-06-21
+9,36,Ericmouth,Mexican,None,$$$,2023-08-10
+10,40,North Noahstad,Italian,Keto,$$,2024-03-29
+11,28,Cassandraton,French,Gluten-Free,$$,2024-11-21
+12,28,Herrerafurt,Mexican,None,$,2024-11-10
+13,41,New Kellystad,Mexican,None,$$$$,2024-03-26
+14,53,Lake Chad,Italian,None,$$,2024-08-24
+15,57,Port Keith,American,Vegetarian,$$$$,2025-04-11
+16,41,Port Jesseville,Korean,Vegetarian,$$,2025-06-22
+17,20,Ramirezstad,Thai,Keto,$$$$,2025-01-09
+18,39,West Michael,Korean,Keto,$$$,2025-05-18
+19,19,Jacquelineland,Greek,None,$$$$,2024-01-01
+20,41,New Jessica,Thai,Keto,$$$,2023-11-07
+21,61,South Noah,Greek,Vegetarian,$$$,2025-02-15
+22,47,Lake Mark,French,Keto,$$$$,2023-11-18
+23,55,East Lydiamouth,Chinese,Gluten-Free,$$$,2024-05-08
+24,19,Adamsborough,Italian,Vegetarian,$,2023-11-20
+25,38,Jasonfort,Thai,Gluten-Free,$$$,2025-05-17
+26,50,Wilkersonmouth,Thai,Keto,$$,2025-02-02
+27,29,West Donald,French,Vegan,$$$$,2024-05-07
+28,39,Juliechester,American,None,$,2024-11-12
+29,61,Coxberg,Mexican,Vegetarian,$$$$,2024-12-30
+30,42,Daviston,French,Gluten-Free,$$,2024-01-09
+31,66,East Courtneychester,Japanese,Vegan,$$,2023-11-05
+32,44,South Patrickmouth,Mexican,Vegan,$$,2024-12-05
+33,59,Tashatown,Italian,Vegetarian,$$$,2024-04-16
+34,45,Lake Nicoleview,Mexican,Vegetarian,$$$,2023-08-09
+35,33,Danielchester,American,Vegan,$$$$,2024-06-20
+36,32,South Aaron,Mexican,None,$$$$,2023-12-04
+37,64,Teresaburgh,Italian,None,$,2025-05-13
+38,68,Port Colleenhaven,American,Gluten-Free,$,2024-03-23
+39,61,East Nathaniel,Korean,None,$$$$,2025-03-02
+40,69,New Stephanie,Thai,Vegan,$$$,2025-04-08
+41,20,New Mariotown,Thai,Vegan,$$,2023-12-21
+42,54,West Natashaport,Greek,Keto,$$$$,2024-11-05
+43,68,North John,Korean,Vegan,$,2024-04-28
+44,24,North Jessicaland,Korean,None,$$$,2024-01-31
+45,38,East Donna,Mexican,Gluten-Free,$$$$,2023-08-31
+46,26,West Allison,Thai,Keto,$$$$,2025-01-27
+47,56,Brandtside,Italian,None,$$$,2024-03-24
+48,35,Lake Larry,Indian,Gluten-Free,$$$$,2024-07-18
+49,21,Samuelhaven,Indian,None,$$$,2024-11-19
+50,42,Martinezbury,American,Keto,$$,2025-03-19
+51,31,West Andrewside,Thai,Vegan,$$$,2024-03-10
+52,67,New Jeffrey,Thai,Keto,$$$,2023-08-01
+53,26,Lake Crystalbury,Indian,Vegan,$$$,2025-04-13
+54,43,North Micheleland,Thai,Keto,$$$$,2024-01-18
+55,19,West Elizabeth,Mexican,Vegetarian,$$$$,2024-09-08
+56,37,New David,Japanese,None,$$$,2025-06-29
+57,45,Sanchezfort,Chinese,None,$$$$,2023-08-08
+58,64,Leeville,Korean,Vegetarian,$,2024-09-20
+59,24,Gomezchester,Greek,Vegan,$,2024-03-20
+60,61,Shieldston,American,None,$$$$,2025-02-05
+61,25,North Richardmouth,Japanese,Vegetarian,$$$$,2024-05-26
+62,64,East Jamesside,Indian,None,$$$,2025-06-30
+63,52,Taylorburgh,Korean,Gluten-Free,$$,2023-10-04
+64,31,Stevenland,Thai,Vegan,$$$$,2025-04-29
+65,34,Mortonside,Greek,Gluten-Free,$,2023-11-27
+66,53,North Deniseside,Thai,Vegan,$$$,2023-08-13
+67,67,North Sarabury,Italian,Vegetarian,$$$$,2024-05-25
+68,57,South Todd,Italian,Vegan,$,2024-07-26
+69,21,Port Richard,Greek,Vegan,$,2025-02-20
+70,19,East Nicholasfurt,Greek,Vegetarian,$$,2024-11-25
+71,23,Saramouth,Indian,Vegan,$$$,2025-05-29
+72,59,Rodneyside,Greek,None,$$$,2024-12-31
+73,21,Mooreport,Mexican,Keto,$$,2023-12-03
+74,46,North Beth,Thai,Vegetarian,$$,2024-05-22
+75,35,Lake Leeton,Japanese,Keto,$$$,2025-06-04
+76,43,Shawhaven,French,Vegetarian,$$$,2025-05-15
+77,61,North Susan,Greek,Vegetarian,$$$$,2024-10-09
+78,51,Port Jacobland,American,Gluten-Free,$$$$,2024-11-07
+79,27,South David,Italian,Gluten-Free,$$,2023-10-11
+80,53,New Brooke,Mexican,Vegan,$$$$,2025-04-29
+81,31,South Dianeshire,Korean,Keto,$,2024-07-16
+82,48,Sarahborough,French,Vegetarian,$$$$,2024-11-10
+83,65,Johnfurt,Japanese,Vegan,$$$$,2024-03-06
+84,32,Lake Debbie,French,None,$,2024-12-02
+85,25,Stewartland,Greek,Vegetarian,$$,2024-08-20
+86,31,South Christineshire,Indian,None,$,2023-11-29
+87,40,North Amandahaven,Italian,Vegan,$$$$,2024-11-09
+88,57,Davidstad,Italian,Gluten-Free,$$,2024-04-14
+89,38,East Mikeburgh,Korean,Vegan,$$$$,2025-01-08
+90,33,Bassport,Indian,None,$,2023-11-16
+91,62,Lake Lisaport,Thai,Vegetarian,$,2024-08-31
+92,35,East Josephville,Chinese,Keto,$$$$,2024-05-03
+93,64,West Juan,Mexican,Vegan,$$$,2025-03-12
+94,41,Lake Matthew,Italian,Vegetarian,$$$,2024-02-19
+95,43,Williamview,American,Gluten-Free,$,2023-12-12
+96,42,North Cynthiaview,Italian,Gluten-Free,$,2025-02-05
+97,62,North Matthewberg,French,Gluten-Free,$$$,2024-09-27
+98,58,Evanmouth,Italian,Vegetarian,$$$,2024-03-03
+99,46,Hoffmanville,Italian,Vegan,$$$$,2024-05-29
+100,32,Lake Rebeccaside,Chinese,Vegetarian,$$$$,2024-11-16

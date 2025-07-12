@@ -1,0 +1,101 @@
+user_id,age,location,preferred_cuisine,budget_preference
+U001,37,Koramangala,Indian,$$
+U002,42,Koramangala,Mexican,$$$
+U003,32,Whitefield,Mexican,$
+U004,45,Koramangala,Mexican,$$
+U005,40,HSR Layout,Mexican,$$
+U006,44,Koramangala,Chinese,$$$
+U007,33,Whitefield,Chinese,$
+U008,46,Whitefield,Italian,$$$
+U009,26,HSR Layout,Chinese,$$$
+U010,51,Whitefield,Mexican,$$
+U011,24,Whitefield,Indian,$$$
+U012,44,Indiranagar,Indian,$$$
+U013,22,HSR Layout,Chinese,$$
+U014,37,HSR Layout,Italian,$
+U015,35,HSR Layout,Chinese,$$$
+U016,47,Whitefield,Mexican,$
+U017,46,Indiranagar,Indian,$
+U018,18,Whitefield,Italian,$$
+U019,51,Whitefield,Indian,$$
+U020,55,Koramangala,Chinese,$
+U021,58,Indiranagar,Indian,$
+U022,49,Indiranagar,Italian,$
+U023,54,Whitefield,Mexican,$
+U024,34,Whitefield,Indian,$$$
+U025,60,Indiranagar,Mexican,$
+U026,35,Whitefield,Mexican,$$
+U027,32,Indiranagar,Indian,$$$
+U028,21,Koramangala,Italian,$
+U029,43,Whitefield,Chinese,$$
+U030,28,Koramangala,Chinese,$
+U031,22,Koramangala,Italian,$$$
+U032,44,HSR Layout,Mexican,$
+U033,44,Whitefield,Mexican,$$$
+U034,58,Whitefield,Mexican,$$
+U035,40,HSR Layout,Italian,$$$
+U036,40,Koramangala,Indian,$
+U037,31,Koramangala,Indian,$$
+U038,60,HSR Layout,Mexican,$
+U039,32,Koramangala,Italian,$
+U040,51,HSR Layout,Chinese,$
+U041,60,Whitefield,Chinese,$
+U042,51,HSR Layout,Indian,$$
+U043,37,HSR Layout,Mexican,$$
+U044,32,Whitefield,Mexican,$
+U045,31,Koramangala,Indian,$
+U046,41,Indiranagar,Indian,$$$
+U047,50,Indiranagar,Italian,$$$
+U048,41,Whitefield,Italian,$$
+U049,30,HSR Layout,Indian,$$
+U050,54,Indiranagar,Mexican,$
+U051,47,Indiranagar,Mexican,$
+U052,60,HSR Layout,Indian,$
+U053,57,Indiranagar,Italian,$$
+U054,21,Koramangala,Mexican,$
+U055,55,Indiranagar,Chinese,$$$
+U056,53,Whitefield,Chinese,$$
+U057,46,Whitefield,Mexican,$$$
+U058,35,HSR Layout,Indian,$
+U059,51,Indiranagar,Italian,$
+U060,27,Indiranagar,Italian,$$$
+U061,52,HSR Layout,Italian,$$
+U062,43,Whitefield,Italian,$$
+U063,57,HSR Layout,Chinese,$$$
+U064,35,Whitefield,Chinese,$$$
+U065,40,Indiranagar,Mexican,$$
+U066,30,Koramangala,Indian,$
+U067,54,Koramangala,Mexican,$$$
+U068,43,Whitefield,Mexican,$$$
+U069,18,Koramangala,Indian,$$
+U070,29,Koramangala,Mexican,$$$
+U071,28,Indiranagar,Chinese,$$
+U072,35,Indiranagar,Chinese,$$
+U073,59,Whitefield,Indian,$
+U074,36,Indiranagar,Mexican,$$$
+U075,28,HSR Layout,Chinese,$$$
+U076,43,Indiranagar,Italian,$
+U077,34,Indiranagar,Italian,$$
+U078,33,Koramangala,Indian,$
+U079,28,Whitefield,Italian,$$
+U080,50,Koramangala,Mexican,$$$
+U081,48,Koramangala,Indian,$
+U082,29,HSR Layout,Chinese,$$$
+U083,50,Whitefield,Italian,$
+U084,33,Koramangala,Mexican,$$
+U085,39,Indiranagar,Chinese,$$$
+U086,40,HSR Layout,Indian,$$$
+U087,57,Whitefield,Indian,$$
+U088,25,Koramangala,Chinese,$
+U089,34,Whitefield,Mexican,$$
+U090,52,Koramangala,Mexican,$$$
+U091,39,Whitefield,Mexican,$$$
+U092,24,Whitefield,Chinese,$
+U093,34,Indiranagar,Mexican,$$$
+U094,50,HSR Layout,Indian,$
+U095,55,Indiranagar,Indian,$
+U096,20,Koramangala,Chinese,$$
+U097,21,Indiranagar,Italian,$$$
+U098,54,Indiranagar,Mexican,$$$
+U099,24,Indiranagar,Italian,$
+U100,30,Indiranagar,Chinese,$$$

@@ -1,0 +1,201 @@
+restaurant_id,name,cuisine,location,rating,price_range,delivery_time,description
+R001,Restaurant 1,Continental,HSR Layout,3.0,$$$,54,Authentic Mexican cuisine with great ambiance
+R002,Restaurant 2,Chinese,Koramangala,4.8,$$$,39,Authentic Mexican cuisine with great ambiance
+R003,Restaurant 3,Italian,BTM Layout,4.2,$,42,Authentic Mexican cuisine with great ambiance
+R004,Restaurant 4,Indian,BTM Layout,4.4,$$$,48,Authentic Continental cuisine with great ambiance
+R005,Restaurant 5,North Indian,Indiranagar,3.4,$$,47,Authentic Mexican cuisine with great ambiance
+R006,Restaurant 6,Italian,Koramangala,4.8,$$$,54,Authentic Thai cuisine with great ambiance
+R007,Restaurant 7,Indian,Whitefield,5.0,$$,27,Authentic Italian cuisine with great ambiance
+R008,Restaurant 8,North Indian,BTM Layout,3.2,$,21,Authentic Indian cuisine with great ambiance
+R009,Restaurant 9,Thai,HSR Layout,3.7,$$,50,Authentic Italian cuisine with great ambiance
+R010,Restaurant 10,North Indian,Whitefield,4.4,$$$,57,Authentic Mexican cuisine with great ambiance
+R011,Restaurant 11,Italian,BTM Layout,4.1,$$,52,Authentic Italian cuisine with great ambiance
+R012,Restaurant 12,Mexican,Jayanagar,4.0,$$,57,Authentic Chinese cuisine with great ambiance
+R013,Restaurant 13,Indian,Jayanagar,4.9,$,48,Authentic Mexican cuisine with great ambiance
+R014,Restaurant 14,Continental,Koramangala,3.3,$$$,55,Authentic Chinese cuisine with great ambiance
+R015,Restaurant 15,North Indian,Indiranagar,4.9,$,41,Authentic Thai cuisine with great ambiance
+R016,Restaurant 16,Italian,Jayanagar,4.5,$$$,25,Authentic Mexican cuisine with great ambiance
+R017,Restaurant 17,Mexican,BTM Layout,4.8,$$$,59,Authentic Indian cuisine with great ambiance
+R018,Restaurant 18,North Indian,Indiranagar,4.9,$$$,51,Authentic Continental cuisine with great ambiance
+R019,Restaurant 19,Continental,Indiranagar,4.3,$,45,Authentic Indian cuisine with great ambiance
+R020,Restaurant 20,South Indian,BTM Layout,4.7,$$$,43,Authentic South Indian cuisine with great ambiance
+R021,Restaurant 21,Continental,Whitefield,3.0,$$$,54,Authentic Italian cuisine with great ambiance
+R022,Restaurant 22,South Indian,Indiranagar,3.7,$$$,47,Authentic Indian cuisine with great ambiance
+R023,Restaurant 23,Indian,Whitefield,4.9,$$$,60,Authentic South Indian cuisine with great ambiance
+R024,Restaurant 24,Indian,BTM Layout,3.9,$$,33,Authentic Continental cuisine with great ambiance
+R025,Restaurant 25,Chinese,BTM Layout,3.8,$,57,Authentic Mexican cuisine with great ambiance
+R026,Restaurant 26,South Indian,Jayanagar,4.7,$,53,Authentic Indian cuisine with great ambiance
+R027,Restaurant 27,Continental,Koramangala,4.5,$$$,38,Authentic Italian cuisine with great ambiance
+R028,Restaurant 28,Mexican,HSR Layout,3.1,$$,36,Authentic South Indian cuisine with great ambiance
+R029,Restaurant 29,Thai,HSR Layout,3.9,$,37,Authentic Chinese cuisine with great ambiance
+R030,Restaurant 30,Mexican,Jayanagar,3.3,$$,24,Authentic Chinese cuisine with great ambiance
+R031,Restaurant 31,Thai,BTM Layout,4.5,$$$,26,Authentic Indian cuisine with great ambiance
+R032,Restaurant 32,Thai,HSR Layout,4.8,$,22,Authentic South Indian cuisine with great ambiance
+R033,Restaurant 33,Mexican,Whitefield,3.9,$,31,Authentic South Indian cuisine with great ambiance
+R034,Restaurant 34,North Indian,Koramangala,4.2,$,51,Authentic North Indian cuisine with great ambiance
+R035,Restaurant 35,North Indian,Koramangala,4.3,$,56,Authentic North Indian cuisine with great ambiance
+R036,Restaurant 36,Continental,Koramangala,3.4,$,31,Authentic North Indian cuisine with great ambiance
+R037,Restaurant 37,Italian,Jayanagar,4.3,$,27,Authentic Chinese cuisine with great ambiance
+R038,Restaurant 38,Indian,Koramangala,3.4,$$$,56,Authentic Mexican cuisine with great ambiance
+R039,Restaurant 39,North Indian,Indiranagar,3.5,$,42,Authentic Continental cuisine with great ambiance
+R040,Restaurant 40,Continental,Indiranagar,3.5,$$$,45,Authentic Thai cuisine with great ambiance
+R041,Restaurant 41,Chinese,Whitefield,4.2,$$,47,Authentic Mexican cuisine with great ambiance
+R042,Restaurant 42,Continental,BTM Layout,3.3,$,24,Authentic Mexican cuisine with great ambiance
+R043,Restaurant 43,Mexican,Indiranagar,3.6,$$,29,Authentic Italian cuisine with great ambiance
+R044,Restaurant 44,South Indian,Whitefield,4.6,$,50,Authentic South Indian cuisine with great ambiance
+R045,Restaurant 45,Thai,BTM Layout,4.1,$$,22,Authentic Indian cuisine with great ambiance
+R046,Restaurant 46,South Indian,Whitefield,3.9,$$,37,Authentic North Indian cuisine with great ambiance
+R047,Restaurant 47,North Indian,Indiranagar,4.5,$,27,Authentic Mexican cuisine with great ambiance
+R048,Restaurant 48,Chinese,Whitefield,4.6,$$$,54,Authentic Indian cuisine with great ambiance
+R049,Restaurant 49,Indian,Jayanagar,3.3,$,57,Authentic Chinese cuisine with great ambiance
+R050,Restaurant 50,Thai,Whitefield,4.6,$,26,Authentic Thai cuisine with great ambiance
+R051,Restaurant 51,Mexican,HSR Layout,4.9,$$$,56,Authentic North Indian cuisine with great ambiance
+R052,Restaurant 52,Italian,Koramangala,3.3,$$$,58,Authentic Thai cuisine with great ambiance
+R053,Restaurant 53,North Indian,Jayanagar,4.9,$$,46,Authentic South Indian cuisine with great ambiance
+R054,Restaurant 54,Mexican,HSR Layout,4.4,$$$,33,Authentic Italian cuisine with great ambiance
+R055,Restaurant 55,Mexican,BTM Layout,4.9,$$$,52,Authentic Thai cuisine with great ambiance
+R056,Restaurant 56,Italian,HSR Layout,4.5,$,48,Authentic Thai cuisine with great ambiance
+R057,Restaurant 57,Italian,BTM Layout,3.7,$,41,Authentic Thai cuisine with great ambiance
+R058,Restaurant 58,Thai,BTM Layout,3.1,$,58,Authentic Chinese cuisine with great ambiance
+R059,Restaurant 59,Italian,Koramangala,4.7,$,20,Authentic Chinese cuisine with great ambiance
+R060,Restaurant 60,Italian,Whitefield,3.2,$,40,Authentic Chinese cuisine with great ambiance
+R061,Restaurant 61,Continental,Indiranagar,3.8,$$$,28,Authentic Chinese cuisine with great ambiance
+R062,Restaurant 62,Chinese,Indiranagar,3.2,$$,55,Authentic North Indian cuisine with great ambiance
+R063,Restaurant 63,Continental,HSR Layout,3.5,$,59,Authentic Mexican cuisine with great ambiance
+R064,Restaurant 64,Thai,Whitefield,4.2,$,30,Authentic South Indian cuisine with great ambiance
+R065,Restaurant 65,Italian,HSR Layout,4.6,$$$,22,Authentic Indian cuisine with great ambiance
+R066,Restaurant 66,Chinese,Koramangala,3.6,$,57,Authentic North Indian cuisine with great ambiance
+R067,Restaurant 67,Mexican,BTM Layout,3.7,$$,31,Authentic Indian cuisine with great ambiance
+R068,Restaurant 68,Italian,BTM Layout,3.4,$$$,49,Authentic Thai cuisine with great ambiance
+R069,Restaurant 69,South Indian,HSR Layout,3.5,$,26,Authentic South Indian cuisine with great ambiance
+R070,Restaurant 70,Chinese,BTM Layout,5.0,$$,59,Authentic South Indian cuisine with great ambiance
+R071,Restaurant 71,Mexican,Koramangala,4.6,$$,26,Authentic Indian cuisine with great ambiance
+R072,Restaurant 72,Chinese,BTM Layout,3.2,$$$,53,Authentic Thai cuisine with great ambiance
+R073,Restaurant 73,Thai,Koramangala,4.3,$,27,Authentic Italian cuisine with great ambiance
+R074,Restaurant 74,Indian,HSR Layout,4.9,$,32,Authentic Italian cuisine with great ambiance
+R075,Restaurant 75,Continental,Koramangala,4.8,$,27,Authentic North Indian cuisine with great ambiance
+R076,Restaurant 76,Chinese,BTM Layout,3.9,$$,22,Authentic Continental cuisine with great ambiance
+R077,Restaurant 77,Italian,BTM Layout,4.5,$,27,Authentic Continental cuisine with great ambiance
+R078,Restaurant 78,Indian,Koramangala,4.4,$$,37,Authentic Thai cuisine with great ambiance
+R079,Restaurant 79,Italian,Whitefield,4.5,$$,20,Authentic Chinese cuisine with great ambiance
+R080,Restaurant 80,Mexican,Koramangala,4.7,$$$,35,Authentic Mexican cuisine with great ambiance
+R081,Restaurant 81,Mexican,Whitefield,3.9,$$$,57,Authentic South Indian cuisine with great ambiance
+R082,Restaurant 82,Thai,HSR Layout,3.7,$$,38,Authentic Indian cuisine with great ambiance
+R083,Restaurant 83,Chinese,Whitefield,3.4,$,57,Authentic South Indian cuisine with great ambiance
+R084,Restaurant 84,Continental,Koramangala,5.0,$$,51,Authentic Chinese cuisine with great ambiance
+R085,Restaurant 85,Continental,BTM Layout,4.9,$$,58,Authentic North Indian cuisine with great ambiance
+R086,Restaurant 86,North Indian,Whitefield,4.0,$$$,28,Authentic Italian cuisine with great ambiance
+R087,Restaurant 87,Continental,BTM Layout,3.8,$$,33,Authentic Italian cuisine with great ambiance
+R088,Restaurant 88,South Indian,Koramangala,3.7,$$,51,Authentic Italian cuisine with great ambiance
+R089,Restaurant 89,Continental,Whitefield,4.4,$$$,31,Authentic Continental cuisine with great ambiance
+R090,Restaurant 90,Chinese,Indiranagar,3.2,$,60,Authentic Mexican cuisine with great ambiance
+R091,Restaurant 91,Continental,Indiranagar,4.3,$$,40,Authentic Italian cuisine with great ambiance
+R092,Restaurant 92,South Indian,HSR Layout,3.6,$,43,Authentic Thai cuisine with great ambiance
+R093,Restaurant 93,South Indian,Jayanagar,4.4,$$$,22,Authentic Chinese cuisine with great ambiance
+R094,Restaurant 94,North Indian,HSR Layout,4.4,$,53,Authentic Thai cuisine with great ambiance
+R095,Restaurant 95,South Indian,BTM Layout,4.9,$,33,Authentic Mexican cuisine with great ambiance
+R096,Restaurant 96,South Indian,BTM Layout,4.4,$$$,59,Authentic Thai cuisine with great ambiance
+R097,Restaurant 97,Mexican,Indiranagar,4.5,$$,51,Authentic Thai cuisine with great ambiance
+R098,Restaurant 98,Indian,HSR Layout,3.3,$$$,37,Authentic Italian cuisine with great ambiance
+R099,Restaurant 99,Italian,Jayanagar,4.6,$,49,Authentic Continental cuisine with great ambiance
+R100,Restaurant 100,Continental,Indiranagar,3.0,$,44,Authentic Continental cuisine with great ambiance
+R101,Restaurant 101,North Indian,Jayanagar,4.5,$$$,59,Authentic North Indian cuisine with great ambiance
+R102,Restaurant 102,Italian,Koramangala,3.5,$$$,56,Authentic Mexican cuisine with great ambiance
+R103,Restaurant 103,Thai,Koramangala,3.1,$,33,Authentic Indian cuisine with great ambiance
+R104,Restaurant 104,South Indian,Jayanagar,4.6,$,48,Authentic Italian cuisine with great ambiance
+R105,Restaurant 105,North Indian,Whitefield,5.0,$$,48,Authentic Continental cuisine with great ambiance
+R106,Restaurant 106,North Indian,Koramangala,4.0,$$$,37,Authentic Chinese cuisine with great ambiance
+R107,Restaurant 107,Chinese,BTM Layout,4.4,$,32,Authentic South Indian cuisine with great ambiance
+R108,Restaurant 108,Thai,BTM Layout,3.1,$$,20,Authentic Italian cuisine with great ambiance
+R109,Restaurant 109,North Indian,Indiranagar,3.3,$$,33,Authentic North Indian cuisine with great ambiance
+R110,Restaurant 110,Mexican,BTM Layout,3.2,$$$,27,Authentic Chinese cuisine with great ambiance
+R111,Restaurant 111,North Indian,Jayanagar,4.8,$$,21,Authentic Indian cuisine with great ambiance
+R112,Restaurant 112,Mexican,Indiranagar,3.1,$,23,Authentic Chinese cuisine with great ambiance
+R113,Restaurant 113,Mexican,Jayanagar,4.9,$$$,55,Authentic North Indian cuisine with great ambiance
+R114,Restaurant 114,South Indian,Whitefield,3.5,$,53,Authentic Indian cuisine with great ambiance
+R115,Restaurant 115,Italian,Whitefield,4.9,$$$,27,Authentic Chinese cuisine with great ambiance
+R116,Restaurant 116,North Indian,HSR Layout,3.6,$,29,Authentic South Indian cuisine with great ambiance
+R117,Restaurant 117,Continental,Indiranagar,5.0,$$,28,Authentic North Indian cuisine with great ambiance
+R118,Restaurant 118,Chinese,Whitefield,4.8,$,51,Authentic South Indian cuisine with great ambiance
+R119,Restaurant 119,South Indian,Indiranagar,3.7,$,55,Authentic Thai cuisine with great ambiance
+R120,Restaurant 120,Mexican,Indiranagar,4.8,$$$,47,Authentic Italian cuisine with great ambiance
+R121,Restaurant 121,Chinese,BTM Layout,4.0,$$,53,Authentic Indian cuisine with great ambiance
+R122,Restaurant 122,Indian,Jayanagar,3.3,$,39,Authentic Chinese cuisine with great ambiance
+R123,Restaurant 123,Continental,Indiranagar,4.6,$,51,Authentic Mexican cuisine with great ambiance
+R124,Restaurant 124,Italian,Whitefield,4.2,$$,32,Authentic South Indian cuisine with great ambiance
+R125,Restaurant 125,Thai,BTM Layout,3.3,$$$,21,Authentic North Indian cuisine with great ambiance
+R126,Restaurant 126,Mexican,Indiranagar,3.8,$$,60,Authentic Thai cuisine with great ambiance
+R127,Restaurant 127,Italian,Jayanagar,4.9,$,25,Authentic North Indian cuisine with great ambiance
+R128,Restaurant 128,South Indian,Indiranagar,3.6,$$,38,Authentic Mexican cuisine with great ambiance
+R129,Restaurant 129,Thai,Whitefield,3.4,$$,50,Authentic Chinese cuisine with great ambiance
+R130,Restaurant 130,Thai,Jayanagar,3.5,$$,36,Authentic Chinese cuisine with great ambiance
+R131,Restaurant 131,Continental,BTM Layout,3.0,$$$,25,Authentic Continental cuisine with great ambiance
+R132,Restaurant 132,Thai,Koramangala,3.4,$$$,44,Authentic Thai cuisine with great ambiance
+R133,Restaurant 133,North Indian,Koramangala,4.8,$$$,22,Authentic North Indian cuisine with great ambiance
+R134,Restaurant 134,Italian,BTM Layout,4.8,$$$,56,Authentic Thai cuisine with great ambiance
+R135,Restaurant 135,North Indian,Whitefield,4.6,$$,29,Authentic Mexican cuisine with great ambiance
+R136,Restaurant 136,Mexican,BTM Layout,3.6,$,27,Authentic South Indian cuisine with great ambiance
+R137,Restaurant 137,Thai,Jayanagar,3.8,$$,25,Authentic Continental cuisine with great ambiance
+R138,Restaurant 138,Thai,Jayanagar,3.5,$,29,Authentic Thai cuisine with great ambiance
+R139,Restaurant 139,Italian,Indiranagar,4.9,$$$,47,Authentic Italian cuisine with great ambiance
+R140,Restaurant 140,Mexican,BTM Layout,3.4,$$$,20,Authentic South Indian cuisine with great ambiance
+R141,Restaurant 141,South Indian,Whitefield,3.0,$,60,Authentic Mexican cuisine with great ambiance
+R142,Restaurant 142,Italian,Koramangala,3.8,$,41,Authentic Continental cuisine with great ambiance
+R143,Restaurant 143,Mexican,Indiranagar,4.0,$,31,Authentic Chinese cuisine with great ambiance
+R144,Restaurant 144,Thai,Whitefield,4.7,$,35,Authentic North Indian cuisine with great ambiance
+R145,Restaurant 145,Indian,Koramangala,3.4,$$$,47,Authentic South Indian cuisine with great ambiance
+R146,Restaurant 146,Italian,Indiranagar,4.9,$$$,55,Authentic South Indian cuisine with great ambiance
+R147,Restaurant 147,Mexican,Koramangala,3.3,$$,38,Authentic Italian cuisine with great ambiance
+R148,Restaurant 148,Continental,Koramangala,5.0,$,51,Authentic Italian cuisine with great ambiance
+R149,Restaurant 149,Mexican,Koramangala,4.9,$$$,31,Authentic Italian cuisine with great ambiance
+R150,Restaurant 150,South Indian,Jayanagar,4.9,$$$,40,Authentic Thai cuisine with great ambiance
+R151,Restaurant 151,Thai,Koramangala,4.6,$,34,Authentic Indian cuisine with great ambiance
+R152,Restaurant 152,Chinese,Koramangala,4.0,$$$,36,Authentic Italian cuisine with great ambiance
+R153,Restaurant 153,North Indian,Whitefield,3.8,$,43,Authentic North Indian cuisine with great ambiance
+R154,Restaurant 154,South Indian,HSR Layout,3.5,$$,20,Authentic Italian cuisine with great ambiance
+R155,Restaurant 155,Thai,Jayanagar,3.9,$$,54,Authentic Chinese cuisine with great ambiance
+R156,Restaurant 156,Chinese,Jayanagar,4.9,$$$,23,Authentic South Indian cuisine with great ambiance
+R157,Restaurant 157,Italian,BTM Layout,3.7,$$$,20,Authentic Continental cuisine with great ambiance
+R158,Restaurant 158,South Indian,Indiranagar,4.4,$$,21,Authentic Italian cuisine with great ambiance
+R159,Restaurant 159,North Indian,HSR Layout,3.9,$$,42,Authentic Thai cuisine with great ambiance
+R160,Restaurant 160,Mexican,Koramangala,4.7,$$,49,Authentic North Indian cuisine with great ambiance
+R161,Restaurant 161,South Indian,Jayanagar,4.3,$,39,Authentic North Indian cuisine with great ambiance
+R162,Restaurant 162,North Indian,Whitefield,3.5,$$$,48,Authentic Mexican cuisine with great ambiance
+R163,Restaurant 163,Italian,BTM Layout,3.2,$$$,33,Authentic Italian cuisine with great ambiance
+R164,Restaurant 164,Continental,Jayanagar,4.1,$$$,42,Authentic Mexican cuisine with great ambiance
+R165,Restaurant 165,South Indian,Indiranagar,4.1,$$$,26,Authentic South Indian cuisine with great ambiance
+R166,Restaurant 166,North Indian,Whitefield,4.3,$$$,57,Authentic Indian cuisine with great ambiance
+R167,Restaurant 167,North Indian,Indiranagar,4.7,$,40,Authentic South Indian cuisine with great ambiance
+R168,Restaurant 168,Mexican,Koramangala,3.8,$$$,39,Authentic Thai cuisine with great ambiance
+R169,Restaurant 169,Italian,Jayanagar,4.1,$$,31,Authentic Chinese cuisine with great ambiance
+R170,Restaurant 170,Mexican,Indiranagar,4.1,$$$,28,Authentic Chinese cuisine with great ambiance
+R171,Restaurant 171,Indian,Whitefield,4.1,$,59,Authentic Continental cuisine with great ambiance
+R172,Restaurant 172,Indian,HSR Layout,3.9,$$$,51,Authentic North Indian cuisine with great ambiance
+R173,Restaurant 173,North Indian,Indiranagar,3.2,$$,45,Authentic Italian cuisine with great ambiance
+R174,Restaurant 174,Chinese,HSR Layout,4.9,$,43,Authentic South Indian cuisine with great ambiance
+R175,Restaurant 175,South Indian,Indiranagar,4.0,$$,32,Authentic Continental cuisine with great ambiance
+R176,Restaurant 176,Mexican,Koramangala,3.6,$$$,22,Authentic Continental cuisine with great ambiance
+R177,Restaurant 177,Thai,Indiranagar,4.5,$,39,Authentic Indian cuisine with great ambiance
+R178,Restaurant 178,Italian,Whitefield,3.0,$$,37,Authentic South Indian cuisine with great ambiance
+R179,Restaurant 179,South Indian,Koramangala,4.0,$$$,52,Authentic Italian cuisine with great ambiance
+R180,Restaurant 180,Continental,Whitefield,4.2,$$,24,Authentic Italian cuisine with great ambiance
+R181,Restaurant 181,Italian,Koramangala,4.0,$,31,Authentic North Indian cuisine with great ambiance
+R182,Restaurant 182,Italian,Whitefield,4.6,$,33,Authentic Indian cuisine with great ambiance
+R183,Restaurant 183,Thai,Whitefield,3.8,$$,55,Authentic Indian cuisine with great ambiance
+R184,Restaurant 184,North Indian,Indiranagar,3.2,$,39,Authentic Mexican cuisine with great ambiance
+R185,Restaurant 185,Continental,BTM Layout,3.5,$$,59,Authentic Indian cuisine with great ambiance
+R186,Restaurant 186,Thai,Indiranagar,4.4,$,36,Authentic Chinese cuisine with great ambiance
+R187,Restaurant 187,Italian,BTM Layout,4.8,$,47,Authentic North Indian cuisine with great ambiance
+R188,Restaurant 188,Italian,Whitefield,4.3,$,21,Authentic South Indian cuisine with great ambiance
+R189,Restaurant 189,Indian,HSR Layout,3.4,$,38,Authentic North Indian cuisine with great ambiance
+R190,Restaurant 190,Thai,BTM Layout,3.9,$$,24,Authentic North Indian cuisine with great ambiance
+R191,Restaurant 191,North Indian,Indiranagar,3.1,$,30,Authentic South Indian cuisine with great ambiance
+R192,Restaurant 192,Italian,HSR Layout,4.9,$,35,Authentic Thai cuisine with great ambiance
+R193,Restaurant 193,Chinese,Koramangala,3.5,$,38,Authentic Chinese cuisine with great ambiance
+R194,Restaurant 194,Indian,HSR Layout,3.4,$,47,Authentic Continental cuisine with great ambiance
+R195,Restaurant 195,Mexican,Koramangala,4.6,$$$,53,Authentic South Indian cuisine with great ambiance
+R196,Restaurant 196,Thai,Indiranagar,3.3,$,52,Authentic Mexican cuisine with great ambiance
+R197,Restaurant 197,Thai,Koramangala,5.0,$$,25,Authentic Italian cuisine with great ambiance
+R198,Restaurant 198,Mexican,Indiranagar,3.8,$$$,23,Authentic Mexican cuisine with great ambiance
+R199,Restaurant 199,Italian,Indiranagar,4.5,$,43,Authentic South Indian cuisine with great ambiance
+R200,Restaurant 200,Mexican,HSR Layout,3.6,$$$,26,Authentic Mexican cuisine with great ambiance

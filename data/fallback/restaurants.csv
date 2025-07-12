@@ -1,0 +1,535 @@
+restaurant_id,name,cuisine,location,price_range,rating,num_reviews,delivery_time,is_open,description,comfort_level,energy_level,social_intimacy,adventure_factor,stress_relief,romance_factor
+1,"Kennedy, Santana and Flynn Restaurant",Mexican,"1796 Johnson Land
+South Sean, IA 48038",$$,3.5,563,43,False,"National owner simply who family concern radio cost. Same budget American evidence. Candidate once effort form report.
+Child follow anything. Past product make of group six fish detail.",0.39624201890265875,0.7582384757040913,0.6960206180537922,0.15389590633985506,0.8158331249906178,0.22444057183666066
+2,Hopkins LLC Restaurant,Indian,"506 Lopez Crossing Suite 139
+North Kristinbury, DC 74501",$,3.8,434,52,True,Protect knowledge toward party.,0.22381761482262308,0.5369744228934136,0.5929399348417032,0.5800862078378112,0.09148683739775487,0.8774608626303804
+3,"Beck, Harvey and Davis Restaurant",French,"335 Kristina Ranch
+West Micheleberg, DC 71308",$$$$,4.1,622,47,True,"Stock these scientist itself stage authority rather. Learn forward beautiful.
+Some newspaper offer direction.
+Hold picture item admit pull movement. As second animal summer group me face rate.",0.26560004258870606,0.12951492128280417,0.8887480798689772,0.9556514982297534,0.8621276172654506,0.8095160747248781
+4,Chambers and Sons Restaurant,Japanese,"02053 Smith Greens
+East Judyhaven, DE 98236",$$$$,4.5,527,51,True,Natural be decide scientist rise deep town. Central contain pattern education boy provide note. Surface usually yes.,0.6552419806390217,0.5508573706091393,0.08698675991141014,0.4084532130706987,0.372688517012314,0.2597537837603262
+5,Hernandez Inc Restaurant,French,"8917 Sonia Cape Suite 700
+Boonechester, TX 14651",$$$$,4.5,701,41,True,"Everybody growth quickly former lose knowledge. Main board population bank exactly.
+Cultural safe phone road throughout support place. Often shoulder defense already end thus music president.",0.7234201136885849,0.4958757350787708,0.08104621590764793,0.22018320194981134,0.6832587636595959,0.07613085949030018
+6,Riggs PLC Restaurant,Italian,"15921 Joshua Roads Suite 698
+Shawnchester, CT 92484",$$$,4.6,291,47,True,Serious cell city not. Process whose save low grow despite maintain. Enough doctor protect military. Hold truth thing always possible billion.,0.8512069140487687,0.4951465270139743,0.480586577326648,0.5924077846595176,0.8246809659251492,0.34780920790219305
+7,Gibson Ltd Restaurant,French,"7365 Ross Stream
+West Ronaldview, MN 20507",$$$$,4.5,329,18,True,"Close baby poor deep cost gun. Produce increase form box.
+Decision claim street against amount of claim. Mention three chair coach two might if wide. These road start.",0.6780161525590636,0.5657319639957911,0.2670282701694213,0.878629986355158,0.7974260216069281,0.6584518346584255
+8,"Lee, Horton and Snyder Restaurant",Indian,"11161 Cain Point Apt. 988
+Elizabethchester, MI 87708",$$$$,4.4,747,36,True,Attention her car admit mission training range step. Benefit live pass although six me brother lot. Top much ability visit. Miss have analysis morning director sort.,0.8505817290942419,0.8672942009598024,0.7083629767150348,0.837013328363672,0.6974714616692836,0.6801407717603004
+9,Hernandez Ltd Restaurant,Italian,"USCGC Parrish
+FPO AP 07244",$$$$,3.5,452,16,True,"Impact blood international one end movie. Hand every quite sense including six lot.
+Never effect fill general relationship save talk. Security land record class. Meet skill song pass range.",0.6186113782151843,0.7527166395576412,0.1586051052930737,0.8808707591989284,0.871843527745232,0.029247283034559146
+10,Stafford Inc Restaurant,French,"Unit 9451 Box 9832
+DPO AP 63702",$$,3.8,961,24,True,Itself ask develop bag also his worker pass. Expert white arm similar compare manager action. Experience almost outside middle discuss college already.,0.8258167505647627,0.1288698674734452,0.3351188542591419,0.7435082562916078,0.1607598960483082,0.8179670241190622
+11,Robinson-Brock Restaurant,Indian,"8514 Lindsay Vista
+New Sarahview, AK 24148",$$$,4.0,324,19,True,"Expect stop trip give white everybody paper. Lawyer identify above company media.
+Me future bring message. Then spend offer reason whom. Low during fund simply race to television.",0.8321341779577419,0.5074677337608362,0.00638587171683358,0.2870381331749128,0.6169269183757422,0.9811861780274235
+12,"Holmes, Williams and Wright Restaurant",Japanese,"5022 Jones Streets Apt. 183
+Barnesmouth, GA 49004",$$$$,3.2,886,24,False,Finish despite off consumer second us couple. Dog drug enter director strong.,0.6318135270166684,0.2598035810641598,0.6340057030996114,0.5399853797158555,0.7798453951511436,0.10698063882695841
+13,Bryant Group Restaurant,French,"910 Eric River Apt. 147
+Tuckermouth, MT 36305",$,4.1,975,47,True,With recently least ready activity decision ok. Gun technology cost enjoy especially when.,0.761027902502028,0.5412665786761103,0.9629920038589946,0.3418721660386861,0.6326218931339481,0.9320281055100175
+14,"Schmidt, Hansen and Stewart Restaurant",Indian,"6149 Rose Inlet
+East Randallton, AL 27295",$,3.9,750,52,True,Care throw piece move firm main economy. Answer between clear democratic effect stuff benefit. Employee growth newspaper special general in.,0.10250972799067926,0.9372284872364511,0.6878857223008134,0.0678370591051719,0.30096356694681625,0.7081720886452816
+15,Salazar-Ball Restaurant,Mexican,"44510 Burgess Extensions
+South Amanda, IN 66071",$,4.6,386,27,False,"President report painting house thought sit. Security minute late cold take by. Product wait red bag cold.
+As these nature ago. Model you billion peace base use.",0.0673506014687717,0.5821704601762733,0.34588305695295674,0.6209155177674771,0.04574203381251285,0.8715368061523763
+16,"Simmons, Meadows and Griffin Restaurant",Greek,"60607 Michelle Ports Suite 966
+Dariustown, MD 23028",$$$,5.0,298,45,True,"Lead see theory itself policy move training loss. Source kind hand employee field. Model serve carry. Light across two water local.
+Something others someone nature country think.",0.9734889691773969,0.9688778552856915,0.7496518317429247,0.13008624013063197,0.7582631959290226,0.02458691645880151
+17,Manning Group Restaurant,Mexican,"516 John Radial Suite 816
+Juliebury, MA 22538",$$$,4.1,446,50,False,Could affect anyone movement control bill especially. Road do character management game find. Your less social form such weight argue. Author like court success stage stock.,0.022123551528997254,0.32361021914954125,0.48864319040466575,0.7704074178077932,0.6832953766065052,0.44590270637674834
+18,Green-Wright Restaurant,Greek,"835 Luna Viaduct
+East Curtis, KS 26357",$,3.6,671,59,True,City rock seat near business loss. Cup thought tell design both.,0.2736266662816659,0.9971245001577111,0.42618130223597295,0.4513870243296755,0.16362382119166918,0.7948095487499294
+19,"Ramirez, Strickland and Washington Restaurant",Chinese,"127 Webster Trace
+Maldonadoshire, SD 83770",$$$$,3.1,286,38,True,Run again help right economy always. Next my majority note myself food. Every story trial never attention choice fast.,0.6936822257814886,0.2207696127887604,0.0823810456158427,0.6804993020747131,0.6545112142811352,0.2732595269982093
+20,Hill Inc Restaurant,Chinese,"Unit 5527 Box 1774
+DPO AA 78019",$$$,4.8,719,29,True,Follow political book model at. Condition all blood court. Number student price. Perhaps opportunity any determine responsibility actually TV.,0.9508635622504104,0.15105789178090023,0.4323348010426019,0.9436159201675989,0.4197273169261223,0.6385259476640855
+21,"Mitchell, Nelson and Flores Restaurant",Chinese,"7700 Decker Club
+New Brookefurt, NH 76565",$,4.8,591,43,True,Cover prevent now way next. Indeed black police group learn professor third. Society nearly measure price.,0.3975943979627943,0.27421520234867003,0.9839776479598282,0.409334006315043,0.8940992036791344,0.22995460589108618
+22,"Miller, Hernandez and Reyes Restaurant",Japanese,"9359 Mason Circle
+Garciamouth, VT 11554",$,3.5,512,22,True,"Feel develop talk. Sign wall state.
+News unit choice also green catch happen. Economic eight feel now notice design baby foot. Common stay ready office traditional organization feel.",0.2131047040250833,0.03113408288451136,0.651666825375885,0.36852634372376114,0.864358249839637,0.47320990669155716
+23,Mccarthy Inc Restaurant,Mexican,"37788 Michael Haven
+Ortizmouth, TX 78867",$$$$,4.4,633,19,True,"Floor north force. Check purpose young wife send. Measure develop face hour car bar number.
+Human be maybe similar candidate care nice.",0.9681934279147217,0.18552551570312115,0.8686231679556108,0.7765968527917417,0.770921844644052,0.8447832281168877
+24,Russell-Daniels Restaurant,Greek,"51864 Cummings Shoals Apt. 519
+West Kyle, SD 92052",$$,3.2,525,43,True,"Certainly and stand current health serious table both. Drug per challenge. Add really born late age.
+Deep national seek nature performance yeah reason. Heavy town money.",0.7610239909429989,0.6262203216314154,0.13124487768238757,0.032526179491251916,0.9208478478156868,0.616650314520738
+25,Brown-Wall Restaurant,Indian,"148 Schneider Isle
+Lake Jacqueline, WA 90339",$$$,3.3,359,18,True,"Test power discuss herself with.
+Machine others because current whom night. Always two figure.",0.7965372909761763,0.4815223515125501,0.11730818896239448,0.12518579220255044,0.6855652872289714,0.4303058948994627
+26,Stein-Silva Restaurant,Italian,"PSC 1685, Box 0542
+APO AE 45292",$$$$,3.4,852,26,False,"Their rather individual of interview fine painting last. Deal catch must son. Finally relate model career.
+True fish newspaper we brother fish they. She they increase.",0.20052472670033672,0.4915945467414369,0.06420893707513409,0.5819714019143988,0.26899340443509767,0.7975591006371882
+27,"Smith, Gilmore and Johnston Restaurant",Indian,"USCGC Lee
+FPO AE 20809",$,3.6,455,59,False,Republican hear system man case cover allow. Understand wear development. Serious at until worry term. Reach term thought into simply part station.,0.31036195892357377,0.4552201490818012,0.011620539908100636,0.07244688779455888,0.3924935564066848,0.4799388347171235
+28,Smith-Bell Restaurant,Italian,"880 Walter River
+New Nicholas, GA 24204",$,5.0,839,16,True,"Fact huge fight still leave.
+Party approach might central stop. Bed may conference one thus national hotel. Late condition opportunity Republican dark lawyer.",0.6000205481193037,0.29166257870930323,0.6949818861265425,0.8601223971892046,0.7798509888933498,0.039618825348357145
+29,Castaneda-Ashley Restaurant,American,"706 Rhodes Freeway
+Bishopmouth, IN 70494",$$$$,4.4,359,41,True,Analysis color friend the television class. Condition Republican information finally. Eye Congress together whether about she activity.,0.48050694725782894,0.10493017841817487,0.24204501586252747,0.9866625932671464,0.14249554290151323,0.49888815345135606
+30,Medina-Navarro Restaurant,Indian,"59774 Shaw Manor Apt. 392
+Brettfort, VI 49156",$$$,3.8,616,45,True,Former because board year claim. Particularly reality organization skin concern. See growth along shoulder follow today star. Successful assume likely business teacher forget.,0.6181557343181191,0.702464970544104,0.5596486834869141,0.00977084741918366,0.3264613082439919,0.5177116433847114
+31,"Hurst, Freeman and Nelson Restaurant",French,"814 Kathryn Groves
+Whiteheadberg, MP 57841",$$,4.5,673,50,True,"Discussion fact cover brother let someone scene debate. Yourself increase free night point action cut example.
+Feel nearly short box four. Right pattern ahead compare form full.",0.08786649914483335,0.35062693120918076,0.033203108791366565,0.07857849715502074,0.39692327620159606,0.13271575404306035
+32,Johnson-Rogers Restaurant,French,"5060 Shaw Freeway
+Vangstad, IN 04195",$$,4.8,832,50,False,"Wide exactly all worker. Move coach paper cost bring site final tax. Even beautiful theory.
+Stop few modern company hear also dark. Kitchen agent lot matter. Future low them financial force.",0.5675408482615582,0.6894649691372657,0.8005866991090829,0.2001502442448101,0.16748258225906976,0.10456784033440025
+33,"Yates, Ramsey and Pittman Restaurant",Thai,"522 Justin Village
+Hortonberg, WV 92977",$,4.9,146,40,True,"Billion she seat. Officer fine throughout. Customer expert mother significant provide evening.
+Boy when nice bill my. Five center region exist each author party.",0.6364302495436367,0.7064757264869012,0.03158614482564204,0.9362122462436898,0.05197128365147241,0.5412963353010705
+34,Hooper PLC Restaurant,Mexican,"04328 Rodriguez Heights
+West David, IA 55528",$$$,3.1,768,57,True,Capital spend turn life lay range report. Like water century time election guy contain. Small think law air little goal.,0.7090605194509164,0.8709691237460856,0.7140869321324278,0.8017280830697918,0.33945019254280606,0.8148251137465122
+35,Meadows PLC Restaurant,Italian,"17980 Jennifer Highway Suite 095
+New Robert, TN 88085",$$,3.8,908,41,True,"Issue woman note garden reason community prove school. Student boy other foot best knowledge final.
+Our rate others star. Management produce bed stage thought tough. Serious produce laugh.",0.08011484638467514,0.8948166560605276,0.5475923761537362,0.8172977699624937,0.45231828451830014,0.643577695196525
+36,"Alvarado, Miller and Patterson Restaurant",Italian,"88888 Peter Mountains Apt. 654
+West Kristinastad, IA 96569",$$$,3.2,252,19,True,Particularly member summer. Artist too whose a nice. Body executive all it opportunity personal. Image itself deep community cause new.,0.5264026609361132,0.7315895217553319,0.08162998203058958,0.0603520839905638,0.24710323401014644,0.15954468011318834
+37,White-Green Restaurant,Mexican,"520 Payne Via
+Port Kimberly, NH 91647",$$$,3.7,552,34,True,"Marriage room Republican especially unit office almost.
+Low happy oil which bag room money.
+Might model particular early piece professional protect. Something fine apply gas sing light mention.",0.8717835665922017,0.21921398735804432,0.9758652558191313,0.33689579177110685,0.18211791568869928,0.7896985071424791
+38,Lewis-Murphy Restaurant,Japanese,"17043 Kylie Canyon
+Sarahhaven, MO 71677",$,3.3,49,25,False,"Machine camera baby six edge.
+Every either scientist page travel. Process have compare site. Machine son television garden base. Other start study sell.",0.6587077755008761,0.498195716453139,0.5553635509376312,0.7192017782722638,0.22845474133129873,0.9963339160567419
+39,Ramirez-Bean Restaurant,Thai,"345 Michelle Isle
+Davidstad, NE 52932",$$,4.3,238,24,True,Question which raise American truth PM. Particular present evening establish sort effort. Hospital significant see same open crime front real.,0.9747931621467831,0.6503256863469369,0.19954245092914513,0.6802282424312913,0.07219840897917584,0.030652502205806065
+40,King-Miller Restaurant,Japanese,"2775 Owen Stream Suite 169
+New Kelly, CT 10995",$$$$,3.8,557,54,True,"Point remain build task candidate prevent tonight not. To receive education level.
+Two everybody interview tough show food class. Everyone artist home you.",0.2576828885112137,0.4626229567393163,0.8682725054083805,0.727169069766308,0.742706521199981,0.42549333444807536
+41,Curry Inc Restaurant,Japanese,"7962 Bell Canyon Suite 964
+North Emilyfurt, MN 67752",$,3.5,929,52,True,"Audience road since affect.
+Present a also hospital. Record toward off middle. Long identify road speech audience difficult his.",0.3459349925469629,0.3710387629846027,0.9876495637360578,0.04010919141248248,0.8670314961224486,0.5786754085723934
+42,Walker-Jones Restaurant,Japanese,"29702 Joel Rue
+Michaelshire, AZ 79811",$$,3.5,232,20,False,"Piece grow be plan. Cause cover rest or majority. Society poor matter who.
+Already argue skin. If deep president. Learn question them chance often under already.",0.43861541918959046,0.7252576604151365,0.48666894142470285,0.8734232380816606,0.9007018640112585,0.4217209268734554
+43,"Williams, Johnson and Wright Restaurant",Mexican,"5719 Alyssa Locks Suite 431
+Lake Jacobhaven, MS 74120",$$,3.7,15,22,False,Structure ask stage box. Sometimes determine source international specific word question food. National focus who degree animal community as. Center indeed recent network just.,0.2768277972350516,0.5923503285933622,0.912363345616691,0.21066218900566658,0.6229665835634828,0.6315602200925206
+44,Howell and Sons Restaurant,Japanese,"739 Benson Overpass Apt. 121
+Thompsonmouth, CO 89882",$$,3.5,331,37,True,Step feeling industry newspaper court worry with peace. Medical less phone decade apply both chance.,0.733113022415281,0.1315676851272598,0.7158249646820886,0.909032520665641,0.17968310887024197,0.23754332492387764
+45,Wells Inc Restaurant,French,"Unit 5518 Box 8442
+DPO AP 93504",$$,3.9,477,40,True,Single for better scene thank. Through available one approach job democratic. Lawyer hold carry rest place wish dark camera.,0.9713950940416396,0.18097695270948977,0.8543850933695791,0.4922778564480348,0.24723107440317704,0.8707499012725114
+46,"Gould, Marshall and Scott Restaurant",Chinese,"PSC 2583, Box 1323
+APO AA 03946",$$,3.1,741,57,True,"Address into their easy its. Through option chance off above. Always likely shoulder.
+Most look something start laugh drive.",0.4453052550026655,0.5148173539296902,0.3592333693997657,0.5929508514349274,0.16352387258502277,0.3910815366517607
+47,Jackson-Lawson Restaurant,American,"8291 Kyle Stravenue Suite 866
+East Teresaland, NV 61558",$$$,3.6,84,26,True,Less plant team audience throw four allow international. Recently partner offer debate range. Thing save area war push thousand book half.,0.9694123223352875,0.25813343270112754,0.6567366645412922,0.3251900642246949,0.7734731256866006,0.13087366071834983
+48,"Higgins, Strickland and Martin Restaurant",Italian,"89226 Marie Path Apt. 422
+Sarahbury, MI 68513",$,3.8,13,40,False,"Laugh may stop like mother stay. Later happy pull really within. Could this beautiful hospital.
+When baby clearly born challenge. Themselves minute physical fall.",0.9698210450785447,0.45378954138363925,0.23605046334646396,0.07349674733001266,0.16975790508754074,0.5197739485560177
+49,Rodriguez-Johnson Restaurant,Italian,"PSC 1438, Box 4249
+APO AP 12746",$$$,4.2,856,27,True,"Leader note together fill smile dinner. Wife show another good lay coach. Republican expect win stuff.
+Draw American first call. Hard day religious program within.",0.3370031764312863,0.8288833658826095,0.43088752366180594,0.2487142725876299,0.61714498660403,0.7067772168854458
+50,Johnston-Odonnell Restaurant,American,"922 Kirby Port
+Port Michelleland, AZ 84577",$$$$,3.5,655,54,True,"Former relate listen face want wonder off. Son rock two full. Rule too cause nearly.
+Husband subject land. For part crime money.",0.16704190790094986,0.16761921628831766,0.03667142693354297,0.7364020150656405,0.6638045276218051,0.4746308757498139
+51,Sanders-Espinoza Restaurant,Mexican,"396 Tyler Road Suite 473
+Evansland, UT 08353",$$,3.3,127,32,True,History activity general final knowledge night. Road know yeah sound eye. Rock increase structure our century field.,0.8441704489691971,0.8056701529500532,0.5853543643967521,0.8682712805132586,0.20584121003676825,0.11191961939772788
+52,Vargas Ltd Restaurant,Indian,"7359 Larry Stravenue Suite 562
+Zacharyville, MD 32186",$,3.2,890,39,True,Different social child feel policy PM buy. Individual man reach each budget. Manage wife out gun lose.,0.2697496115169896,0.05708685608931485,0.531169528001032,0.9366056922949615,0.03934354066850965,0.1221099140100268
+53,Garcia LLC Restaurant,Mexican,"3210 Dougherty Way Suite 325
+Jamesburgh, NM 67967",$$,4.9,615,47,True,"Face morning view. Create physical share out cold follow first. Even recently guy move goal.
+Carry example single. Future treat bill choice determine could.",0.4521990282834353,0.9338750175279049,0.3161561049767505,0.5072348086883924,0.0415728590503921,0.14834320096208886
+54,"Burke, Martinez and Riggs Restaurant",Italian,"0168 Levy Forge Suite 004
+Harperfort, LA 70846",$,3.8,513,54,True,"Season budget campaign. Read film decide wonder.
+Back simple serious amount. Allow process or light. Analysis feeling act benefit buy.",0.9866301229588469,0.9651186964360455,0.004939980934409616,0.951811785423239,0.6391199378155004,0.8679182945200221
+55,Reed Group Restaurant,Italian,"2456 Williams Center
+West Angela, CA 51140",$$$,4.2,956,57,True,"Surface listen recently continue pull blue strong. Interest method imagine seven fire letter.
+Many guess explain reveal. Foreign break exist outside. Reach subject difficult imagine world.",0.4547398556338591,0.5155960285792502,0.4888465802569202,0.6668642575461043,0.1396512547563129,0.029973589872677953
+56,"Wood, Hunter and Peterson Restaurant",American,"912 Phillip Underpass Suite 852
+New William, NY 05777",$,4.8,583,26,True,"Hair current customer such. But study rise everything require old.
+Green project wear would memory challenge. Blue economy market pick care between apply.",0.3079299415911909,0.7046807627366467,0.20185345212294836,0.6734324333249173,0.9699120461072704,0.09390071578941839
+57,Short-Garcia Restaurant,Japanese,"578 Hernandez Passage
+West Sarah, MD 21800",$$$$,3.2,450,58,True,"Make energy gas teacher national weight all. They budget late table kind along.
+Process single those clearly issue fine home. Notice make network much.",0.6726021182251263,0.44375021930457115,0.8681422543775054,0.1771497894473859,0.6926259522261645,0.8381152896481102
+58,Reid-Poole Restaurant,Mexican,"588 Erickson Hills Suite 055
+South Brandytown, PA 62706",$$$$,4.8,203,50,True,"Possible or travel assume figure. College Mrs also price institution method.
+After like against first now. Occur space beyond push from me. Coach federal wide cut player wind.",0.9446142194740232,0.6832480282896458,0.4971747640084273,0.6178472402012138,0.8689049844787182,0.5706097466388297
+59,"Hernandez, Thompson and Boyd Restaurant",Greek,"097 Alexandria Stravenue
+Hernandezbury, AZ 75548",$,4.1,856,18,True,Sound item music customer I person law. Congress affect reflect television officer defense while.,0.03038705969683686,0.9309486955069778,0.6895267510315611,0.6765133857772465,0.21567515239771717,0.6588854702326572
+60,"Nelson, Morton and Medina Restaurant",American,"USS Lee
+FPO AA 41617",$,3.3,724,19,True,"Either over image box. Agree someone financial magazine yard.
+Dark evening ahead. Probably compare system white magazine. Area to finish.
+Too imagine guy price. However style successful door.",0.3938644056541585,0.6512329770414921,0.10659303030799072,0.657845304603036,0.9994137257706666,0.04821203886055603
+61,Marshall-Petersen Restaurant,French,"368 Salas Street Apt. 283
+Whitneyfort, NC 49892",$,3.8,401,51,True,"Television argue mouth record both. Interest radio white these view guy resource. Again whom paper success production.
+Education his police red total.",0.9771741842213173,0.4069079607228706,0.8707534503372591,0.7823854840582735,0.5670162609866678,0.7384492092513265
+62,"Adams, Christian and Rivas Restaurant",Italian,"8585 Bishop Fields
+West Angela, IN 39509",$,4.6,35,22,True,"Place these short image almost term. Likely include subject response theory star station.
+At inside role natural force receive seven. Picture social carry husband.",0.8785155613013479,0.404140321651033,0.3270331615632387,0.6675933855635847,0.8078459419412586,0.7622851347766157
+63,Ramirez Group Restaurant,American,"757 Castro Underpass
+Keithshire, TX 71698",$$$$,4.0,444,56,True,Phone trade wind cup red collection husband investment. Chance when color note add. Itself turn law purpose budget require course.,0.7978136488586345,0.435583314812933,0.8178342161750216,0.12020905537060844,0.5444890979608495,0.0057586604981215705
+64,Christensen PLC Restaurant,Mexican,"2404 Michael Mills Suite 733
+Sarahview, DC 14817",$$,5.0,182,42,True,"Pay traditional hard range leader. Light the window.
+Require remain save eight believe. Appear use likely great. Vote whose our security animal effect people few.",0.3245858299002703,0.3664615348713979,0.3961726916092554,0.6954672066898622,0.38855810127034573,0.44869362262253065
+65,"Barnett, Rogers and Snyder Restaurant",Italian,"08330 Robert Stravenue
+Garciaberg, AL 72636",$,3.8,309,45,True,"Unit executive theory party seven enough. Job close say man wear new.
+Country approach consumer. Employee relationship job yet until American ground. Magazine manage suffer term buy behavior test.",0.23754413087432746,0.3732517916293401,0.22726962726315147,0.07319592376844364,0.6034485933813779,0.6682127985550163
+66,White-Lewis Restaurant,Indian,"Unit 2677 Box 3454
+DPO AP 08255",$,4.5,654,23,False,"Should quality thought ago race. Hour opportunity week student.
+Ball store process. Pick especially price forget analysis performance laugh.",0.6194903460096145,0.46349404380057235,0.3797857801792298,0.8633336495718252,0.519081785136218,0.47918187762973097
+67,Peterson-Beard Restaurant,American,"PSC 1938, Box 0262
+APO AE 52535",$$$$,3.8,335,43,True,Single expect sell pressure building make. Save TV tough page grow benefit.,0.025642065806435688,0.34124782762615635,0.38019561878585706,0.3988227808969005,0.5801723692273323,0.5336025467268785
+68,"Beard, Peters and Black Restaurant",Thai,"400 Bradley Coves
+Justinside, NC 65239",$$$$,4.7,419,28,True,"Life bad soon feel worker. Success mission far answer baby.
+Blue interesting behind produce nothing effect effort.",0.6079050927934446,0.7648832615421283,0.8129857387160935,0.7181230762264944,0.9555236959549347,0.01823258267636163
+69,Miller Ltd Restaurant,Italian,"743 Mark Street
+Wongburgh, AL 97050",$$$,4.1,127,54,True,Decision back word else. Its adult house actually. Least if price season rise field spend.,0.1957779856835461,0.00756287497814212,0.647474714154603,0.8980305489499869,0.24348229657629927,0.9270345447963066
+70,Freeman-Chang Restaurant,Mexican,"329 Wilcox Passage Suite 161
+East Thomas, IA 01396",$,3.1,845,55,True,White likely teacher one cut notice. Anything account piece require woman support.,0.06026739028956085,0.9344360268055143,0.3516226872396344,0.10142082844921652,0.48587175918632564,0.25677656772050794
+71,"Alvarez, Joseph and West Restaurant",Chinese,"4549 Jose Lake
+North Elizabeth, NH 40714",$$$,3.1,796,36,True,"Third rich hospital indicate. Somebody son suddenly perform executive see. Can current paper beyond indeed year field.
+Another adult thing ground city still thus. Southern front box.",0.28487290196192283,0.3072899649262866,0.8030258978326634,0.5391612766752545,0.31130769915600365,0.6103337833109184
+72,Davis and Sons Restaurant,Greek,"145 Jeffrey Dale Suite 279
+Robertside, PW 62213",$$$$,3.3,733,25,True,Prove relationship unit just lead success book black. Participant teach big none medical cold brother day. Church factor kid media run between.,0.7161506742231936,0.27262400073353377,0.4135491015253515,0.12188609333694755,0.18114934953468032,0.6811178539649828
+73,Holt-Torres Restaurant,Korean,"91878 Miller Port
+North Mariahaven, ID 75566",$$$$,3.0,234,37,True,"Truth together weight might radio want. Certainly act south want be fire. Its hotel also two.
+Around place require produce mind fast I. Them return finish general still too particular.",0.18143834769562694,0.5251633836670602,0.7090462617224327,0.10687692309474384,0.5673122196289035,0.25656278370136376
+74,"Wood, Tran and Cooper Restaurant",Japanese,"8713 Davis Pass
+Stokesmouth, DC 67773",$$,3.2,541,15,True,"Yeah exist behavior necessary miss serious civil. Three music else.
+Would book art health phone great. Series walk large.",0.9629268752375798,0.4835456467199247,0.8059925497751581,0.5502265421562618,0.043412532854819164,0.6331513755940223
+75,"Pierce, Bell and Chavez Restaurant",Korean,"740 Scott Alley
+New Charles, NE 45659",$,4.4,122,51,True,Better Republican stock bank artist thousand live. Back quality idea next single the once. You ready way rule indicate clear.,0.951403342206657,0.6016118201463312,0.8191888594267902,0.8842064633484078,0.22807977194893247,0.21204483990822665
+76,King-Martinez Restaurant,Mexican,"70462 Katie Stream
+Brooksfurt, NV 49980",$$$,4.1,149,35,True,"Agreement central six instead view figure exist. Standard major business give.
+Loss finally laugh full help strong.",0.6109809888509917,0.4110284698067047,0.8398613028667203,0.9000231233980112,0.3534213793027181,0.23687055897448206
+77,Stewart Ltd Restaurant,French,"512 Rice Stream
+Port Adam, AK 39608",$$$$,4.5,568,40,True,Popular be western my. Whatever miss seek. To build view conference affect skill early.,0.7805255152438618,0.2748060355481361,0.8226143185136784,0.42373825364876283,0.6675498992914705,0.09553531383466818
+78,"Tapia, Vaughn and Lee Restaurant",French,"633 Reed Harbor Apt. 106
+East Jamieville, PA 04901",$$$$,4.8,10,50,True,"Agree around hope floor. Throw election walk tonight appear dream. Only manage sell his boy art let imagine.
+Imagine do though. Never only big several prepare. Fight image base player.",0.623859324676573,0.4517676787372291,0.5866084631754741,0.16801420774486342,0.7368737449441821,0.8627970775432285
+79,"Washington, Hardy and Bray Restaurant",Chinese,"06738 Karen Trail
+East Williamport, IN 96382",$$$,4.2,99,37,True,"Art two event. Style herself goal place one.
+Animal school none feel house. Store rise your there. Particular whatever five radio garden.",0.21673980009077565,0.09571455552016173,0.023638586046336396,0.641971500443266,0.6070940360887808,0.54669741271407
+80,"Carlson, Hooper and Wall Restaurant",Japanese,"42836 Hill Point Apt. 687
+West Shellyfurt, WY 69243",$$,4.5,663,15,True,"New recent major hotel ball theory. Much throughout staff knowledge.
+Will heavy over hit stuff speech. By have cover.
+Sea serve quite remember course.",0.23194709611597542,0.39090599590551467,0.594476335186173,0.4967668588591694,0.9877855202148873,0.13643975255673313
+81,Perez-White Restaurant,Thai,"2462 Allen Fork Suite 270
+Faulknerside, NC 18076",$$$$,4.5,329,54,True,Court question yeah realize mouth. Quite third ability interview pull. Take follow such.,0.6951445540475938,0.4043187681042921,0.42819961492561476,0.7175977656581762,0.6924361513243696,0.9912559937021883
+82,Erickson and Sons Restaurant,Chinese,"51751 Brett Lane Apt. 139
+South Jason, PW 44143",$,3.8,559,29,True,"Culture forget as personal agreement. Space or phone free economy blue.
+Strategy start mind door authority outside. Shake personal often beat art almost.",0.12839428945412523,0.10410964938416634,0.7243388171287412,0.5783869170064091,0.27416066655980587,0.0794193689889866
+83,Williams-Brown Restaurant,Korean,"31739 Randy Garden
+Kimberlyfurt, NH 70447",$$$$,3.5,814,35,True,People fund visit situation law foreign court bill. Require or subject toward call meeting green loss. Know during someone art find job where senior.,0.08565824959643054,0.8941908746641183,0.1918673247187429,0.32337156211552076,0.22665640222698802,0.3549963058319373
+84,Terry-Martinez Restaurant,Chinese,"5877 Leah Stravenue Suite 535
+Robertshire, VI 29503",$,3.4,903,23,False,Crime customer training size game property. Outside former official white pattern industry class. Then treat many turn police really level.,0.06942384274609337,0.5190597909082704,0.0676125635922149,0.8003565078223616,0.23371208191043302,0.5400119146045106
+85,Garcia-Smith Restaurant,Korean,"8996 Hernandez Isle
+South Ashley, IA 65945",$$$,3.5,148,23,True,"Create one she analysis ahead cup. Despite energy company suggest.
+Cultural compare energy big. Her skin book very.
+Drive special produce wait with young think. Budget third capital couple.",0.8800790875614583,0.6508773690471942,0.5329577865513353,0.3243337531153756,0.33300191305819793,0.6694869551981901
+86,Harrison-Alexander Restaurant,Italian,"7772 Jackson Stravenue Suite 280
+Port Melanieton, WV 01337",$,3.5,520,24,True,Material less focus hear reason resource. Listen ok point so power debate thus. Tell how fill thousand number very hear.,0.9941393612211675,0.6618391898493786,0.5577834173700249,0.7306505102392461,0.46520561228371815,0.060142342600785215
+87,Sheppard LLC Restaurant,French,"20387 Brown Route
+Hopkinstown, AL 70259",$$$,3.4,877,40,True,Family maybe national back. Unit better author although customer. Push economic seat shoulder suddenly.,0.5622968158779098,0.9576252845053802,0.17530294235765964,0.6900048908206657,0.20093368865905648,0.5358276844730813
+88,Wilson-Jones Restaurant,Italian,"84840 Drake Fall
+North Alicebury, ID 81736",$,4.8,854,55,True,"Dinner rich decide do only need. Reveal left social fine could show recently.
+Last next hear officer campaign wall. Matter probably great.",0.09667644964671962,0.45037093625818514,0.7561633288952461,0.3475715242389821,0.664911724487218,0.7954499607897292
+89,Jones-Soto Restaurant,Greek,"6156 Cunningham Square Apt. 410
+South Nicholasside, NJ 07856",$$$,4.5,268,49,True,Term woman daughter hospital move could board. While police fight commercial push concern step. Major cost attorney white exist do process attorney. Happy action force travel.,0.9271778194794527,0.23464208185545354,0.39931591580930814,0.15241601333041743,0.9924835021583752,0.9270009679242953
+90,Hernandez PLC Restaurant,Japanese,"76591 Jerry Ways
+Nelsonland, TX 37250",$,3.1,682,39,True,Ask human space moment travel these least. Although before position try get successful society.,0.5399571302805596,0.8420332943764213,0.5209579772720422,0.6235856880027597,0.08912443211601662,0.7552704204968079
+91,Miller-Wright Restaurant,Thai,"PSC 9025, Box 0392
+APO AP 52706",$$,3.5,911,40,False,Yet baby black short. Improve close debate and ago police. High second talk however action boy true.,0.12771348363523483,0.8260676302525284,0.7820280876703859,0.7087446977429764,0.036160380524762115,0.3031283559453286
+92,"Duran, Obrien and Gibbs Restaurant",Korean,"USNV Martin
+FPO AE 74778",$,3.0,699,25,True,"Democratic recent student specific political respond to.
+Know our any help cut. Hear draw before instead writer. Star quite as when benefit structure.",0.26311256991084286,0.3601364074715191,0.08764274676383854,0.9369578230310628,0.5538022407123763,0.30552431065802355
+93,Rowe Group Restaurant,Thai,"856 Krystal Spurs Apt. 850
+South Jesseland, MA 79821",$,4.0,19,52,False,Activity defense detail price everything perhaps. Attack despite feeling. Matter wrong Republican social two notice edge behind.,0.3969815170742834,0.44720254050483565,0.6005943333606173,0.5156794276964978,0.9193919732144173,0.49696348290583026
+94,Kerr-Evans Restaurant,Korean,"0477 Michael Lane Suite 296
+Port Christinebury, VT 10135",$$,4.0,270,16,True,"Scene serious people art hear. Dark heart politics draw rise.
+Care fish skin always social increase. Seek director run garden day. Trade professor eat.",0.9921580148233127,0.8514249577450957,0.2085105143573358,0.9305952146439163,0.11636639788547609,0.8174497084911916
+95,"Branch, Torres and Oliver Restaurant",Mexican,"2655 Christopher Inlet
+Wardview, CT 17868",$$$$,4.7,928,21,True,"Medical international level clearly culture. Computer eat experience large player even.
+Week growth help likely. Measure same set standard soldier after. Into bar trade feel Mr need.",0.3806232934765801,0.8779743204450695,0.8680566901074503,0.8059254001176211,0.7900304363070614,0.3046791390980408
+96,"Choi, Garcia and Farmer Restaurant",Chinese,"8886 Anthony Knoll Apt. 995
+Smithchester, MS 11602",$$$$,3.6,659,32,True,"Identify indeed house score himself film would. Impact although TV his. Class several whatever side seem give remember.
+Prepare unit save drug. Tv guess religious. Recently population end.",0.08091928305125218,0.40298017876516146,0.17352451498650867,0.6949510889024617,0.34609972653778553,0.9756102008599149
+97,"Clark, Guerrero and Moore Restaurant",Greek,"826 Dominic Hollow
+Trevorland, GA 57474",$,4.6,181,41,False,"Reality may mouth though only. Sell under thank body of something. Especially decide security recognize.
+Staff ability attorney recent.",0.640972077345332,0.822480563634361,0.13252467274184843,0.8620144822726226,0.9227571905133943,0.4870619188189359
+98,Arnold and Sons Restaurant,French,"1543 Wheeler Flat Suite 124
+South Martinfurt, AS 43694",$$,4.9,907,48,True,Phone person than coach fall help. Ask ahead doctor magazine set. Article seem account.,0.6062529377509774,0.7648098009029954,0.17483862726041255,0.5025660764634424,0.3986630277723131,0.1463739921622491
+99,Ortiz Ltd Restaurant,Korean,"924 Morrison Square Apt. 752
+Novakport, WA 91590",$,3.2,22,41,False,"Own than evidence. Happy peace probably little including.
+Worry whatever spend. Plant them wide.",0.36753442229153144,0.06817230938549357,0.025811906949486985,0.13516628915482276,0.9631151115891738,0.549529535895017
+100,"Harrison, Johnson and Roberts Restaurant",Thai,"6465 Sarah Flats
+Lake Katrina, AK 95818",$$$,4.6,177,31,True,"Collection land break production drive deep send. Black year ahead upon. Total short detail election live today.
+Two plant man somebody. The use short over popular help.",0.96582216115322,0.432497878330132,0.3118161330852596,0.5061418628402441,0.4395116886329101,0.10566468426174391
+101,Warner-Gibson Restaurant,Greek,"4167 Cynthia Garden
+Donnachester, WY 49913",$$$,4.2,651,57,True,"Mind own develop house. System firm staff father despite quite challenge. Certainly program soon reflect out.
+Wrong but you religious long stock manager. Arrive special check respond summer various.",0.6408263146902062,0.2160381825095996,0.6195879548978296,0.6502010923981534,0.1520248531286481,0.06134962711066816
+102,"Hall, Baker and Moody Restaurant",Indian,"688 Stephens Turnpike Suite 891
+Port Johnstad, GA 85304",$,4.0,605,58,False,"Wrong serious hospital month executive recent crime. Hour capital sell oil source sure report. Pressure officer kind lot today decide source.
+Gun task big. Heavy work quickly collection.",0.7807615860684398,0.4598004237693202,0.05816379550547579,0.9948663171697671,0.05778056099636664,0.6950352288585532
+103,"Guerrero, Peck and Coleman Restaurant",Indian,"6101 Walker Summit Apt. 756
+Bartonshire, UT 66098",$$$$,3.8,330,38,True,"Read west present heart reality. Sing ten practice every. Happen build bar majority protect meeting.
+Of of event seat some Congress machine popular.",0.9836789252634136,0.23918010421592562,0.14224936868719618,0.1213849394224289,0.30327514756759555,0.10104581101064669
+104,"Walker, Hernandez and Baker Restaurant",Italian,"1461 Marie Stream
+West Larry, NH 27615",$$$$,4.6,328,39,True,"Television receive accept language. But can deal claim none surface.
+Woman media hair name.
+Eat animal watch. Process knowledge officer reason mission. Paper member reach production and already.",0.6921613416941319,0.06229179813006269,0.5094221281497897,0.9966968538529768,0.8139702695060188,0.6152194382310109
+105,Jones and Sons Restaurant,French,"1775 Kevin Valleys Apt. 051
+Lake John, HI 72840",$,4.3,622,21,True,"Lay war put vote century data. Run yet recent cover head price star painting.
+First skin her who. Back by body nature at. Guy four event than.
+Act help why her bit. Compare rock fill start.",0.30625362078661167,0.6238958362916385,0.5270414639116516,0.4260833838903715,0.13071037674019947,0.8866042152404667
+106,Larson-Holloway Restaurant,Mexican,"3622 Foster Street Apt. 796
+Smithborough, IL 36984",$,4.6,338,20,False,"Her save apply rise. Religious eat participant religious consumer worry.
+Expert weight minute responsibility under director player. Water image fine bed. Baby drive behavior offer.",0.4497846488213225,0.19462251182076507,0.3677593508772896,0.41412975252892703,0.8275378955668743,0.733614380561402
+107,Gonzales-Harrison Restaurant,Thai,"182 Nguyen Mount
+West Emilyfort, NC 84270",$$$,4.8,794,38,False,"Couple story account interesting move generation yes product.
+Amount large collection us shake tough company happen. Message weight institution here. Wide full quickly story surface tax.",0.7693048936413398,0.011031264428647214,0.4161539981797615,0.4813441516353236,0.019192276823056686,0.2598132087450342
+108,Lyons-Bender Restaurant,Chinese,"691 Bell Mount Apt. 499
+Lake Dennisville, IA 40527",$$$$,4.2,786,47,True,Arm accept leave fear blue glass reveal. Great big man be method child. Tree according show economic. House federal into consider speech board just.,0.760289823122135,0.13710970572899905,0.5353101314525917,0.2152018720172375,0.012120774643893273,0.24120145759954148
+109,"Fernandez, Kim and George Restaurant",Chinese,"286 Carlson Ports Suite 627
+New Garrett, LA 18889",$,5.0,980,43,True,"Inside nearly son research. Seem sister hundred rise score stay.
+Whatever society call general. Should door question.",0.9758737549100538,0.8015371118829896,0.9595766443210334,0.48785404392636245,0.1097361986775035,0.547959488973693
+110,Navarro-Munoz Restaurant,Thai,"050 Taylor Via Suite 887
+Cohenchester, VT 58677",$$$,4.2,920,57,False,"Particularly country talk pick chance build husband. Wrong upon international pattern before.
+Imagine fill plan discuss from look.",0.4543773345599609,0.844357082739616,0.09808258078424459,0.4882411370217782,0.15004866469398426,0.32467592689006
+111,Davis Ltd Restaurant,Japanese,"034 Joshua Plain
+Garymouth, OK 97824",$$$$,4.3,929,36,True,"Best add necessary technology. Guess special sea open painting draw.
+Once beautiful blood picture own. Only treatment pressure.",0.7373570773877997,0.47601812936876653,0.37588828514576933,0.3944762785700353,0.45944676840598664,0.7850165438370569
+112,"Matthews, Smith and Hubbard Restaurant",Mexican,"819 Joseph Plains Suite 807
+South Curtis, MP 86179",$$,4.1,559,40,True,"Thus large response treat attack industry. So cold ever whose face what article. Scientist however range that will.
+Seek his single husband even contain. Occur option across up.",0.8920846889402344,0.9553346865039283,0.7869033862552951,0.31540689574801273,0.6881347060865421,0.4376031240553919
+113,Johnston-Hines Restaurant,Greek,"74517 Kimberly Freeway Apt. 959
+Martinberg, WY 27583",$$$,3.2,428,42,False,"Break possible plan win foot watch this. Reveal impact particularly foot arm.
+Despite whole computer will Mr without.",0.2546706220460512,0.8408715794259226,0.038426348962324997,0.9017619921354235,0.46147746462473416,0.6372014768082804
+114,Ruiz Ltd Restaurant,Korean,"584 Mario Squares
+Keithview, PR 67926",$$$$,4.5,615,35,True,"Financial those stage. Could century interview lawyer population I right case.
+Between himself body add store various car show.
+Voice outside society act. My stand system be.",0.6593539222057827,0.8951177407065364,0.6366696821672073,0.6139335847600618,0.06665204056068996,0.5184080219452041
+115,Moon-White Restaurant,Japanese,"Unit 1260 Box 4223
+DPO AE 93744",$$$$,4.1,104,21,True,Center treatment agency interview challenge pretty. Tv range rather resource top. College body big what ground past brother.,0.15016900081704165,0.7374337687214856,0.5122219208126745,0.6802277792083533,0.041672900602384266,0.08479201604580322
+116,"Graham, Olsen and Costa Restaurant",Korean,"672 Burton Lane
+Jonesland, MO 68083",$$$,3.9,826,31,True,Usually specific represent baby able value. Sing chair challenge land. Spring both into risk certain follow camera.,0.7163233880626823,0.07208433599867337,0.0712567277652586,0.01210847523488745,0.9565013982994801,0.737508359459007
+117,Bailey-Cook Restaurant,Korean,"7590 Jessica Mount Suite 186
+South Mallory, NM 35698",$$,4.8,590,34,False,"Dog able yes admit. Listen card body treat guess support single.
+Leave structure necessary use inside. Still argue case while region.",0.35325140850206416,0.2965355812876552,0.34970322974584955,0.7746535311811819,0.6613706110704144,0.18519556786746794
+118,"Garcia, Martin and Jenkins Restaurant",Japanese,"8929 Kramer Springs Apt. 017
+North Sarahburgh, NV 60337",$$$,3.6,327,55,False,"Store indicate she like cell month we.
+Reveal know population actually born art. Page community civil. Strategy quite then never stop try.",0.17410933533408435,0.09839564971339732,0.6603027197013381,0.7643726622217359,0.265046428325004,0.020944961030912812
+119,Roberts-Landry Restaurant,Italian,"24241 Wright Landing Apt. 064
+South Diana, VT 12976",$$$$,4.0,965,34,False,"Position crime board back owner suggest.
+Executive must assume others series.
+Necessary point allow especially with. And worry low answer behavior final wonder.",0.08217166747642735,0.9678600348450305,0.29544477747742026,0.7692231478381336,0.6246635688542638,0.3819396396528959
+120,"Johnson, Miller and King Restaurant",Indian,"29387 Alan Junctions Apt. 627
+East Patrickville, CT 41572",$,4.4,245,36,True,Only system face charge leg those behavior. This space pressure shoulder claim. Might rock prepare us game size fund.,0.2056872621955551,0.12138641815940643,0.6150129680388666,0.774633780637788,0.6439042535411307,0.5303021332491583
+121,Cordova Group Restaurant,Korean,"62218 Chelsey Expressway Suite 532
+Jensenmouth, VI 28975",$,4.6,955,42,False,"Value claim evidence guy. Author represent leave worry. Shake kind under vote will.
+Guy expert important. True can happen suddenly weight health radio media. Theory yard amount within arm.",0.041951223431636264,0.9684887775943838,0.7987141916545746,0.29282203670096474,0.9799703293588506,0.6018815896363221
+122,"Bryan, Smith and Booth Restaurant",Japanese,"19656 Moody Gateway
+Deannabury, OH 79275",$$$,3.9,343,54,False,Should current forget fish you main. Boy lawyer nation we certainly degree nothing.,0.5824226582072465,0.7480731794295321,0.8117697880901376,0.6564786073315027,0.12809574636620003,0.3382675059944984
+123,Gutierrez-Lopez Restaurant,Japanese,"043 Julie Hill Apt. 376
+East Victorland, NC 02082",$$$$,4.7,894,21,True,Clearly glass industry little read. Whole join tree now. Night throw cup.,0.9280836403260497,0.22461561184385193,0.3721670238375133,0.432076882944196,0.4394049896944522,0.6129395824945255
+124,Dean-Jimenez Restaurant,American,"Unit 5269 Box 6582
+DPO AA 10068",$,4.5,385,15,False,Democratic decide course quickly western have. Administration to maybe test record power. Increase goal stock international wind from unit. Into computer organization myself high suddenly read.,0.9430758377447076,0.24069271183250496,0.12150137630091806,0.19747048985993731,0.8869249002092695,0.645810812655206
+125,Wolf-Harris Restaurant,Italian,"43006 Fuller Parkway
+Hendersonfurt, CO 84457",$$$$,3.1,468,46,True,High crime light buy whose trial include. Account hear difference exist they enough. Pull above training allow ago so.,0.28590678923916013,0.8159469389686173,0.861369996363436,0.846514338690278,0.9189265336395545,0.2522410201733616
+126,"Anderson, Roberts and Gilmore Restaurant",French,"1418 Terri Drives
+Peterland, ME 92077",$$$,3.1,146,27,True,Brother officer hot several true study city. Data behavior join pick order agreement.,0.7550419287462783,0.46053949727414,0.8419985528900615,0.7284906771616132,0.7764474464997246,0.6561618376810715
+127,Martinez-Dudley Restaurant,American,"31617 Kyle Streets
+North Alexander, DC 92447",$,4.2,939,44,True,Book until but center. Thus behavior management guess stuff. Beyond somebody including main personal decision. Heart finish traditional speak conference act.,0.17742876946970687,0.5450269188969383,0.9846697395245082,0.9373880664971189,0.04317373579701167,0.16481481572943713
+128,"Lloyd, Mckinney and Collins Restaurant",American,"8842 Martinez Tunnel Suite 105
+Nelsonland, KS 93866",$$$$,3.7,597,37,True,"Ahead age memory charge term boy describe foreign. Base reality call event current.
+Remain present level speak job watch. Economic cup suffer response which.",0.1317287734545619,0.7259799099852955,0.8177853298569451,0.2135113663106719,0.505852692951829,0.8407030280112
+129,Tran Inc Restaurant,Thai,"Unit 1778 Box 5079
+DPO AE 48694",$,3.4,556,33,True,Standard last threat when education important page theory. Good air conference follow so group authority. Head single business five action forget.,0.7328015447662506,0.5422372054918483,0.5903476904587729,0.50836054691628,0.2975484513188206,0.5650219928590161
+130,Gay Inc Restaurant,Indian,"138 Bradley Wall
+East Brandonstad, MS 20172",$$$,4.2,522,46,True,"Instead buy commercial force him.
+Expect popular task. Treatment expect success. Already mouth month front administration like.",0.6888853020500907,0.8733229158608077,0.6362913539792481,0.761121537043158,0.160071634954573,0.4615574744197899
+131,Valentine-Holland Restaurant,Japanese,"635 Robert Stravenue
+Josephland, OK 49365",$$$$,3.7,305,44,True,Difficult because right speech staff Mr. Various test employee. Book water avoid.,0.009331619827093296,0.24667886452162302,0.7264617151130048,0.9918099513493635,0.0991780995872159,0.40149431586128825
+132,Jimenez Ltd Restaurant,Indian,"38061 Cline Trail
+Markside, NH 01545",$,4.1,329,43,True,Next their process same day back. Art actually democratic stand could bit decade.,0.8000709686991595,0.20403563462889884,0.5550849493022862,0.7330712960296748,0.615985450260179,0.18802473461541613
+133,Hicks-Hill Restaurant,Mexican,"493 Richardson Park Apt. 832
+South Andrewside, MI 83855",$$$,3.9,927,59,True,"Environment live most goal. Until base issue character. Issue free kid have any him up.
+Country computer every parent million. Race position where detail.
+Offer draw mother.",0.3553845686857394,0.7837917844853972,0.5542265141320166,0.005229613542912737,0.7609907600280938,0.03531135494023907
+134,Baird-Sanchez Restaurant,Thai,"0641 Alyssa Freeway
+Vasquezton, FL 93778",$,4.2,581,43,True,"Behind me red. School system reach color race coach forward.
+While program into again. Thing color set act goal. On major easy body standard note wrong.",0.7457337827312321,0.2024805601652374,0.9580734801193802,0.3679407513020845,0.3269316163380791,0.14888805033244468
+135,"Thomas, Lee and Greene Restaurant",French,"86571 William Route
+Jonesshire, AR 57515",$,3.8,841,44,True,Simple tax total other both rate rock. Challenge improve detail. Ground all officer receive.,0.3056042154902149,0.8766507618282006,0.9963343376272473,0.36830953050684834,0.44861063095454257,0.722070938202737
+136,"Suarez, Shields and Hill Restaurant",Indian,"44565 Chavez Fort
+East Derekshire, CT 20870",$$,4.4,358,30,True,Item lawyer why society. Body across until chair race. Whom perhaps professor field explain son administration. Design stay but.,0.8861957804650745,0.5930443341867842,0.39152569817782934,0.41262184084862374,0.6956181464968069,0.0032182636042786816
+137,Morgan-French Restaurant,Chinese,"5618 Oconnell Fords Suite 474
+North Ericport, GU 92868",$$,3.4,849,54,True,"Usually eat question hit human tough throw.
+Financial nor quickly follow official raise current career. Current figure father until leave contain site.",0.6195893374598407,0.3554930104413574,0.7941973312770843,0.09299063982313216,0.5882022669483905,0.48097288988612374
+138,Hoover-Campbell Restaurant,Korean,"52135 Palmer Springs
+Jorgeburgh, AK 53505",$$$,4.4,788,33,True,Tonight there apply suddenly call prove leg. Least approach area stop practice four best. Not real ten building once. School apply day century science manager difference.,0.6423255259052274,0.06485359448296835,0.5799837874281313,0.5614845879595237,0.5606600944161709,0.6034876665964548
+139,Monroe-Carpenter Restaurant,Mexican,"71210 Maria Forges
+East Madison, MN 90453",$$,3.8,882,32,False,"Listen strategy kitchen argue. Feel low contain dog.
+Start race teacher pay it. Continue stand price. Memory record customer lose.
+Where manage property hospital. Less spend challenge exist.",0.6764679372263622,0.8049889996807698,0.26982072012821434,0.8250494101800621,0.4982556822634536,0.07705827913433116
+140,"Burns, Hernandez and Ryan Restaurant",Italian,"941 Wendy Flat
+Lambland, MH 43957",$$$,4.7,238,15,True,Give relationship hospital artist pretty. Pretty none least teach cause size. Type attention stuff low while.,0.0585509292439792,0.3342383186960608,0.7848969771114676,0.7076809347409158,0.7886149646724064,0.5172690564416094
+141,Cook-Hines Restaurant,French,"29667 Patrick Meadow Apt. 532
+Joshuaberg, AZ 80993",$$,4.0,279,28,True,Two artist economy also seek kid. Paper subject type fly recognize help. News cultural make quickly different score its.,0.44019899795549056,0.14745252670628395,0.32819275360931155,0.43401936617387527,0.08860042967961723,0.22061195271121126
+142,Gibson-Morris Restaurant,Mexican,"476 Brown Harbors
+Taylorborough, SD 69420",$,4.9,837,16,True,Couple debate still may ground tonight table. Keep personal them notice. Site fear brother discover.,0.5982252940637388,0.7356631142391898,0.9983475113929496,0.9331133313435577,0.6425651995351915,0.421248053294072
+143,Pollard and Sons Restaurant,Korean,"5787 Durham Parkway
+Paulburgh, AK 42296",$$$,4.2,807,42,False,"Daughter stage form serious. Dog authority way toward.
+Wonder wear our partner ball necessary.
+Rich bit market different go. Field sure will again area similar specific.",0.6361773647082327,0.785651618080232,0.11833619092338732,0.40990488969628824,0.8398022856356172,0.383832951933044
+144,"Reyes, Chase and Jenkins Restaurant",Thai,"0785 Terri Courts
+Lake John, ND 97108",$$$,3.4,300,44,True,"Animal soon their economic arm arm just. Analysis glass pretty each factor. Huge price prevent baby voice day relate spend.
+Require walk sister fall president money. Five must bit get improve.",0.5718722712271865,0.5877693608621982,0.18447625313363936,0.3622354416522884,0.33451128874193214,0.026196708532064794
+145,Garner-Thornton Restaurant,Korean,"652 Joel Island
+Robintown, VT 92324",$,4.6,734,52,False,Know difference here process mouth produce. Must girl ago. Senior from stock energy send describe agree rise.,0.024191763891355245,0.8316970436757735,0.2730708099728124,0.5180787662388154,0.29872557358877305,0.9406792451153405
+146,Hughes-Alvarado Restaurant,American,"378 Thompson Camp
+North Jessebury, AK 69503",$$$,3.7,174,18,True,Gun process site special part. Fill produce structure summer. Leg key letter whole lose such. Impact often bag today necessary.,0.25929675886577375,0.4296568127389351,0.8727302504846018,0.8419335667918086,0.18610141784627732,0.8026433097957104
+147,"Pollard, Simpson and Johnson Restaurant",Korean,"325 Samantha Vista Suite 002
+Port Daniel, NC 48327",$$$,3.7,14,15,False,"Team oil among response article research else. Administration suddenly support music and.
+Board medical both back daughter now. Author interview executive agency parent growth.",0.45818688673789265,0.4829688720853552,0.13347997241594378,0.08060151375712465,0.7279393069737652,0.49646115235529975
+148,"Sanford, Rivera and Garcia Restaurant",American,"USNV Bush
+FPO AP 52352",$$,3.1,860,22,True,When yeah not young. Nature individual run summer month anything line modern.,0.43685070261517955,0.7295082286523967,0.7655128989911097,0.15890816766935356,0.6102251494776413,0.13535408227768553
+149,Garcia-Lozano Restaurant,Thai,"5226 Banks Extensions Suite 392
+Parkerport, DC 23793",$$$,4.1,388,43,False,Discover still would understand each training. Program painting somebody game brother impact measure chance. Plan significant tonight then administration building enjoy.,0.7513750860290457,0.6569551562671395,0.956614621083458,0.06895801635642118,0.05705472115125432,0.28218707469320015
+150,Bowen Group Restaurant,Greek,"029 Mccall Ridge Apt. 917
+West Julie, IA 45958",$$$$,4.1,87,53,True,"Piece scientist job serious record safe. Trouble view base time order have power here. Computer reveal evidence significant discussion manage.
+Military modern meet up expect himself serious.",0.26170568373590597,0.24697879907199982,0.9062545805210367,0.2495461998495061,0.271949726128631,0.7593982624179637
+151,"Booker, Jones and Harrington Restaurant",American,"Unit 2157 Box 0433
+DPO AP 09386",$,3.7,419,17,True,"Explain main difference college. Writer send under project cell.
+Stuff senior agree total whether music sometimes. Major state hard.
+Interview know call law truth respond try. Know it enjoy ten.",0.44973984245054,0.7767105569551812,0.06536615756438524,0.4875711936733843,0.03361360018328263,0.06265320345535452
+152,Morgan-Schwartz Restaurant,Italian,"006 Oconnor Expressway
+Snyderfurt, MI 72069",$$,4.8,583,46,True,"Religious fire under item. Fish success produce there along play account. Only the detail cultural.
+Machine cost market capital. Week tax see about. Make particularly report although.",0.906437453344411,0.13924537111759516,0.5324206822752171,0.41109560260070654,0.3473433262588427,0.8998333456872725
+153,"Miller, Murphy and Craig Restaurant",Korean,"327 Lauren Bypass Suite 054
+North Matthewfurt, GA 96443",$$,3.3,141,24,True,"Despite while to shake. Wide foot production break let five.
+Recent relate similar low source major. Reach ahead environmental Democrat surface important.",0.0218233967754895,0.6637896861755891,0.9633944342135504,0.5601681834618419,0.9368224620330918,0.05225787928602377
+154,"James, Stewart and Higgins Restaurant",Korean,"9970 Dunlap Expressway
+Mooreville, MA 27442",$$$$,3.7,610,24,True,Form painting after reveal sort bed relate treatment. As any decision movement world study how. Face claim hear including need. Vote already after wait bill.,0.4187933190741614,0.26015779096205116,0.7308209649807298,0.9812970904972467,0.2565300624442478,0.6541746014740745
+155,Brennan-Johnson Restaurant,Italian,"Unit 6884 Box 4431
+DPO AE 51999",$,3.6,758,33,False,Story teacher size interesting sea. Ever dark enough prevent likely. Involve develop image everything expect.,0.19809763275974013,0.5653302545716099,0.4639324866883362,0.9720053296315371,0.6085272726964666,0.3495063720868188
+156,Young Ltd Restaurant,Chinese,"05061 Colon Road Suite 310
+East Danielle, CO 62572",$,3.2,51,48,False,College ten majority economic center pattern list. Set arrive management in scientist strong already.,0.11409578488793337,0.15124682873493456,0.2253169299512351,0.250966661340298,0.8506160578411378,0.5612227882825249
+157,Bright-Francis Restaurant,Japanese,"7741 Lopez Light Suite 270
+Scottview, IN 35701",$$,4.0,98,47,True,Although interest color sort. Cause them industry across brother yet result. Mission past he practice center.,0.5233909113743664,0.11476887186921747,0.860139693349435,0.7228143032084837,0.06766836190000158,0.7078350972297687
+158,Good-Hodges Restaurant,Greek,"115 Arellano Radial
+New Bruce, MS 68996",$$$,4.4,411,37,True,"Really Mrs former article light. At player third general.
+Ever star test once figure.",0.5435382173426461,0.08172534574677826,0.45830064152865646,0.484696287130047,0.16577454016327575,0.9456981470002823
+159,"Brennan, Wallace and Benson Restaurant",French,"374 Ralph Walk Apt. 898
+North Stacy, NV 23160",$$,4.0,305,42,True,"Follow time appear. Southern international line few service drive hotel. Relationship great stuff first back painting.
+Watch street represent style. Kid reason economy build tonight present concern.",0.8499753714806619,0.6690223373291083,0.4622955610006072,0.4117655415845085,0.6509734671509542,0.5454318694069055
+160,Williams Inc Restaurant,American,"USNS Stanton
+FPO AE 17040",$,3.3,849,46,True,"Positive politics huge. Ever arm occur air responsibility.
+Place make list themselves seek space although ahead. Relationship computer surface bar. Argue PM artist best.",0.062273105881885615,0.5125026487703317,0.8064036172328395,0.45923987759695806,0.05195657755426841,0.7862781993840331
+161,Howard-Jordan Restaurant,Italian,"632 Flores Stream
+North Paulfurt, OH 43247",$$$$,3.8,304,21,True,"Common and part read. Common section study about event go.
+Nothing recent not leg break bed role. Fish phone after college. Design hear ball.",0.2013637821359744,0.2586208348880388,0.1647063534322959,0.33021506487149754,0.756751505688635,0.5193858595039373
+162,Schmidt PLC Restaurant,Thai,"99861 Hernandez Port Apt. 191
+Mikaylastad, FM 54357",$$,3.0,625,43,True,Including structure evening current without else. Enough majority official give politics last. Reach color wear one choose notice year its.,0.20488127415071256,0.8778300781520408,0.8795818549515292,0.8705784250460069,0.23879621138153928,0.4512393441809881
+163,"Sparks, Jackson and Miller Restaurant",American,"970 Joshua Divide Suite 065
+North Julie, PW 35704",$,4.7,535,22,True,"Only head help open almost red picture. City little from.
+Tree fill level control. Keep pattern order.",0.9849896561408751,0.7720124763099904,0.027167421225559818,0.06520459126049205,0.46393137681233276,0.9092202058615602
+164,Harvey-Allen Restaurant,Japanese,"PSC 0544, Box 4713
+APO AE 39885",$$,3.2,809,15,True,"Whole wall cup win sell candidate four whether. Finally she soon learn.
+A challenge third feeling ball door data. Right child new simply.
+City beyond near hour defense line heavy.",0.5387017979527142,0.4978125080342902,0.10547369995663058,0.656780104724294,0.8221031606002255,0.38042000750756233
+165,"Thomas, Murray and King Restaurant",Thai,"Unit 7546 Box 9137
+DPO AE 53869",$$$,4.2,700,17,True,"Particular seem trip. Catch could deep itself fund. International expect hit start.
+When instead clear radio strong.",0.7756118509253275,0.9644766539008116,0.2037664591276891,0.5233296311947413,0.28713795808457554,0.7928544190338394
+166,Estrada-Nolan Restaurant,Mexican,"82148 Taylor Vista Apt. 233
+East Antonioton, PW 47736",$$,5.0,646,38,True,"Southern traditional maybe sit Republican such will born. Wonder mother himself push.
+Front various opportunity. Method pass the itself let.
+Test least anyone out.",0.5775933658811575,0.6345824175503038,0.7979141596158941,0.3959704726624549,0.9150900684070432,0.53302886724614
+167,Santana-Byrd Restaurant,Korean,"7861 John Overpass Suite 279
+Maxview, WA 90790",$$,4.1,431,37,True,"Issue ever will ready each stay strong. Notice American force although participant rich speech.
+Mention rise front PM few husband. Wear either present third.",0.157954822835348,0.6958991181688025,0.7932613504382544,0.31676167706752667,0.857179256998753,0.9061432547657664
+168,Jones LLC Restaurant,Mexican,"0293 Deborah Springs
+West Denise, NY 03129",$,4.8,874,22,True,"Above debate site price ever. Out wish fish determine adult foot as.
+Step onto play forget home upon actually future. State charge take material mother color.",0.2769044873778089,0.9835214727152221,0.14071152804875842,0.20201566840248997,0.18422483923802613,0.8939897100078704
+169,"Evans, Hayden and Vaughn Restaurant",American,"2290 Johnny Valley
+Jenniferview, NE 49846",$,3.5,32,51,False,Season writer heart Mrs her we but. Design yeah number condition city since.,0.6542925523249619,0.15210428322227287,0.440323418368349,0.615298025069802,0.08346408498938329,0.8824163684073387
+170,Bruce-Gonzalez Restaurant,Japanese,"3748 Silva Avenue Suite 899
+Kennethville, NJ 08868",$,4.5,584,17,True,"Oil individual industry country ahead difference. People your outside rule watch foot economic notice.
+Weight age over smile. Need tell sure claim hard themselves. Line require current car.",0.8036035354415352,0.5052067735766382,0.9671266152591704,0.4177609792750997,0.9841103190364978,0.6679199988036271
+171,Castaneda-Rodriguez Restaurant,Greek,"544 Lopez Path Apt. 096
+Erintown, SD 65692",$$,4.1,152,47,True,Left while according allow quality. Yet television audience indicate employee respond building.,0.6346712732539415,0.165954895295785,0.881927758304644,0.42748968792061515,0.16223340578247936,0.01260751997575904
+172,Armstrong-Andrews Restaurant,American,"Unit 4666 Box 0993
+DPO AA 95731",$$$,4.4,674,42,True,"Decide best politics available tonight man each. Garden ready former late election.
+Along cause miss ago they nor research fill. Nothing fight require pull.
+Chair factor his PM. Surface on chance.",0.5597556836383826,0.5273996221226763,0.7193536223691586,0.8902580530178021,0.07940658464302952,0.7314964903403623
+173,"Phillips, Spence and Barrett Restaurant",Italian,"584 Mary Wells Apt. 417
+Lake Jonathan, AS 73774",$$$$,3.1,154,22,True,"Popular onto may model her unit. That lot low here.
+Different deal change part rock build. Ground least tree trade style.",0.18741194409758222,0.858177053157164,0.8190635138616561,0.5407937549855444,0.7102427986233115,0.3143501131837484
+174,Smith-Grimes Restaurant,Indian,"513 Walker Well
+Robertmouth, MN 34653",$$$$,3.3,234,48,False,"American participant necessary before. Safe true town car few. Dinner one ok less Mr.
+So authority long kind live between.",0.47116789893281463,0.8216368977104717,0.4592651971732139,0.3577982653254418,0.4942124472502999,0.8282492524372184
+175,"Beltran, Lozano and Mcgee Restaurant",American,"70999 Thomas Fields Apt. 684
+Brownberg, DC 26754",$,3.3,512,49,True,Born series consider according throw meeting. Clear assume it fight understand kitchen point. State cover board discussion film figure short. Bill feel participant number choice choose short.,0.33520804737087273,0.1737615931357438,0.7120140203307808,0.8259782127080818,0.10063747852353333,0.23987411275594472
+176,Parsons-Hall Restaurant,Korean,"52175 Lawrence Centers Apt. 743
+New Kathy, NM 12040",$,4.4,971,46,True,Stop firm final none several accept. Area impact position cause lead ever. Decade respond far health focus.,0.1419719897609939,0.3479414115821666,0.45035097890541265,0.7488263369633065,0.6511475848816741,0.6209285674784312
+177,Robinson-Lee Restaurant,Korean,"666 Reyes Camp Apt. 505
+North Erica, SC 96655",$$,4.7,983,38,True,Heart big policy everybody hard type book care. Foot simple including charge. Operation off no just. Of several end most fact against.,0.3523749466096544,0.8414475530847599,0.47128716739816456,0.9791049380151545,0.6341421382957368,0.12626474156450274
+178,Byrd-Le Restaurant,American,"2168 Jackson View Apt. 447
+Ryanberg, MA 64749",$$$$,4.5,830,28,False,"Budget improve how main.
+Art writer health not yet where their.
+Man offer plant same north wind sister. Citizen message surface off life practice course. Short issue everybody later.",0.676177562075434,0.325104015431699,0.6863271966860974,0.06964114816240574,0.1748814371759594,0.8557372589057863
+179,"Becker, Taylor and Davis Restaurant",Thai,"60332 Jessica Radial
+North Michael, SD 05398",$,3.1,625,46,False,Character talk once should mother president. Show off great they test. Country challenge final beyond.,0.2271795570235149,0.83704112524294,0.27927608845441043,0.6428819100587077,0.694150573509831,0.5126547531450529
+180,"Lucas, Parker and Alexander Restaurant",Indian,"909 Ebony Shoal Apt. 016
+Jamesside, KS 62681",$$$,4.7,113,57,True,"Any just cup side opportunity by. Medical official might clear.
+Wait scientist group yet. Course world son growth effort born.",0.3053106766967313,0.21264437637109612,0.03318935456242622,0.3039464012407238,0.653162790531283,0.9383048184484827
+181,"Diaz, Anderson and Browning Restaurant",Italian,"046 Elaine Groves
+South Maria, CT 67555",$$$,3.7,956,30,True,"Role today animal suggest concern.
+Million cell like although.
+Term produce he increase church. Company million character speak. Half understand skill air. Fill personal training enter fly.",0.871204482263052,0.7660647765353026,0.7884473432532987,0.6649849034759953,0.260286857566003,0.9071950307058299
+182,Burgess-Thompson Restaurant,American,"1173 Kimberly Village
+West Jade, LA 21521",$,3.8,48,18,True,College beyond give development information at why. Work task Mr care owner PM find. Tonight either follow music whatever protect benefit. See system cultural despite candidate walk difficult.,0.670732311905834,0.56044063098044,0.11098946921348107,0.4470555438064254,0.4603582712019263,0.86456360952267
+183,Buchanan LLC Restaurant,Thai,"75300 Rebecca Village Suite 218
+Lake Jenniferview, SD 30799",$,3.2,956,51,False,Officer third service capital instead product often. Security son place. Woman add play structure down.,0.5466482201877885,0.38040054897040965,0.9768003285106593,0.11072059332631567,0.4225484283119446,0.04202467517140529
+184,"Shaw, Nelson and Martin Restaurant",Korean,"7012 Melissa Lake Suite 611
+North Melissaburgh, MA 47362",$$$$,4.5,207,35,True,"Shake enjoy site interview agent myself. Dinner leader book nearly.
+Their film job worker. Whom will consumer star.",0.7399041207669304,0.9180765521991506,0.28003732955048943,0.8583416767991209,0.29221823046189777,0.9107701616439152
+185,Coffey-Phillips Restaurant,Korean,"PSC 9415, Box 5216
+APO AA 60340",$$$$,3.4,655,28,False,"Walk participant teach everything where we fast. Will throw life carry visit a edge.
+Decade safe order at sense. Century state share southern. Hospital city industry option eat.",0.7539619035967839,0.8049067768414386,0.0180065556004545,0.962810357074026,0.7266709920703233,0.3047510953861333
+186,Brock-Mcdonald Restaurant,Japanese,"762 David Stream Apt. 216
+Phammouth, HI 80628",$$,4.1,588,45,True,"Sea lawyer audience without treat game evening. High through both.
+One then reality some serve different. Become rule where ten. Thank professor student white instead.",0.8293946648588469,0.28152119841492995,0.872753839566128,0.11258039041193701,0.7036859774607958,0.5406984766449103
+187,Taylor and Sons Restaurant,American,"027 Rodriguez Loop Suite 014
+Alexanderhaven, WI 97969",$$$$,4.7,400,32,True,Opportunity program billion sit remain. Parent not parent that property among blue. Offer brother shake guess.,0.09653447019544081,0.24189382825883898,0.01240403627731479,0.46876796546450583,0.3012652607600004,0.5983574842977588
+188,"Ramsey, Whitney and Coffey Restaurant",Indian,"588 Ryan Stream
+South Michael, TX 84571",$$$,3.2,188,21,True,Wind eat land answer leader yard. Shoulder civil next tell possible. Send sit common matter become goal.,0.2972378077086172,0.2999191115069847,0.7431931987316034,0.04814283597835345,0.9028949951919872,0.8522638743911815
+189,"Diaz, Gibbs and Smith Restaurant",Chinese,"28772 Karen Islands
+West Tara, AR 66945",$$$,4.1,977,24,True,Fast nice concern peace away behavior Republican. System certainly future government card history. Party wife food different step.,0.6678046832264065,0.5932215701073843,0.8923024981396522,0.18533017952871444,0.07896916219082861,0.2395101699095381
+190,"Martinez, Richardson and Curry Restaurant",Indian,"3177 Miller Parks Suite 517
+North Richardton, OH 72472",$,3.5,563,21,True,News your court control million hundred. Thousand without section religious word sound enjoy. Hair understand doctor music baby really.,0.7945782787001903,0.03467026672648332,0.5828068350834896,0.9954375161913099,0.8556960938375394,0.5214456890435895
+191,Richards-Carson Restaurant,Korean,"948 Diamond Motorway
+Michaelton, GU 29719",$$$$,3.7,457,47,True,Well commercial nice next. Time live relationship as. Assume rest now water road require.,0.06364090928664234,0.8313735143857098,0.5989785081772105,0.11493299705956683,0.0938572848233562,0.9096268194365924
+192,Rodriguez-Hall Restaurant,Korean,"997 Baldwin Crescent Apt. 305
+Mariaport, OH 68918",$$,3.9,509,37,True,"As including claim create woman similar writer structure. Power manager build.
+Watch off we hold. High listen suggest consumer find concern.",0.6692002629380784,0.8292867993167555,0.8789789002822673,0.5717723520483222,0.5174463517550413,0.4304274103209902
+193,Harvey PLC Restaurant,Mexican,"27261 Carr Field
+Port Philipmouth, GU 25480",$$$,3.7,24,35,True,"Son nothing hear. Western country per consider.
+Best raise choice hear computer key. Medical sport knowledge performance.
+Southern find fact give. Operation cold between cover. Young turn visit up.",0.3169465877911193,0.43459596085871177,0.7738796557301564,0.6019234310151316,0.8925232899548461,0.4433800143791877
+194,Herman-Walker Restaurant,Korean,"0917 Barrett Parkways
+South Adam, WA 06867",$$$,4.3,632,33,True,"Executive career shake fall phone. Itself bank agency bit night participant. Marriage skill expert range area.
+Water film onto too myself.",0.607089578718754,0.6313075530919887,0.5916971623063255,0.7026337730855163,0.23743346837480628,0.5123637775457907
+195,Reid Group Restaurant,Italian,"782 Jessica Crossroad Apt. 699
+Williamfurt, MT 80323",$$,4.0,678,33,True,"Authority data deal policy administration two. Too break fact toward process.
+Would step head study. Choose out perform. Think institution now tell phone.",0.10422480280834767,0.38451132764481255,0.4876670686212644,0.6522242595454725,0.9505310525862035,0.6006510665483559
+196,"Turner, Ortiz and Taylor Restaurant",French,"PSC 3465, Box 4722
+APO AA 79475",$$,4.2,298,50,False,"Production development point boy. At Mr cold science western resource reason. Movie expect now board budget.
+Never marriage camera yet. Long born also hold base really attack.",0.7435939161765598,0.5062660594952028,0.6341040313763313,0.07093221613377343,0.254391580841847,0.3618530932051387
+197,Torres Group Restaurant,American,"858 James Road Suite 522
+Jenniferstad, OH 63464",$$$,4.5,487,43,False,"Price keep the attorney early more. Claim natural fish born assume million admit.
+Have century billion do high none. Shoulder build different pick nor available.",0.47249335500651357,0.045648745502383736,0.14002409755331768,0.2768143077913058,0.9715326909010507,0.33134700710305076
+198,Davis PLC Restaurant,Indian,"846 Alexandra Burg Suite 200
+West Karen, GA 38068",$$$,4.1,240,32,False,"Science it feel amount improve they. Would by phone decade image.
+Safe know home hair for human rich. Early Republican nothing way role. Guy leg television society hear fill hotel like.",0.48204105811208253,0.19609771273839294,0.6107800710757683,0.2806832155159743,0.20699257843842678,0.5165726284459791
+199,Price LLC Restaurant,French,"43805 Garcia Ways
+Lake Deborah, MS 31643",$$,4.2,932,16,False,Shoulder political offer song character first early. Several main particular shake.,0.005505799160420821,0.0076640326492253275,0.21906880910185778,0.03672136250082114,0.10802575413069138,0.3388606493387516
+200,"Avery, Horton and Fernandez Restaurant",Thai,"066 Frye Spur Suite 800
+Jamesmouth, MP 30064",$$$,4.1,429,15,True,"Indeed mother peace citizen. Pick record example summer economic box war.
+Sense career herself here. Short only write gun. Once consider thus wife water note.",0.8025856795798129,0.5720486433693008,0.5126677259564164,0.29348882320812164,0.9317537194328164,0.39701504123719167

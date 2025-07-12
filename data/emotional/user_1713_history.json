@@ -1,0 +1,82 @@
+[
+  {
+    "primary_emotion": "neutral",
+    "secondary_emotion": null,
+    "intensity": 0.5,
+    "confidence": 0.3,
+    "context": {
+      "weather": null,
+      "temperature": null,
+      "time_of_day": "afternoon",
+      "day_of_week": "saturday",
+      "calendar_stress": 0.3,
+      "social_situation": "unknown",
+      "location_type": "unknown"
+    },
+    "timestamp": "2025-07-12T14:25:51.526290"
+  },
+  {
+    "primary_emotion": "anger",
+    "secondary_emotion": null,
+    "intensity": 0.9460982084274292,
+    "confidence": 0.9460982084274292,
+    "context": {
+      "weather": null,
+      "temperature": null,
+      "time_of_day": "afternoon",
+      "day_of_week": "saturday",
+      "calendar_stress": 0.3,
+      "social_situation": "unknown",
+      "location_type": "unknown"
+    },
+    "timestamp": "2025-07-12T14:26:57.355417"
+  },
+  {
+    "primary_emotion": "joy",
+    "secondary_emotion": null,
+    "intensity": 0.9882829785346985,
+    "confidence": 0.9882829785346985,
+    "context": {
+      "weather": null,
+      "temperature": null,
+      "time_of_day": "afternoon",
+      "day_of_week": "saturday",
+      "calendar_stress": 0.3,
+      "social_situation": "unknown",
+      "location_type": "unknown"
+    },
+    "timestamp": "2025-07-12T14:26:57.854848"
+  },
+  {
+    "primary_emotion": "joy",
+    "secondary_emotion": null,
+    "intensity": 0.9239585995674133,
+    "confidence": 0.9239585995674133,
+    "context": {
+      "weather": null,
+      "temperature": null,
+      "time_of_day": "afternoon",
+      "day_of_week": "saturday",
+      "calendar_stress": 0.3,
+      "social_situation": "unknown",
+      "location_type": "unknown"
+    },
+    "timestamp": "2025-07-12T14:26:58.364556"
+  },
+  {
+    "primary_emotion": "joy",
+    "secondary_emotion": null,
+    "intensity": 0.9881183505058289,
+    "confidence": 0.9881183505058289,
+    "context": {
+      "weather": null,
+      "temperature": null,
+      "time_of_day": "afternoon",
+      "day_of_week": "saturday",
+      "calendar_stress": 0.3,
+      "social_situation": "unknown",
+      "location_type": "unknown"
+    },
+    "timestamp": "2025-07-12T14:26:58.846802"
+  }
+]

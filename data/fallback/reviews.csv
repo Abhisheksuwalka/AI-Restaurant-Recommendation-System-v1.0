@@ -1,0 +1,501 @@
+review_id,user_id,restaurant_id,review_text,rating,sentiment,timestamp
+1,32,191,The food was okay and decent and decent and normal. Economy moment effort.,3.5,neutral,2024-07-18 04:12:53.597537
+2,72,138,The food was normal and average and acceptable and average and normal and okay. Fall teach everything trouble.,3.7,neutral,2025-06-02 19:03:45.975103
+3,34,192,The food was okay and normal and acceptable and normal and normal. Important coach at the per.,3.4,neutral,2024-12-11 22:08:57.645584
+4,75,110,The food was okay and fine and average and normal and decent. Pressure six west walk compare nature walk.,3.5,neutral,2024-09-12 02:17:35.788968
+5,75,103,The food was amazing and excellent and wonderful. Door space crime Republican.,4.0,positive,2025-05-19 06:13:49.697788
+6,47,57,The food was acceptable and okay and average and acceptable. Significant especially situation move.,2.9,neutral,2024-09-20 11:34:52.755691
+7,18,131,The food was wonderful and wonderful and delicious and fantastic and great and excellent and amazing and excellent. Network hard condition move cost skin for.,4.4,positive,2024-10-22 16:55:13.001094
+8,64,24,The food was fine and okay and average and average and okay and decent. Short message again mean.,2.9,neutral,2025-01-18 10:19:51.835996
+9,97,13,The food was delicious and excellent and great and fantastic and excellent and fantastic and amazing. Hour cold light suffer.,4.4,positive,2025-06-11 21:07:54.185356
+10,15,40,The food was average and okay and decent. Technology strong off evidence early.,2.7,neutral,2025-01-07 04:08:52.538605
+11,81,41,The food was decent and fine and okay and normal and okay and fine. Report require class paper.,2.3,neutral,2025-06-08 04:31:25.987041
+12,88,109,The food was acceptable and fine and okay and normal and okay and decent. Attack help a.,3.9,neutral,2024-07-31 08:16:08.605810
+13,77,17,The food was average and okay and acceptable and decent. More majority senior nearly risk threat level.,3.9,neutral,2024-10-07 13:39:01.522681
+14,50,98,The food was fantastic and excellent and fantastic and wonderful and excellent and delicious and delicious and fantastic. Government painting responsibility see seem model imagine.,4.9,positive,2024-11-01 08:15:04.066679
+15,77,120,The food was normal and decent and average and okay and acceptable. Teach call already available yes success break.,3.3,neutral,2024-12-23 07:34:28.199913
+16,68,65,The food was excellent and amazing and wonderful and great and amazing and amazing. Him federal agency maintain seek democratic.,4.6,positive,2024-12-17 11:29:07.506077
+17,71,3,The food was normal and fine and average and acceptable and average. Last opportunity serve cause.,3.6,neutral,2024-07-27 02:58:40.051725
+18,88,185,The food was normal and okay and fine and average. How central too tough education.,3.2,neutral,2025-04-12 06:39:05.996842
+19,15,175,The food was delicious and delicious and delicious and great and delicious. Letter let think leg indeed anything.,4.3,positive,2025-04-15 20:16:14.535583
+20,69,193,The food was decent and decent and normal. Today two far apply.,3.8,neutral,2024-12-26 15:50:16.051059
+21,35,197,The food was amazing and excellent and delicious and delicious and great and amazing and amazing. Travel thought the back family start necessary.,4.9,positive,2024-08-10 15:45:13.593793
+22,83,88,The food was excellent and fantastic and amazing. Value than look.,4.1,positive,2025-01-29 16:41:20.666219
+23,15,76,The food was acceptable and okay and decent and decent and acceptable and normal. Former financial medical action big season.,2.7,neutral,2024-08-29 01:35:52.022740
+24,56,41,The food was normal and average and normal and normal and okay and fine. Especially agency despite minute agency idea sometimes.,3.8,neutral,2025-07-04 15:26:43.791157
+25,59,1,The food was fine and acceptable and okay and okay. Get force happy song one third serve.,3.1,neutral,2025-02-25 07:40:26.029108
+26,93,185,The food was acceptable and decent and okay and average and fine and decent. Shake already single rock not attack.,2.6,neutral,2025-04-06 16:02:29.475543
+27,34,129,The food was okay and okay and decent and decent and decent and okay. Usually help produce key.,3.0,neutral,2024-07-19 08:45:42.022912
+28,98,46,The food was fine and decent and fine. Century several cultural pattern every.,2.8,neutral,2024-11-28 09:13:26.885726
+29,65,28,The food was great and excellent and amazing and fantastic. Among field well create notice.,4.6,positive,2025-06-07 17:17:15.525267
+30,81,77,The food was okay and acceptable and acceptable and average and fine and acceptable. Son third interview nothing wrong decision.,3.9,neutral,2024-11-28 03:29:23.039523
+31,82,130,The food was amazing and excellent and excellent and amazing and wonderful and great. Clear also road skin.,4.0,positive,2024-07-25 11:46:20.013282
+32,78,51,The food was acceptable and acceptable and fine and average. Life wonder understand management bag.,3.2,neutral,2025-03-14 18:06:03.548763
+33,20,96,The food was normal and acceptable and normal and fine. Speech garden road head light what officer.,2.8,neutral,2025-03-23 20:49:32.716758
+34,98,42,The food was fine and okay and average and okay. Threat sport former professor money property structure.,3.9,neutral,2024-11-11 22:26:51.319930
+35,70,200,The food was okay and fine and decent and acceptable and fine. Mind everything order to difficult against low foreign.,3.8,neutral,2025-05-01 16:32:16.264906
+36,68,1,The food was normal and okay and decent and acceptable and decent and decent. Feel win yard anything option soon election.,3.2,neutral,2025-05-20 03:02:20.182329
+37,77,83,The food was acceptable and okay and normal and fine and decent. Never such despite what.,3.6,neutral,2025-04-24 17:45:48.010947
+38,63,5,The food was fantastic and excellent and wonderful and fantastic and fantastic and wonderful and excellent and fantastic. Toward unit recently media include hundred note.,4.3,positive,2024-12-08 01:43:35.280360
+39,15,93,The food was wonderful and fantastic and amazing. Ball class loss up at.,4.2,positive,2024-11-14 07:22:13.672395
+40,40,62,The food was amazing and wonderful and delicious and great. Unit arm image it increase within.,4.4,positive,2025-06-21 17:38:32.781334
+41,8,62,The food was great and amazing and fantastic and fantastic and excellent. Visit brother dog these man when.,4.0,positive,2025-03-31 23:57:37.697299
+42,73,21,The food was fantastic and excellent and fantastic and fantastic and fantastic. Degree involve dog during source from our order.,4.7,positive,2025-01-30 02:24:22.438993
+43,11,188,The food was fine and acceptable and fine. Beyond bank scene change.,2.3,neutral,2025-01-06 21:19:21.496711
+44,63,18,The food was okay and normal and okay and normal and acceptable and average. Manage begin wide space possible yeah.,3.4,neutral,2024-10-17 17:56:23.624534
+45,98,137,The food was acceptable and decent and fine. Likely allow fact.,3.1,neutral,2025-06-10 22:37:25.786601
+46,99,33,The food was great and fantastic and fantastic and amazing and amazing and wonderful. Quickly truth record program beautiful close.,4.5,positive,2025-06-12 22:07:24.298481
+47,17,169,The food was average and okay and okay and decent and decent. Form although old write pass.,3.1,neutral,2024-08-12 07:38:51.965358
+48,61,141,The food was decent and okay and normal. Smile today station make environment.,2.8,neutral,2025-03-12 16:17:59.517127
+49,22,68,The food was wonderful and great and great and excellent and delicious. Past moment story expect assume.,4.1,positive,2024-11-05 17:14:44.455740
+50,68,156,The food was okay and average and okay and decent and okay and okay. System church simply method market difference exist hotel.,2.9,neutral,2025-01-14 04:17:41.165075
+51,55,55,The food was great and delicious and great and great and wonderful and great. Professor reason special grow meeting family.,4.0,positive,2024-08-22 19:29:16.024803
+52,70,194,The food was average and okay and normal and decent. Individual us some suggest program decision.,3.5,neutral,2025-05-04 11:14:13.096977
+53,94,177,The food was delicious and excellent and delicious and delicious and amazing. Chance choice bag onto brother blue large.,5.0,positive,2025-05-02 19:32:30.678591
+54,26,183,The food was decent and okay and decent and normal and fine and decent. Reveal executive four floor.,3.4,neutral,2024-08-20 10:43:25.235937
+55,40,103,The food was excellent and excellent and excellent and amazing and delicious and delicious and excellent. Responsibility itself but popular wall.,4.0,positive,2024-08-08 12:39:11.741411
+56,86,167,The food was fantastic and amazing and fantastic. Role few remember time prevent hair hospital.,4.0,positive,2024-11-25 17:23:04.721083
+57,48,113,The food was decent and decent. At all table edge cost marriage.,2.6,neutral,2024-09-06 14:19:59.717488
+58,67,116,The food was amazing and great and wonderful and excellent and great and delicious and wonderful. Situation television last staff seat religious.,4.5,positive,2025-05-01 01:43:57.752938
+59,16,64,The food was fantastic and delicious and excellent and fantastic and delicious. When seem test contain than clearly.,4.1,positive,2025-04-22 19:47:54.698099
+60,29,17,The food was excellent and excellent and amazing. Indeed main write challenge this.,4.9,positive,2025-05-23 19:15:18.913142
+61,44,6,The food was fantastic and excellent and great and excellent and great and amazing. Mention manager everyone dark Congress.,4.8,positive,2024-07-15 20:54:01.415606
+62,76,142,The food was great and wonderful and amazing and delicious and wonderful and fantastic. Side place represent.,4.3,positive,2024-07-17 06:13:39.470267
+63,30,151,The food was fantastic and delicious and excellent and amazing and excellent and delicious and amazing and great. Health able lot station may decision forward probably.,4.1,positive,2025-05-03 02:12:00.891443
+64,29,2,The food was fine and average. Event hospital more opportunity unit cultural show.,3.4,neutral,2025-05-26 03:57:45.633884
+65,10,182,The food was fine and acceptable and fine and average and fine and fine. Lawyer rest natural.,3.6,neutral,2025-02-22 20:51:52.309753
+66,81,16,The food was excellent and wonderful and excellent and great and excellent and excellent. You lead expect adult operation whole artist.,4.8,positive,2024-09-07 09:56:53.050267
+67,30,18,The food was decent and decent and average and fine. Upon trial participant discuss firm opportunity.,3.2,neutral,2025-02-26 00:49:33.829550
+68,5,85,The food was normal and normal and acceptable and okay and okay and average. Enter through system stage protect often house.,3.6,neutral,2025-05-26 14:23:31.322867
+69,10,132,The food was great and delicious and delicious and great and delicious. Most American weight.,4.2,positive,2024-12-27 15:17:25.261291
+70,31,72,The food was decent and decent and acceptable and acceptable and fine and acceptable. Dream able answer away sort movement tonight.,2.1,neutral,2025-05-27 08:22:47.528243
+71,86,125,The food was decent and normal and average and average and normal and normal. Administration than run short small shoulder.,3.5,neutral,2025-04-25 11:23:37.397893
+72,28,139,The food was acceptable and acceptable and decent and decent. Market oil move.,2.7,neutral,2024-08-20 00:03:24.766213
+73,17,186,The food was great and wonderful and amazing and excellent and wonderful and delicious and great. Explain break dog writer night forget nation.,4.3,positive,2024-08-25 21:35:09.012053
+74,74,148,The food was normal and acceptable and average and average. Add involve forget early look.,3.4,neutral,2025-03-26 12:44:29.879873
+75,61,63,The food was decent and decent. Candidate see election price.,3.2,neutral,2024-09-23 05:18:30.306566
+76,61,105,The food was acceptable and average and acceptable and average. Indeed town daughter clearly best.,3.8,neutral,2025-04-10 20:10:16.250802
+77,25,25,The food was acceptable and okay and fine and fine and average and acceptable. Finally my nature attention work.,2.4,neutral,2024-08-10 23:44:34.829803
+78,13,169,The food was average and average and okay and average and decent and acceptable. Table about dream single.,3.1,neutral,2024-08-14 20:12:24.200899
+79,56,91,The food was okay and fine and normal. Whole box later building she.,3.0,neutral,2025-06-24 20:01:32.687623
+80,55,106,The food was fantastic and great and delicious and fantastic and wonderful and amazing. Let business property everything bar smile good.,5.0,positive,2024-07-13 18:01:22.687915
+81,60,187,The food was fantastic and great and excellent and fantastic and fantastic. Southern nation economy adult trial source.,5.0,positive,2025-04-27 11:15:51.791591
+82,7,173,The food was normal and average. Yeah class garden miss.,3.5,neutral,2024-10-05 11:26:18.815136
+83,84,166,The food was great and excellent and great and wonderful. Create yard serious goal future home series.,4.4,positive,2024-07-30 14:37:42.613182
+84,13,16,The food was great and great and great and great. Southern simply I cold.,4.6,positive,2024-08-10 08:27:31.148733
+85,52,187,The food was average and fine. Point similar security at year dinner prevent tree.,3.6,neutral,2024-11-06 08:56:43.466443
+86,44,28,The food was amazing and great and fantastic and delicious and great. Newspaper leader focus hard tonight already could.,4.3,positive,2025-01-21 16:21:45.920225
+87,32,50,The food was decent and average and okay and okay and decent and average. Green write value possible indeed study wide.,3.7,neutral,2025-01-02 05:14:27.290827
+88,25,138,The food was excellent and delicious and amazing and wonderful. Be successful organization no bring career manager.,4.9,positive,2024-09-22 09:50:05.247821
+89,58,36,The food was average and normal and normal. Rise future person allow structure first fine.,2.3,neutral,2025-07-08 04:18:21.905904
+90,55,47,The food was fine and okay and acceptable and average and okay. Fall teach area feel who carry.,3.0,neutral,2025-02-18 11:39:01.750877
+91,36,119,The food was normal and okay and decent and decent. Staff yourself exactly sure wonder.,3.7,neutral,2024-09-18 07:21:09.300563
+92,32,20,The food was great and amazing and wonderful and excellent and fantastic. Hair marriage school imagine ago expect continue.,4.6,positive,2024-10-25 13:26:52.642480
+93,57,141,The food was okay and okay and average. Thank use owner surface.,3.3,neutral,2025-03-16 07:24:10.600815
+94,13,13,The food was wonderful and great and great and wonderful and wonderful and fantastic. Box window should five buy office.,4.0,positive,2025-05-24 06:48:25.241197
+95,84,139,The food was decent and average and normal and decent. Song discuss everybody success nearly must teacher speech.,3.3,neutral,2024-08-03 17:23:54.831060
+96,2,24,The food was acceptable and fine and decent and fine and decent. Very that national trade price beyond idea.,3.7,neutral,2024-09-17 21:23:08.256070
+97,97,61,The food was wonderful and wonderful and wonderful and wonderful and fantastic and wonderful and fantastic. Find there behavior.,4.5,positive,2024-07-14 15:41:39.032699
+98,22,105,The food was wonderful and excellent and fantastic and excellent and fantastic and fantastic and fantastic. Especially appear attention we open blood.,4.8,positive,2024-09-14 13:49:09.828578
+99,63,124,The food was excellent and great and delicious and wonderful. Amount special image blood city vote time.,4.0,positive,2024-09-22 13:31:22.614231
+100,28,103,The food was decent and normal and decent and okay and okay and decent. Bank collection possible notice term.,3.4,neutral,2024-09-02 21:40:55.205314
+101,8,43,The food was okay and decent and acceptable and acceptable and decent and acceptable. Speech like rock call scene state radio draw.,3.4,neutral,2025-01-26 07:22:50.537506
+102,49,1,The food was fine and okay and decent. Accept mission event some simply could.,3.0,neutral,2025-07-02 15:00:54.519943
+103,50,68,The food was fantastic and excellent and great. Draw involve party home stay fall carry.,4.3,positive,2025-03-25 00:05:43.464649
+104,59,74,The food was okay and decent and acceptable and acceptable and normal. In official especially pattern threat religious effort painting.,3.7,neutral,2025-03-26 01:31:31.908998
+105,55,179,The food was decent and normal and decent and normal and decent. Within if course.,3.1,neutral,2024-08-09 00:37:10.874024
+106,94,143,The food was acceptable and fine. Reality office sport oil whose.,3.8,neutral,2024-09-18 15:58:15.062663
+107,85,184,The food was excellent and great and excellent and great and delicious and excellent and great. Car American your seat rule.,4.5,positive,2024-11-06 17:42:55.814812
+108,63,40,The food was acceptable and normal. Card design where off prepare response.,3.3,neutral,2025-07-09 15:48:53.004182
+109,25,76,The food was wonderful and fantastic and fantastic and wonderful and amazing and delicious. Including game language.,4.4,positive,2024-09-09 16:07:06.919837
+110,28,15,The food was amazing and great and wonderful and excellent and fantastic. Right size than foot.,4.5,positive,2025-03-01 09:12:46.333763
+111,75,189,The food was acceptable and normal and okay and average and okay and okay. Her million every production tax certainly.,3.7,neutral,2025-02-13 16:23:02.596067
+112,70,16,The food was wonderful and great and amazing and excellent and delicious and fantastic and wonderful. Good thank teach production majority we.,5.0,positive,2025-02-17 01:25:48.653992
+113,96,81,The food was okay and normal. Any able less article threat arrive.,3.4,neutral,2025-01-13 09:33:49.834850
+114,8,13,The food was wonderful and wonderful and amazing and fantastic. Modern data book expert exist computer shoulder.,4.3,positive,2024-10-24 14:07:36.593400
+115,75,123,The food was wonderful and amazing and great and great and fantastic and delicious and amazing and fantastic. Size morning only girl popular last read.,4.8,positive,2024-12-15 03:09:12.407747
+116,65,136,The food was great and great and fantastic and delicious and delicious and great and great. Style white especially lose just.,4.2,positive,2025-05-09 11:26:46.020704
+117,21,15,The food was delicious and fantastic and wonderful and delicious and amazing and amazing and fantastic and amazing. Admit doctor magazine despite.,5.0,positive,2025-04-06 23:04:14.462658
+118,66,21,The food was amazing and wonderful and wonderful and great. Meeting value body return miss ready even.,5.0,positive,2025-01-22 03:02:01.950854
+119,24,18,The food was decent and decent and fine and decent and average and average. Son second after note those drop executive.,3.6,neutral,2025-03-08 12:32:30.394438
+120,77,18,The food was great and great and excellent. Serious protect new party sometimes.,4.3,positive,2025-06-30 22:49:37.178072
+121,87,61,The food was okay and decent and fine. Two physical within about when force ready.,2.6,neutral,2024-10-12 06:24:55.069448
+122,52,31,The food was normal and average. Information game loss cost run result interesting.,3.9,neutral,2025-04-13 20:20:23.253303
+123,73,64,The food was wonderful and fantastic and delicious and great and amazing and great and excellent. Only pick prove whether north.,5.0,positive,2024-08-04 23:05:17.301773
+124,75,153,The food was normal and okay and normal. Benefit line cultural each animal from.,2.7,neutral,2024-08-04 06:41:34.821997
+125,6,159,The food was normal and acceptable and acceptable and decent and average. Serve mouth manage issue none ready billion.,3.6,neutral,2024-11-15 01:43:51.310640
+126,11,108,The food was acceptable and decent and fine and decent. Discuss term day include.,3.7,neutral,2025-04-06 00:54:08.289345
+127,85,150,The food was delicious and great and delicious and wonderful and wonderful. Bill wrong nature responsibility.,4.0,positive,2025-02-23 17:46:06.285689
+128,73,134,The food was great and delicious and delicious and fantastic and amazing. Scene despite best either truth.,4.3,positive,2025-05-07 00:08:42.824323
+129,41,67,The food was okay and fine and fine. Build exactly open last decide future.,3.0,neutral,2024-08-10 13:11:20.903596
+130,27,172,The food was delicious and excellent and amazing and delicious and great and delicious and fantastic and wonderful. Partner behavior economy our second.,4.2,positive,2025-04-17 13:11:44.864414
+131,92,81,The food was wonderful and delicious and wonderful and wonderful and delicious. Analysis ready must price receive.,5.0,positive,2025-03-30 21:35:54.105710
+132,31,68,The food was average and acceptable and decent and normal. Unit majority yeah.,3.9,neutral,2024-07-16 17:31:56.502230
+133,51,34,The food was disappointing and disappointing and horrible and disappointing and terrible and worst and terrible. Thought beyond mean director offer a.,1.5,negative,2025-04-10 04:25:59.817595
+134,86,166,The food was delicious and great and amazing. Various send news clearly school wonder.,4.6,positive,2024-08-13 13:46:12.995103
+135,39,118,The food was okay and fine and decent. Again every common church scene run cultural.,3.9,neutral,2025-02-12 03:50:04.267590
+136,41,193,The food was fantastic and great and great and fantastic and excellent and fantastic and delicious. Culture far article last peace.,4.4,positive,2025-06-12 00:42:39.692387
+137,10,3,The food was fine and average. Brother treatment daughter.,3.2,neutral,2024-11-21 08:59:51.200409
+138,59,160,The food was okay and acceptable and acceptable and acceptable. Series seven strong it reach street city her.,3.2,neutral,2025-03-18 02:32:36.481101
+139,73,26,The food was okay and okay and okay. Hear mouth range throw.,2.9,neutral,2025-03-17 01:15:06.950904
+140,10,138,The food was fantastic and amazing and delicious and wonderful. Be church available indeed.,4.0,positive,2024-08-05 09:49:49.301606
+141,28,130,The food was delicious and delicious and fantastic. Director spend entire minute never quality.,5.0,positive,2024-10-16 04:48:53.728713
+142,34,34,The food was average and acceptable and okay. Together true worker though church young mouth note.,3.1,neutral,2025-05-15 01:10:54.703798
+143,45,18,The food was okay and decent. Interesting particularly some evidence employee degree safe.,3.4,neutral,2024-12-23 23:50:33.800919
+144,32,95,The food was delicious and fantastic and wonderful and excellent and great and fantastic and amazing. Cultural far significant.,5.0,positive,2025-04-09 10:14:06.420714
+145,37,41,The food was normal and normal. Until themselves break reason too discover record.,3.7,neutral,2025-01-03 19:51:05.181552
+146,57,140,The food was amazing and great and great and delicious. Nice house power Republican.,4.4,positive,2025-01-10 20:33:30.010654
+147,91,78,The food was great and wonderful and amazing. Apply conference then sometimes.,4.7,positive,2025-04-17 04:14:35.066164
+148,79,168,The food was fantastic and excellent and great and amazing and great and fantastic and wonderful. Traditional meet parent this drop.,4.3,positive,2024-11-03 20:11:46.533889
+149,68,3,The food was normal and average and fine and fine and normal. Base modern behavior end nature stock analysis.,3.9,neutral,2025-07-12 06:12:02.752083
+150,86,142,The food was great and amazing and wonderful and excellent and great and wonderful and fantastic and great. Sure day sort determine player military person.,4.4,positive,2024-09-19 20:20:44.121629
+151,39,170,The food was excellent and amazing and excellent. Instead plant bag set.,4.5,positive,2025-02-11 19:51:43.515601
+152,14,35,The food was wonderful and great and delicious and wonderful and excellent and amazing and great. Clearly everybody suggest air she sister simple.,4.2,positive,2024-07-27 22:38:45.334899
+153,34,30,The food was average and fine and decent and average and fine. Television rich base.,3.7,neutral,2024-11-18 05:44:42.242659
+154,14,191,The food was okay and fine and acceptable and acceptable and okay. Serious space one bar.,3.4,neutral,2024-12-29 03:56:49.820387
+155,71,40,The food was delicious and wonderful and excellent and delicious. Lose south keep thus positive.,4.1,positive,2024-12-27 22:58:47.512502
+156,35,73,The food was okay and okay and average and decent. Skin security painting rest.,2.7,neutral,2025-06-14 15:03:31.277782
+157,78,54,The food was okay and okay and decent and fine. Fine public some mean face factor.,2.6,neutral,2025-05-17 12:24:25.568011
+158,92,88,The food was delicious and excellent and delicious and excellent and fantastic and amazing and delicious. Be spend outside office.,5.0,positive,2025-07-02 11:05:28.095308
+159,27,176,The food was decent and acceptable and acceptable and fine. Expert mission should character station eye perform.,3.6,neutral,2024-12-28 16:22:04.690520
+160,82,68,The food was fantastic and amazing and delicious and excellent. Fire light medical.,4.1,positive,2025-06-05 17:33:21.226823
+161,65,126,The food was average and okay and average and average. Ago out able end early generation game.,2.5,neutral,2024-12-24 12:01:20.536381
+162,33,14,The food was delicious and excellent and amazing and amazing and fantastic. Rich every change help but include.,4.3,positive,2024-09-02 05:49:01.262634
+163,12,163,The food was fine and decent and okay and okay and decent and normal. Memory wrong hard any financial.,3.3,neutral,2025-04-12 11:30:42.951503
+164,55,71,The food was wonderful and amazing and delicious and wonderful and great and great. Size heart among research.,4.4,positive,2024-12-12 14:26:25.912431
+165,6,1,The food was average and fine and acceptable. Like image drive own pass least great your.,3.7,neutral,2024-07-21 06:56:12.229085
+166,43,198,The food was average and normal and normal and average and acceptable. Single well task moment call art soon up.,3.9,neutral,2024-09-01 06:34:48.645738
+167,17,164,The food was normal and acceptable and average and average and acceptable. Education more three trip school energy.,2.9,neutral,2024-11-05 00:40:28.829177
+168,34,42,The food was okay and fine and fine and fine. While popular natural list they.,3.3,neutral,2025-07-08 20:22:11.361753
+169,95,114,The food was wonderful and excellent and wonderful and great and amazing and wonderful and wonderful and excellent. Middle her shake month ask.,4.5,positive,2025-02-28 06:00:17.785124
+170,71,181,The food was acceptable and okay and average and average and okay. Drug pull center hundred question.,3.7,neutral,2024-12-05 05:33:25.346179
+171,55,144,The food was acceptable and okay and normal and decent and decent. Miss population project film.,3.4,neutral,2024-07-17 10:38:10.670031
+172,2,29,The food was great and great and delicious and excellent and great and wonderful and wonderful. Citizen drug information response happy.,4.1,positive,2025-04-27 09:21:24.319191
+173,10,177,The food was fantastic and excellent and wonderful and fantastic and delicious and fantastic and excellent. Issue bit whether edge left American hope.,4.3,positive,2025-03-11 01:17:15.555973
+174,20,140,The food was wonderful and delicious and wonderful and great and delicious and excellent and amazing and fantastic. Hope great seek serious term amount idea director.,4.3,positive,2024-09-13 10:54:00.225472
+175,5,95,The food was fantastic and wonderful and amazing and delicious and delicious and wonderful and wonderful. Future raise family where treatment age.,4.3,positive,2025-02-13 21:53:50.536522
+176,75,142,The food was delicious and excellent and excellent and delicious. Like film society tell.,5.0,positive,2024-09-17 12:27:36.294048
+177,19,111,The food was excellent and great and excellent. Office spring measure truth sign room happy.,4.3,positive,2024-08-15 23:45:05.621661
+178,17,11,The food was decent and acceptable and fine and decent. Recently million store every rise care particular.,2.2,neutral,2024-12-02 06:19:16.115585
+179,40,94,The food was delicious and wonderful and amazing. Purpose future face police.,4.0,positive,2024-09-05 02:20:18.281981
+180,6,92,The food was okay and acceptable and okay and decent. Draw trouble decade share great.,2.8,neutral,2024-11-12 13:10:36.287434
+181,27,175,The food was acceptable and okay. Election fire remember house develop center bill.,3.0,neutral,2024-07-20 06:24:00.233195
+182,32,171,The food was fine and fine and average. Represent lawyer letter these.,3.6,neutral,2024-12-02 14:33:47.446473
+183,14,91,The food was normal and average and decent and average and fine. Name paper cup order.,3.8,neutral,2024-10-31 04:57:16.760297
+184,100,144,The food was decent and acceptable and normal and decent and decent. Quickly manage care popular yourself always image alone.,3.6,neutral,2025-06-26 05:22:09.462232
+185,53,159,The food was acceptable and average. What truth partner measure.,3.3,neutral,2025-01-28 23:38:07.703149
+186,96,40,The food was fine and acceptable. Yard believe whether teach single result.,3.7,neutral,2024-10-03 12:39:37.677176
+187,31,42,The food was average and average and decent and average and normal and fine. Through action continue star young ahead blood.,3.7,neutral,2025-01-06 01:11:58.335071
+188,23,106,The food was fine and fine and fine and decent. Born campaign others under each help.,3.6,neutral,2025-04-02 16:23:20.438111
+189,4,46,The food was fine and acceptable and acceptable and average and fine. Pm market role statement other whether traditional.,2.5,neutral,2024-12-17 10:39:59.174319
+190,95,86,The food was acceptable and average. Think quite hot.,3.6,neutral,2025-06-23 08:25:39.831311
+191,53,172,The food was amazing and amazing and wonderful and fantastic. Society care around find audience but moment sign.,4.6,positive,2024-09-08 17:18:07.049255
+192,95,64,The food was fantastic and fantastic and delicious and delicious and fantastic and great. Board factor discuss morning gas.,5.0,positive,2025-07-01 07:14:59.144594
+193,35,41,The food was fine and decent and okay. Only series imagine.,3.6,neutral,2024-08-03 04:11:52.692949
+194,90,28,The food was great and fantastic and great and great and delicious. Spring citizen democratic own.,5.0,positive,2025-06-28 12:05:58.849714
+195,49,10,The food was acceptable and normal and fine. Available later friend industry.,3.2,neutral,2024-08-05 18:50:06.481246
+196,61,57,The food was decent and decent and acceptable and decent and average. Effort already second room.,3.8,neutral,2024-11-07 10:10:09.518584
+197,26,118,The food was okay and acceptable and average and average and fine and average. Mind imagine section stop.,3.7,neutral,2025-01-02 10:59:32.967607
+198,45,79,The food was fantastic and wonderful and delicious and fantastic and fantastic and amazing. Again society down very investment whom season mind.,4.3,positive,2024-10-26 00:28:42.421396
+199,30,58,The food was wonderful and delicious and wonderful and excellent and wonderful and fantastic and great. Bring can sister adult.,5.0,positive,2024-10-06 05:38:31.831273
+200,4,169,The food was acceptable and fine. Want themselves area.,3.6,neutral,2025-06-21 21:25:36.848151
+201,25,103,The food was average and normal and decent. Guess huge parent stand several.,3.7,neutral,2025-05-01 20:42:37.756825
+202,43,72,The food was normal and okay and normal and okay. Child lay fly seat beyond compare.,3.5,neutral,2024-12-11 09:56:11.305053
+203,9,198,The food was average and acceptable and acceptable. Effect future appear involve nearly.,3.8,neutral,2024-07-17 02:01:23.929257
+204,36,90,The food was fine and okay and okay and average and average and okay. Occur magazine suggest interesting no total.,2.4,neutral,2024-11-01 20:16:25.953297
+205,83,131,The food was fantastic and fantastic and amazing and great and amazing. Decision modern enough see American drug to above.,4.2,positive,2024-09-08 06:37:22.961195
+206,52,174,The food was average and normal and normal and acceptable and okay and normal. World sister garden down television tree say.,2.6,neutral,2025-02-27 14:48:18.334736
+207,69,85,The food was normal and normal and normal and okay and normal. Carry animal do hear rich apply project.,2.9,neutral,2025-03-19 04:38:13.086954
+208,4,30,The food was okay and average and average. Reality adult state medical year oil ask.,3.4,neutral,2024-12-16 00:50:27.699425
+209,34,46,The food was decent and fine and average and decent and decent. Experience consider administration yet yeah.,2.4,neutral,2024-08-25 20:26:14.859878
+210,75,68,The food was wonderful and wonderful and delicious and wonderful and wonderful and great and delicious and delicious. Southern idea our of wall inside person space.,4.2,positive,2024-08-28 14:53:16.679280
+211,5,28,The food was okay and acceptable and acceptable and acceptable and decent and fine. Store politics service second put.,3.8,neutral,2024-10-23 07:23:42.080807
+212,77,112,The food was normal and acceptable and decent and normal. Bed mission certain situation often PM notice.,3.9,neutral,2025-04-03 01:23:46.432359
+213,45,187,The food was delicious and amazing and amazing and fantastic. Form bill again matter.,4.4,positive,2025-05-03 03:24:36.967342
+214,41,112,The food was fine and decent and decent. Notice society task well three.,3.4,neutral,2025-05-23 22:49:26.839628
+215,78,131,The food was okay and fine. Continue sister standard family.,3.7,neutral,2024-11-24 07:53:34.294885
+216,15,99,The food was okay and normal and okay and decent and normal. Simply involve nor whether.,3.4,neutral,2025-07-01 18:54:54.579728
+217,74,49,The food was average and acceptable and okay and fine and okay. Imagine record wrong list.,3.1,neutral,2024-08-04 09:41:27.710238
+218,33,12,The food was okay and decent and okay and fine. Policy lead individual through politics community.,2.5,neutral,2024-12-22 15:19:57.993891
+219,91,112,The food was okay and fine and acceptable. Finally wall right mind determine.,3.4,neutral,2024-12-11 15:40:46.173486
+220,1,134,The food was decent and okay and okay. Traditional practice together minute price night admit standard.,3.4,neutral,2024-09-26 20:23:36.344966
+221,69,176,The food was delicious and excellent and amazing and wonderful. Stock today whether thought brother.,4.5,positive,2024-11-08 11:44:55.754257
+222,93,190,The food was okay and decent. Total not its air.,3.1,neutral,2024-10-05 14:37:01.370312
+223,95,172,The food was great and delicious and excellent. Image several name chair.,4.8,positive,2025-05-26 18:59:19.712111
+224,26,94,The food was average and okay. Behavior nearly of general piece.,2.7,neutral,2024-11-03 11:58:37.910694
+225,56,18,The food was okay and decent. Address loss international public rate.,3.6,neutral,2025-06-11 19:29:28.512953
+226,86,85,The food was okay and acceptable and acceptable and okay. Short southern finish front.,2.6,neutral,2025-07-02 13:17:54.328078
+227,80,81,The food was excellent and fantastic and excellent and fantastic and delicious and wonderful and fantastic and excellent. Edge court environment must.,4.2,positive,2025-04-25 17:18:22.594556
+228,85,32,The food was fantastic and delicious and amazing and great and excellent and excellent. Onto significant sure evening together.,4.6,positive,2025-01-31 01:18:43.299474
+229,93,77,The food was delicious and great and amazing and excellent and amazing and excellent and fantastic and fantastic. Strategy clearly sell.,4.9,positive,2025-02-08 04:07:21.767619
+230,65,80,The food was average and normal and okay and normal and normal and average. According system its.,3.5,neutral,2024-11-10 06:21:04.748036
+231,86,105,The food was fine and acceptable and average and okay and normal and normal. Traditional home your bring woman hit.,2.5,neutral,2024-09-21 08:13:17.028292
+232,42,104,The food was delicious and amazing and fantastic and excellent and great and excellent. Avoid property sport friend wide.,4.4,positive,2024-08-27 18:46:06.710154
+233,90,76,The food was great and excellent and great and fantastic and delicious. Answer at month.,4.7,positive,2024-11-06 21:27:40.193878
+234,71,33,The food was amazing and delicious and great and excellent and fantastic and excellent and amazing and great. Possible bag picture available scene approach imagine concern.,5.0,positive,2025-02-28 10:17:19.378432
+235,25,108,The food was fantastic and fantastic and fantastic and delicious and wonderful and excellent. Miss the we politics phone anyone happy point.,4.0,positive,2025-07-02 01:05:41.359063
+236,86,98,The food was fantastic and excellent and excellent and excellent and great and great and excellent. Admit manager kind example class.,4.4,positive,2024-10-03 23:04:08.471828
+237,87,192,The food was delicious and fantastic and great and wonderful and excellent. Those rise several in candidate case affect.,4.0,positive,2025-02-13 20:59:59.728345
+238,23,158,The food was acceptable and normal and okay and okay and decent. Second man personal listen.,3.6,neutral,2024-10-06 21:59:39.540499
+239,73,78,The food was fantastic and excellent and fantastic and fantastic and amazing and excellent. Type word not usually at sing.,4.7,positive,2025-05-07 17:16:08.082220
+240,52,141,The food was wonderful and excellent and great and fantastic. However model move.,4.0,positive,2025-01-06 19:11:49.007204
+241,1,78,The food was amazing and delicious and wonderful and great and wonderful and excellent and great and delicious. Wife cup law become.,5.0,positive,2024-12-30 22:05:25.948777
+242,37,54,The food was amazing and excellent and wonderful and fantastic and excellent and delicious. West fire resource commercial.,5.0,positive,2024-07-19 10:23:04.187931
+243,56,149,The food was excellent and great and amazing and excellent and wonderful. Trouble husband level until less daughter.,4.0,positive,2025-01-14 23:18:33.540554
+244,78,168,The food was wonderful and excellent and wonderful and excellent and great and excellent and excellent. Question bad clear here.,4.2,positive,2024-08-16 06:12:25.749634
+245,42,120,The food was delicious and excellent and great and great and fantastic. Seek draw message prove car.,4.1,positive,2025-04-12 08:21:30.084316
+246,57,114,The food was average and average and normal and average and acceptable. National with heavy couple language through nation.,3.3,neutral,2025-02-25 02:44:30.376646
+247,87,55,The food was delicious and fantastic and great and amazing and wonderful and great and great. Enough any which ten follow.,4.5,positive,2024-08-11 01:04:33.628264
+248,66,122,The food was normal and normal. Ten family amount stage.,3.4,neutral,2025-01-07 15:49:08.037690
+249,95,44,The food was average and fine and okay and average. Every yet door daughter economic big.,2.9,neutral,2025-02-17 10:35:51.061914
+250,85,22,The food was acceptable and acceptable and average and decent and normal and normal. Move until toward scientist matter message trip.,3.3,neutral,2025-06-02 17:51:38.748926
+251,37,132,The food was acceptable and fine and acceptable. Add claim begin man.,3.4,neutral,2025-06-27 08:20:29.051028
+252,85,163,The food was excellent and delicious and amazing and delicious. Movie consumer pick end us information occur future.,5.0,positive,2024-10-17 12:06:31.758413
+253,80,86,The food was normal and okay. Six rather just serious term discuss state.,3.2,neutral,2024-12-23 12:25:46.110872
+254,12,193,The food was delicious and wonderful and amazing and amazing and great and delicious and great and great. Theory summer concern race five.,4.2,positive,2025-04-22 07:08:43.818408
+255,31,173,The food was acceptable and okay and normal. Full occur last.,2.6,neutral,2025-04-27 08:32:12.896823
+256,40,58,The food was delicious and great and delicious and wonderful and fantastic and fantastic and fantastic. Manage reflect name.,4.6,positive,2024-10-21 05:32:46.585593
+257,26,38,The food was okay and fine and decent and normal and average. Idea until budget long article team.,3.4,neutral,2024-09-02 14:35:12.786942
+258,4,12,The food was normal and normal and decent and acceptable. Door if sister chair society half able.,2.5,neutral,2025-05-17 23:43:30.897181
+259,32,122,The food was average and average and okay and average. Century probably color difference glass purpose beat.,3.3,neutral,2024-08-02 21:43:07.097517
+260,79,197,The food was excellent and excellent and delicious and amazing and excellent and delicious and wonderful. Quickly process address friend writer view.,4.0,positive,2024-10-10 09:51:46.205808
+261,10,117,The food was average and average and okay and okay and acceptable. If change authority prepare view.,3.8,neutral,2025-02-28 13:41:26.202181
+262,54,162,The food was okay and normal and average and okay and average and decent. Word catch nothing why.,3.3,neutral,2024-11-08 20:38:06.735385
+263,74,50,The food was okay and average and acceptable and average and normal and normal. Western newspaper move radio dog perhaps my situation.,3.0,neutral,2025-05-09 14:40:25.518535
+264,92,179,The food was acceptable and average and decent and acceptable and okay and okay. Well camera truth.,3.2,neutral,2025-01-04 14:17:50.450534
+265,50,127,The food was excellent and wonderful and delicious and fantastic. Sometimes week reality discover success item.,4.8,positive,2024-09-03 17:12:25.463935
+266,52,63,The food was fine and average. Respond economy why possible fear paper suffer particular.,3.8,neutral,2024-10-19 23:16:47.538317
+267,19,168,The food was excellent and excellent and great. Picture positive exist later nation leader special.,4.9,positive,2024-11-06 05:42:30.143681
+268,89,2,The food was acceptable and okay and normal and acceptable and okay. Receive kid ground.,3.4,neutral,2025-07-07 05:07:14.035749
+269,97,198,The food was excellent and great and delicious and wonderful and delicious and delicious. Dog name language local.,4.0,positive,2025-02-18 05:37:48.564027
+270,14,200,The food was average and average and average and average and normal. Shoulder prevent ago past ever sister white.,3.7,neutral,2025-01-24 05:31:07.373419
+271,55,57,The food was fine and fine. Rest professional left particular.,3.0,neutral,2025-05-09 08:32:05.128993
+272,23,179,The food was decent and normal and decent and okay. His change perhaps trip media responsibility child.,2.5,neutral,2025-03-05 05:38:41.160921
+273,67,119,The food was okay and average and normal and fine and fine. Floor officer management seek.,3.8,neutral,2025-06-27 03:32:45.939536
+274,7,143,The food was acceptable and normal and acceptable and decent and fine and decent. Five modern human control personal down appear.,3.8,neutral,2025-02-15 14:39:30.116899
+275,32,32,The food was fantastic and delicious and amazing and amazing and amazing and great and wonderful. Third professional test sense hope.,5.0,positive,2024-08-25 07:25:14.052692
+276,59,35,The food was wonderful and delicious and delicious. Forward lead although pull collection tonight compare second.,4.0,positive,2025-04-06 05:20:07.728682
+277,60,171,The food was great and great and excellent and fantastic and amazing and wonderful and great. Environmental consumer model leave hour cell.,4.3,positive,2025-04-06 23:31:26.789379
+278,68,144,The food was acceptable and normal. Family point plant card mouth office especially hot.,3.7,neutral,2024-09-21 13:10:36.366211
+279,77,82,The food was normal and acceptable and decent and normal and normal and average. Term create whether type various.,3.5,neutral,2025-04-30 02:52:00.175686
+280,97,114,The food was amazing and wonderful and delicious and fantastic and wonderful and delicious and fantastic. If end range trouble cost seven.,4.3,positive,2024-10-23 12:17:46.574678
+281,79,185,The food was fine and average and normal. Concern war home why commercial watch develop.,2.8,neutral,2025-04-27 03:31:13.778978
+282,65,110,The food was fine and average and okay and okay and fine. Gas part rather bill team.,3.7,neutral,2024-12-13 20:11:34.595754
+283,71,115,The food was fantastic and excellent and great. Blood represent hard agent position million what.,4.1,positive,2025-05-07 07:53:08.167242
+284,21,191,The food was wonderful and delicious and amazing and wonderful. Food particular series significant expert energy account.,4.0,positive,2024-07-16 08:01:19.690412
+285,61,116,The food was okay and okay and acceptable and okay. Physical build push mention officer.,3.5,neutral,2024-10-15 16:06:34.608399
+286,34,193,The food was great and great and great. Trial out close current.,4.1,positive,2024-09-02 23:08:39.786042
+287,32,164,The food was acceptable and fine and fine and decent. Old especially also stuff decision film.,2.9,neutral,2024-07-21 13:58:59.871873
+288,36,197,The food was excellent and excellent and great and wonderful and great. Family blue still dark describe community.,4.5,positive,2025-03-07 08:25:41.595630
+289,100,134,The food was average and normal and acceptable and normal. Though stage live suffer modern draw international surface.,3.2,neutral,2025-04-16 19:08:12.355454
+290,63,161,The food was average and fine and average and average. Administration per well.,2.4,neutral,2024-08-10 02:18:09.344927
+291,31,71,The food was okay and acceptable and normal and normal. Recent poor board wear.,2.5,neutral,2024-12-29 03:54:01.452834
+292,57,20,The food was great and wonderful and fantastic and amazing and amazing and wonderful. Along government lead past.,4.9,positive,2025-06-09 15:29:56.444701
+293,92,74,The food was average and fine and normal and okay and acceptable and average. Receive model no painting.,2.6,neutral,2024-09-04 06:18:28.479713
+294,31,70,The food was average and normal and okay and acceptable. Serious according guess dog.,2.7,neutral,2025-02-25 22:45:10.404985
+295,43,82,The food was decent and average and average and okay. Money task give clear carry former speak.,3.3,neutral,2025-01-31 03:39:59.893591
+296,70,21,The food was wonderful and wonderful and excellent and delicious and delicious. Indicate western tell on indeed senior.,5.0,positive,2025-02-14 05:51:20.949531
+297,18,39,The food was great and delicious and delicious and fantastic. Kind fear cold manage full front scientist.,4.2,positive,2025-04-15 08:50:40.439734
+298,30,99,The food was acceptable and acceptable. Must fund open who someone.,3.1,neutral,2024-08-20 16:49:05.484211
+299,89,40,The food was fine and acceptable and okay and okay and normal and average. Skin success explain maybe fight pass.,3.8,neutral,2024-10-20 06:14:39.015776
+300,91,55,The food was average and okay and decent and normal. Whose speech into forward.,3.3,neutral,2024-10-21 03:15:32.937336
+301,9,107,The food was wonderful and fantastic and great and excellent. Usually according always choose.,5.0,positive,2025-03-27 07:34:48.496145
+302,53,85,The food was normal and normal and acceptable and decent and fine and fine. Head director positive discussion when.,3.2,neutral,2024-12-24 22:09:54.083003
+303,70,120,The food was excellent and excellent and amazing and amazing and wonderful and wonderful. Poor stay yard break.,4.4,positive,2024-09-09 20:18:15.784808
+304,54,16,The food was fantastic and fantastic and amazing and excellent and delicious and fantastic and delicious and excellent. Than attorney accept future almost daughter.,4.2,positive,2024-08-28 07:03:55.611158
+305,27,108,The food was decent and average. New consider beyond field surface modern.,3.1,neutral,2025-06-26 13:20:39.751068
+306,50,198,The food was fantastic and delicious and excellent and amazing and fantastic and great and delicious and excellent. History people respond century white real.,4.2,positive,2024-08-26 14:33:40.128062
+307,75,179,The food was decent and normal and average and fine and decent. Institution together small rest fall.,3.0,neutral,2025-05-25 06:43:58.453275
+308,3,196,The food was normal and decent and decent and average. Change according hand middle school cold.,3.4,neutral,2025-01-30 04:05:36.257569
+309,74,98,The food was amazing and great and fantastic and excellent and wonderful and excellent. Explain wear attorney despite spend remain.,4.2,positive,2024-11-24 01:21:27.312261
+310,62,2,The food was delicious and fantastic and great and fantastic and fantastic and great and wonderful and delicious. Say couple as customer.,4.6,positive,2024-11-04 11:55:21.124400
+311,46,77,The food was acceptable and normal and fine and average and average and decent. These population phone perhaps.,3.6,neutral,2025-04-01 12:05:36.634905
+312,97,100,The food was excellent and fantastic and fantastic and fantastic and great and excellent and great and delicious. Help account bed each.,5.0,positive,2025-01-29 06:38:05.261217
+313,54,138,The food was normal and acceptable and okay. Majority daughter need generation mouth.,3.6,neutral,2025-02-27 01:03:15.394315
+314,96,189,The food was excellent and wonderful and amazing and wonderful and excellent and fantastic. Identify relationship professor computer Congress glass less.,4.1,positive,2025-03-05 09:54:41.086311
+315,70,155,The food was normal and normal and okay and decent. Section guy physical low her.,3.1,neutral,2024-12-03 19:32:27.717146
+316,29,125,The food was fine and normal and fine and normal and okay. Walk foot peace memory simply prove law.,3.1,neutral,2024-11-08 15:20:29.232893
+317,29,70,The food was fine and acceptable and okay and okay and fine and fine. Drop bill apply than responsibility whether population.,3.4,neutral,2025-05-13 17:10:14.108467
+318,56,125,The food was normal and fine. As reach cup skin.,2.7,neutral,2024-07-24 23:04:08.997709
+319,4,100,The food was wonderful and great and great. Understand pretty whom what unit.,4.3,positive,2024-10-23 16:15:51.065378
+320,44,172,The food was average and fine and fine and decent and average. Consider choice western travel degree in.,3.6,neutral,2025-02-03 22:24:51.842487
+321,87,104,The food was excellent and fantastic and wonderful and excellent and great and amazing. Western run son price.,5.0,positive,2025-02-04 23:56:48.395088
+322,93,43,The food was excellent and delicious and amazing and delicious. Away field network century to foot hair who.,4.0,positive,2025-05-30 22:47:39.431767
+323,60,33,The food was wonderful and amazing and amazing and delicious and wonderful. Talk music floor vote environment business right.,4.5,positive,2024-08-01 18:00:02.512874
+324,80,137,The food was normal and average. Say think despite space face walk number.,2.6,neutral,2025-03-31 07:46:16.307820
+325,4,101,The food was normal and decent and acceptable and average. Tend officer well marriage resource.,3.9,neutral,2024-08-29 12:15:53.431573
+326,76,145,The food was fantastic and excellent and delicious and great and delicious and delicious. Congress land station team.,4.2,positive,2024-08-04 16:17:27.101663
+327,85,7,The food was great and wonderful and fantastic and excellent and amazing and fantastic and excellent. Able number key class former project.,5.0,positive,2024-08-06 03:30:02.657203
+328,11,165,The food was great and excellent and amazing and wonderful and great and amazing and delicious. Life money marriage both make time force often.,4.3,positive,2024-09-05 16:58:41.140652
+329,55,35,The food was acceptable and average and acceptable and fine. Watch million candidate agreement push will care.,3.5,neutral,2025-01-19 06:55:17.860258
+330,60,47,The food was great and wonderful and amazing and delicious and delicious and great and delicious and fantastic. However so television nature community third.,4.0,positive,2025-06-20 17:14:35.644363
+331,7,67,The food was okay and normal and acceptable and acceptable. Set major specific rather letter.,3.5,neutral,2024-10-06 04:25:31.049497
+332,49,84,The food was okay and okay and normal and acceptable. Media notice glass decision science relate head.,3.4,neutral,2025-04-13 23:31:01.693744
+333,28,117,The food was normal and fine and acceptable. Group door movement under sometimes two so.,3.9,neutral,2025-07-02 11:28:16.694720
+334,42,87,The food was fine and fine and normal and normal. Dark everything few.,3.7,neutral,2024-11-12 20:33:53.287847
+335,98,98,The food was excellent and great and fantastic and fantastic and excellent and amazing and wonderful and amazing. Population spring talk off body at.,5.0,positive,2024-12-10 01:28:16.985377
+336,36,193,The food was fantastic and delicious and delicious and delicious and amazing and delicious and wonderful and wonderful. West the now up.,4.4,positive,2025-04-12 14:07:46.091571
+337,54,65,The food was fine and okay and normal and normal and normal. Age chance officer single.,3.7,neutral,2025-01-08 05:06:03.565008
+338,11,121,The food was fantastic and fantastic and amazing and excellent and excellent and great and fantastic. See professional begin current everyone test memory arm.,4.3,positive,2025-01-27 10:40:04.940198
+339,3,192,The food was average and acceptable and normal and average. Treatment office yeah bar rather.,3.9,neutral,2025-01-19 23:33:56.528247
+340,70,14,The food was fine and average and okay. Behavior whose certain any character charge debate.,3.9,neutral,2025-03-03 18:22:52.531526
+341,45,58,The food was delicious and amazing and excellent and excellent and delicious and amazing and great. Term under whether improve.,5.0,positive,2024-12-03 23:30:26.198468
+342,84,18,The food was decent and okay and acceptable and fine and average. Apply paper second become.,3.0,neutral,2024-09-06 22:54:18.452422
+343,100,167,The food was acceptable and fine and decent. Him bit tree among.,3.9,neutral,2025-05-08 21:13:21.456662
+344,6,194,The food was delicious and amazing and amazing and fantastic and fantastic and amazing and delicious and wonderful. Return land rich product understand service usually cup.,4.8,positive,2025-05-05 18:52:23.543398
+345,4,64,The food was wonderful and wonderful and amazing and wonderful and delicious and excellent and delicious and wonderful. Section degree family court herself decade add condition.,4.1,positive,2024-12-23 03:46:46.587631
+346,26,6,The food was decent and normal and decent and fine. Since billion share example beyond.,3.6,neutral,2024-08-23 10:35:55.929260
+347,80,40,The food was normal and decent and normal and fine and normal. Age next house modern two.,3.6,neutral,2025-06-10 05:40:47.388742
+348,31,33,The food was delicious and amazing and excellent. Office force care.,4.6,positive,2024-10-15 14:03:55.953121
+349,61,172,The food was delicious and amazing and excellent and great and excellent and amazing and delicious and fantastic. Expert can style option red happen whose return.,4.2,positive,2024-10-07 17:41:43.281032
+350,15,145,The food was excellent and great and amazing and excellent and amazing and great. Special save ability us.,4.4,positive,2025-03-04 20:09:05.285134
+351,28,120,The food was fantastic and excellent and amazing and wonderful and amazing. Other campaign reason market admit best why.,4.0,positive,2025-02-01 00:52:54.004961
+352,90,66,The food was delicious and wonderful and excellent and fantastic. Center course very near.,5.0,positive,2024-07-31 12:24:24.378774
+353,99,95,The food was decent and normal and decent and okay and average. Happen film under deep agree walk thousand.,3.6,neutral,2025-05-16 04:57:06.588259
+354,22,156,The food was normal and normal and acceptable and fine. Agent wrong us institution.,2.5,neutral,2024-10-02 17:12:19.978817
+355,78,192,The food was acceptable and fine. Pass look newspaper everyone coach people.,3.5,neutral,2024-07-27 19:58:31.524055
+356,92,30,The food was average and normal and average. Responsibility who issue technology against direction.,2.7,neutral,2024-09-30 08:03:42.709809
+357,100,42,The food was decent and fine. Team most war blood.,3.1,neutral,2024-10-05 07:50:37.498802
+358,40,28,The food was excellent and excellent and great and delicious. End tell still range politics develop.,5.0,positive,2024-09-06 02:16:37.157794
+359,75,7,The food was fantastic and delicious and great and great and delicious and great and delicious. Allow around admit guy toward.,4.2,positive,2025-05-26 06:47:55.600184
+360,40,148,The food was okay and normal and acceptable. North shoulder later institution skin performance he.,2.9,neutral,2025-01-11 04:21:02.175953
+361,87,97,The food was average and acceptable. Quality your head interesting common early look blood.,3.7,neutral,2024-11-07 07:15:24.915692
+362,51,184,The food was average and okay and fine. Left able analysis arrive budget.,3.9,neutral,2025-04-14 10:56:36.243698
+363,26,20,The food was delicious and fantastic and excellent. But debate south say include discover last.,4.3,positive,2025-03-14 03:43:01.629347
+364,76,177,The food was amazing and fantastic and excellent and great and fantastic and fantastic and excellent and wonderful. Shake bed class might name.,4.2,positive,2024-07-19 09:08:37.030104
+365,81,63,The food was delicious and excellent and amazing and wonderful and amazing and wonderful. Best risk hand blue or than board.,4.3,positive,2025-04-17 22:51:47.767860
+366,14,179,The food was average and fine. Region less crime amount laugh east.,3.1,neutral,2025-01-08 03:05:54.819647
+367,99,78,The food was average and fine and okay and acceptable and okay and acceptable. Republican forward why spend explain wide west.,3.9,neutral,2025-03-13 22:16:27.136482
+368,88,154,The food was average and acceptable. Feel song company region agent north consider.,3.5,neutral,2025-03-23 23:10:50.539021
+369,16,145,The food was amazing and amazing and amazing and fantastic and amazing and wonderful. Teacher put land region other many daughter.,5.0,positive,2025-01-29 05:47:34.625905
+370,6,89,The food was excellent and fantastic and great and wonderful and delicious. Accept current provide the customer I state.,4.8,positive,2024-07-27 00:07:21.468241
+371,69,110,The food was excellent and wonderful and great and great. Two stuff threat join chance good.,4.7,positive,2025-02-12 17:14:47.282349
+372,85,95,The food was okay and okay and fine and acceptable and okay. Modern store record little.,3.9,neutral,2024-09-26 14:57:50.748235
+373,9,130,The food was fine and decent and normal and average. Arm entire increase.,3.5,neutral,2025-02-10 04:30:15.632993
+374,83,88,The food was okay and average. Financial form operation sense.,3.9,neutral,2024-07-14 23:02:54.568991
+375,2,108,The food was normal and decent. Anything open project buy.,3.8,neutral,2025-03-25 16:22:30.350770
+376,63,28,The food was amazing and wonderful and excellent and wonderful and excellent and great and fantastic and amazing. Also see enjoy door should.,4.9,positive,2025-02-09 18:22:17.006332
+377,56,93,The food was great and great and amazing and wonderful and delicious. Attack resource serious teach piece especially able.,4.2,positive,2024-11-23 19:11:18.811047
+378,82,118,The food was average and decent and normal and average. Property remain first common eight.,3.3,neutral,2025-06-05 13:04:48.342506
+379,91,40,The food was acceptable and decent and decent and normal and average. Maybe space father store start upon house paper.,3.3,neutral,2024-09-10 07:30:28.010021
+380,56,46,The food was acceptable and okay and normal. Police possible cup opportunity rate sport him.,2.9,neutral,2024-09-28 01:30:58.617371
+381,94,134,The food was okay and normal and decent. Seek bill traditional western chance machine weight.,3.5,neutral,2025-01-24 04:48:57.009665
+382,84,70,The food was acceptable and average and decent and decent and okay and acceptable. Look entire do company focus consumer say.,3.8,neutral,2025-06-11 14:46:54.703609
+383,79,138,The food was decent and decent and normal. Prove organization old treatment yet land address.,3.3,neutral,2025-04-10 04:18:12.629936
+384,100,124,The food was excellent and amazing and amazing and wonderful and wonderful and wonderful. Close issue write produce ago.,4.3,positive,2024-10-23 03:11:15.654913
+385,60,112,The food was wonderful and amazing and great and great and fantastic and wonderful and fantastic. Anything leave tough such black improve subject.,4.8,positive,2025-01-31 12:25:04.784001
+386,94,152,The food was fantastic and amazing and delicious and wonderful and delicious and great. Piece produce else.,5.0,positive,2025-01-14 22:36:02.416151
+387,35,83,The food was normal and fine and okay and normal and fine and decent. Want son dog range seem number other.,3.1,neutral,2024-09-08 17:40:33.640314
+388,32,23,The food was great and excellent and delicious and amazing and great and excellent. Large chair born wish while room Mr personal.,4.8,positive,2024-09-23 23:24:22.558829
+389,36,116,The food was fine and decent and acceptable. Until meet spring surface wife.,3.5,neutral,2025-02-19 06:35:25.991858
+390,32,193,The food was delicious and wonderful and delicious. Thus fight catch serious later they.,4.6,positive,2024-11-11 12:22:27.222234
+391,60,146,The food was decent and okay and decent and fine and okay. Miss scene do work win health.,3.5,neutral,2024-11-08 19:15:54.599209
+392,79,172,The food was excellent and fantastic and wonderful and wonderful and great and fantastic. Much article agent.,4.9,positive,2024-10-15 10:26:47.979021
+393,49,87,The food was fine and fine and decent and decent and acceptable and acceptable. Another listen list behavior successful success herself.,2.4,neutral,2024-08-24 20:56:51.403800
+394,4,127,The food was average and acceptable and fine and acceptable and decent. Federal idea share property.,3.8,neutral,2024-10-24 13:56:24.921848
+395,42,47,The food was okay and acceptable and average and decent and acceptable. Memory matter stage establish.,3.1,neutral,2024-07-22 20:57:34.550532
+396,63,55,The food was fantastic and delicious and excellent and great and delicious. Outside interest tough character.,4.2,positive,2025-02-17 17:19:49.186688
+397,46,67,The food was okay and fine and average and normal and decent. Official yourself us local play environment.,2.7,neutral,2025-03-07 06:26:38.777949
+398,44,72,The food was acceptable and average and decent and acceptable and okay. Great require else so so interest great analysis.,3.2,neutral,2025-01-15 06:42:47.675540
+399,77,180,The food was great and fantastic and wonderful and delicious and fantastic and great and excellent and delicious. Politics computer exist throw real next four.,5.0,positive,2024-12-07 12:32:27.121699
+400,36,143,The food was acceptable and fine and decent and fine and normal and acceptable. Government single least something source prove.,3.2,neutral,2024-09-17 20:32:44.806518
+401,2,133,The food was acceptable and average and acceptable. Consider policy those unit reduce executive.,3.7,neutral,2024-07-27 13:32:05.405292
+402,25,22,The food was decent and fine. Heavy national result very investment enter memory charge.,2.9,neutral,2025-05-02 05:35:49.025367
+403,31,185,The food was fine and decent and normal and normal. Activity night bill central wonder green.,3.3,neutral,2025-04-09 15:40:35.609610
+404,53,126,The food was average and normal and normal. Stay image my by maybe.,2.8,neutral,2025-05-27 15:40:50.646740
+405,72,195,The food was acceptable and okay and fine and normal and fine. Whether single entire hundred recent direction American.,3.4,neutral,2024-09-23 10:45:17.298361
+406,31,177,The food was fantastic and amazing and wonderful and fantastic and amazing and amazing and wonderful and wonderful. Case else look wrong send knowledge.,4.6,positive,2025-02-05 14:38:59.989882
+407,61,166,The food was excellent and wonderful and great and amazing and fantastic and fantastic and wonderful and wonderful. Attention against strategy become available your both.,5.0,positive,2025-04-11 06:46:06.966586
+408,92,126,The food was decent and fine and acceptable and decent and acceptable and normal. Group sense outside spring your.,2.7,neutral,2025-05-12 13:36:51.595859
+409,58,5,The food was great and delicious and excellent and excellent and delicious. Resource blue degree rest thus.,4.6,positive,2025-03-15 14:17:00.259038
+410,12,76,The food was wonderful and amazing and wonderful. Cost eat truth fly memory hundred.,4.2,positive,2025-06-01 04:31:56.937516
+411,29,104,The food was normal and acceptable and okay. Travel growth what.,3.8,neutral,2025-05-07 01:31:10.340620
+412,89,63,The food was acceptable and average. Many energy pattern investment practice.,3.9,neutral,2024-11-21 04:15:04.324779
+413,40,170,The food was excellent and wonderful and excellent and great and wonderful and great and wonderful. Recent event skin indicate suddenly.,4.9,positive,2024-08-01 04:55:31.565715
+414,75,95,The food was delicious and fantastic and wonderful and wonderful and wonderful and excellent and delicious. Sense machine treatment section significant camera else.,4.6,positive,2025-02-26 00:44:57.865470
+415,61,142,The food was great and great and amazing and fantastic and excellent and amazing. Of national among must traditional able husband.,4.4,positive,2025-02-04 09:11:37.300310
+416,68,89,The food was great and great and delicious and amazing and fantastic and wonderful and delicious. Certainly even kitchen including summer bit difficult.,4.2,positive,2025-05-31 08:37:08.715763
+417,55,191,The food was fine and fine and acceptable and normal and average and average. Performance try phone water national pattern.,2.8,neutral,2024-10-12 12:14:21.523990
+418,71,85,The food was average and average. Pay trip recognize ok recent near find.,3.5,neutral,2025-01-15 00:31:37.312108
+419,46,180,The food was excellent and excellent and amazing and amazing and excellent and great and excellent. High fine throughout bed future end finish.,4.8,positive,2024-11-02 12:52:30.885486
+420,59,70,The food was acceptable and okay and okay and average and okay. Book party reveal.,2.6,neutral,2024-09-29 09:28:09.987390
+421,40,65,The food was normal and average and acceptable and fine and okay and acceptable. Around reach local guess.,3.3,neutral,2024-09-16 10:14:46.758829
+422,30,31,The food was amazing and amazing and excellent and fantastic and delicious and fantastic and excellent. Threat and box listen institution rock.,5.0,positive,2024-11-11 07:31:13.403234
+423,93,50,The food was normal and fine and average. Strategy Mrs side space debate.,3.0,neutral,2025-01-10 19:39:44.371080
+424,41,31,The food was amazing and wonderful and fantastic and great and wonderful. Eat wish positive beyond often foreign.,4.2,positive,2025-04-01 07:11:31.887266
+425,96,138,The food was excellent and wonderful and delicious and great and fantastic and fantastic and great and wonderful. Argue magazine any order prepare feeling career morning.,5.0,positive,2025-04-01 07:25:49.340944
+426,98,177,The food was delicious and wonderful and excellent and amazing and wonderful. Economic another turn your radio ever total technology.,4.3,positive,2024-12-26 14:03:24.043742
+427,24,50,The food was normal and acceptable. Itself marriage anyone smile energy add so financial.,3.0,neutral,2024-12-02 01:36:42.166038
+428,28,190,The food was fine and fine and decent and average. Tend majority kitchen Mr ahead late.,2.9,neutral,2025-04-13 16:29:47.147583
+429,62,71,The food was average and okay and okay. Should who court media part.,3.2,neutral,2025-06-13 16:01:49.537946
+430,93,151,The food was fine and fine and average and fine and average and acceptable. Capital tax hard sometimes then situation.,3.3,neutral,2025-01-03 17:27:22.817065
+431,98,135,The food was average and acceptable. Side from eye board.,3.2,neutral,2025-02-15 07:14:07.461949
+432,77,73,The food was fine and normal and acceptable and okay and decent. Free part director approach reason push civil cost.,3.4,neutral,2025-04-28 17:09:34.332738
+433,13,50,The food was okay and okay and average and average. Charge Congress seven later.,3.9,neutral,2025-03-12 23:19:39.161676
+434,38,59,The food was fine and average. Really listen husband shake party hope billion.,3.5,neutral,2025-06-19 21:06:10.461350
+435,47,46,The food was disgusting and disgusting and disgusting and awful and disgusting. Exactly work begin treat.,1.9,negative,2024-08-09 17:13:30.864763
+436,39,4,The food was fantastic and fantastic and fantastic. Spring economy someone police year accept toward.,4.7,positive,2024-08-20 12:34:54.672209
+437,91,137,The food was okay and normal and decent and fine and average and acceptable. Address listen might how represent yard campaign.,2.8,neutral,2024-07-12 10:43:32.610751
+438,17,71,The food was okay and acceptable and decent and decent and fine and decent. Common other walk know.,3.2,neutral,2024-07-23 17:50:37.166049
+439,6,14,The food was average and acceptable and acceptable and normal and average and fine. Us event care.,2.6,neutral,2024-07-30 14:53:10.649014
+440,71,75,The food was wonderful and great and wonderful and wonderful and delicious. Society table police interesting challenge book.,4.5,positive,2024-07-16 10:38:00.251020
+441,90,33,The food was fantastic and fantastic and excellent. Apply more director service.,4.0,positive,2024-10-20 12:11:54.418326
+442,82,193,The food was fine and decent. Garden involve recent role term mother leave.,3.8,neutral,2024-07-12 08:26:08.138903
+443,63,27,The food was normal and average and acceptable and normal and decent and decent. Wind player happy enter method finally.,3.3,neutral,2024-12-21 21:38:49.287783
+444,2,147,The food was okay and average and fine and average and okay and acceptable. Public reason discussion food.,2.9,neutral,2025-04-04 12:23:04.470130
+445,37,121,The food was great and great and great and great and delicious and fantastic and amazing. Gun sell wear another put.,4.1,positive,2025-06-28 10:04:28.620322
+446,62,113,The food was average and average. Effort present expect level science thank.,3.2,neutral,2024-08-16 20:40:14.697474
+447,44,48,The food was decent and average and okay and fine and okay and fine. Born war child require.,3.6,neutral,2024-11-23 18:35:18.260991
+448,7,65,The food was average and decent and fine. Experience Mr she room man vote safe.,3.8,neutral,2025-03-05 05:02:09.175016
+449,62,30,The food was wonderful and excellent and fantastic and wonderful and great. Late top huge deal.,4.9,positive,2025-07-01 23:22:52.505654
+450,9,103,The food was okay and average and average. Population question coach college court.,2.7,neutral,2025-04-09 07:12:02.711404
+451,63,19,The food was average and decent and acceptable and average and decent. Much rate standard today government actually myself.,3.6,neutral,2024-11-25 12:24:41.815506
+452,74,162,The food was decent and average and fine and average and fine. Parent hit east among.,3.5,neutral,2024-10-22 14:34:42.313770
+453,88,14,The food was normal and okay and fine and average. Resource create hit yes without foot.,3.2,neutral,2025-03-08 01:52:51.264368
+454,20,39,The food was excellent and excellent and excellent and fantastic and excellent and fantastic and delicious and fantastic. Me certain person director summer thing activity.,4.4,positive,2024-10-28 23:54:08.959022
+455,73,78,The food was fantastic and fantastic and great. Method resource how listen.,4.4,positive,2024-07-25 03:05:26.090528
+456,11,64,The food was fantastic and excellent and delicious and great and fantastic and great. Method attack interesting writer everything.,5.0,positive,2024-08-25 04:54:51.947746
+457,16,143,The food was delicious and fantastic and delicious and fantastic. True western energy into stay.,4.7,positive,2024-09-02 03:40:15.944348
+458,98,107,The food was amazing and great and great and wonderful and wonderful and excellent and excellent and fantastic. Standard these read little people.,5.0,positive,2024-12-26 05:40:14.195523
+459,78,153,The food was fine and normal and acceptable and decent and decent and average. Relate need administration rather sense song prove.,2.3,neutral,2025-06-17 20:11:38.583582
+460,80,58,The food was amazing and amazing and amazing and wonderful and fantastic and wonderful. Poor but Mr whether mention.,5.0,positive,2025-07-06 11:34:33.056771
+461,100,134,The food was decent and decent and okay and normal and average. Them save sound nothing international.,3.3,neutral,2025-06-11 09:13:08.833546
+462,49,116,The food was fine and average and acceptable and fine and fine and decent. Month simply those share out fill world loss.,3.8,neutral,2024-08-25 07:05:33.917009
+463,57,77,The food was delicious and fantastic and great and fantastic and delicious and great. Study bit style race.,4.6,positive,2025-03-01 21:35:51.595318
+464,76,110,The food was decent and acceptable and decent and acceptable and normal and okay. Heavy already become rock our.,3.7,neutral,2025-06-25 05:04:53.071180
+465,40,146,The food was decent and average and fine. Report company car data news difficult.,2.1,neutral,2025-04-27 21:31:06.731239
+466,80,16,The food was amazing and amazing and delicious and wonderful and excellent. Clear dog nothing billion wish world process.,4.8,positive,2025-05-29 20:46:06.037506
+467,79,190,The food was decent and average and okay. Air turn church thing decide common term.,3.4,neutral,2025-06-17 18:25:09.444665
+468,13,196,The food was delicious and amazing and excellent and great and excellent and excellent and fantastic and excellent. Republican news deep.,4.1,positive,2024-09-14 02:41:24.660080
+469,27,161,The food was fantastic and great and excellent and excellent and great and fantastic and delicious and great. Building staff address discover.,4.1,positive,2024-08-22 11:15:39.887190
+470,28,68,The food was normal and acceptable. Administration reality history.,3.9,neutral,2025-04-03 01:51:16.208790
+471,85,21,The food was great and amazing and fantastic and delicious and delicious. Here and ahead subject others test.,4.8,positive,2024-12-25 14:55:01.946052
+472,21,62,The food was wonderful and fantastic and wonderful and wonderful. Resource business natural stand country himself behavior.,4.9,positive,2025-06-01 02:40:22.241222
+473,23,142,The food was fine and fine and average. True dog need up.,3.7,neutral,2025-03-23 03:50:31.077651
+474,10,41,The food was normal and fine and okay and decent. Political be member another lot.,3.4,neutral,2024-10-20 02:35:04.011620
+475,1,105,The food was okay and average and normal. Situation short nearly catch fire impact.,3.7,neutral,2024-07-20 14:05:55.756186
+476,58,177,The food was wonderful and wonderful and fantastic and amazing and great and fantastic and great. First put best about safe yes lead seem.,5.0,positive,2025-02-03 01:29:49.998932
+477,77,121,The food was fantastic and excellent and delicious and excellent and fantastic and wonderful and great. About stage everything forget.,4.5,positive,2024-08-04 11:05:00.551272
+478,38,9,The food was fine and decent and okay and fine and average. Here street former total animal item to hope.,3.0,neutral,2025-03-22 00:31:06.910336
+479,30,74,The food was acceptable and decent and fine and acceptable and acceptable. Begin actually positive trouble federal.,2.6,neutral,2024-09-29 01:09:34.822771
+480,91,73,The food was okay and okay and decent and average and normal and average. Remember region through wall.,2.7,neutral,2024-12-04 13:05:00.228753
+481,90,117,The food was delicious and amazing and wonderful and wonderful and fantastic and excellent and excellent. Ability language food human stand.,4.0,positive,2024-11-27 04:46:10.799435
+482,10,176,The food was acceptable and average and decent. Especially peace among past happen no crime information.,3.6,neutral,2024-07-25 22:05:54.158303
+483,30,68,The food was delicious and fantastic and amazing and fantastic. Family cell move nothing perform.,4.7,positive,2024-12-17 07:26:03.611302
+484,81,151,The food was decent and average and acceptable and acceptable and decent and acceptable. Home learn address doctor.,2.8,neutral,2024-12-29 10:34:50.913313
+485,85,51,The food was average and fine and decent and normal and fine. Newspaper mind play brother more radio.,3.3,neutral,2024-09-14 06:33:40.211067
+486,55,30,The food was acceptable and normal and fine and acceptable and decent. Sit authority air sort investment guy such.,3.7,neutral,2024-07-17 04:39:57.338798
+487,70,58,The food was okay and fine and acceptable. Lawyer help really door against beautiful it.,3.6,neutral,2025-06-05 02:48:59.912878
+488,83,39,The food was fine and acceptable and okay and decent and fine and acceptable. Lawyer white miss next their herself.,3.7,neutral,2025-03-09 04:02:18.290406
+489,35,37,The food was delicious and fantastic and excellent and amazing. Within network accept want today.,4.0,positive,2025-06-27 18:28:32.951784
+490,10,16,The food was excellent and excellent and delicious and great and fantastic. Various wait six guess member will.,4.2,positive,2025-05-28 10:27:09.587499
+491,22,79,The food was average and normal and okay and acceptable and average and decent. Leave lead relationship provide.,3.7,neutral,2025-03-28 15:10:50.944542
+492,77,192,The food was average and fine. Major his continue avoid.,3.8,neutral,2025-03-31 21:48:06.224029
+493,73,74,The food was average and okay and fine and fine and average and average. Pull strong necessary exactly part or vote.,3.3,neutral,2024-09-24 09:09:36.204934
+494,57,32,The food was delicious and fantastic and great. Entire class owner local mention avoid.,4.4,positive,2024-10-17 23:18:13.453057
+495,60,177,The food was great and wonderful and delicious. Specific think tree.,4.1,positive,2025-03-14 12:18:13.241863
+496,39,180,The food was delicious and amazing and excellent and wonderful and great and fantastic. Return hand trouble black network.,5.0,positive,2025-06-29 03:26:29.190066
+497,52,70,The food was normal and decent and normal and average and fine and average. Health street animal itself media.,3.7,neutral,2024-09-19 00:55:38.492152
+498,65,139,The food was fantastic and amazing and delicious and excellent and excellent and amazing. Suddenly center suddenly.,4.0,positive,2025-03-21 05:52:47.222973
+499,64,113,The food was acceptable and normal. Market a off visit anyone place.,2.9,neutral,2025-05-04 07:43:13.951278
+500,11,154,The food was acceptable and fine and acceptable and normal and fine and acceptable. Understand together improve week least.,3.0,neutral,2025-07-11 01:37:28.662298

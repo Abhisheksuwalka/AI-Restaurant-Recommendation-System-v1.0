@@ -1,0 +1,163 @@
+{
+  "emotion_cuisine_mapping": {
+    "happy": {
+      "italian": 0.8,
+      "mexican": 0.7,
+      "thai": 0.6,
+      "japanese": 0.5,
+      "american": 0.6,
+      "indian": 0.7
+    },
+    "sad": {
+      "italian": 0.9,
+      "american": 0.8,
+      "comfort_food": 0.9,
+      "chinese": 0.6,
+      "cafe": 0.7,
+      "diner": 0.8
+    },
+    "stressed": {
+      "japanese": 0.8,
+      "vegetarian": 0.7,
+      "mediterranean": 0.6,
+      "tea_house": 0.9,
+      "cafe": 0.8,
+      "healthy": 0.7
+    },
+    "excited": {
+      "mexican": 0.9,
+      "indian": 0.8,
+      "thai": 0.8,
+      "fusion": 0.7,
+      "korean": 0.7,
+      "spicy": 0.8
+    },
+    "anxious": {
+      "japanese": 0.9,
+      "vegetarian": 0.8,
+      "cafe": 0.8,
+      "quiet_dining": 0.9,
+      "tea_house": 0.9,
+      "minimalist": 0.7
+    },
+    "romantic": {
+      "french": 0.9,
+      "italian": 0.8,
+      "fine_dining": 0.9,
+      "wine_bar": 0.8,
+      "intimate": 0.9,
+      "candlelit": 0.9
+    },
+    "energetic": {
+      "mexican": 0.8,
+      "korean": 0.7,
+      "sports_bar": 0.6,
+      "bbq": 0.7,
+      "buffet": 0.6,
+      "lively": 0.8
+    },
+    "calm": {
+      "japanese": 0.9,
+      "vegetarian": 0.8,
+      "cafe": 0.7,
+      "mediterranean": 0.6,
+      "zen": 0.9,
+      "peaceful": 0.8
+    },
+    "adventurous": {
+      "fusion": 0.9,
+      "ethiopian": 0.8,
+      "korean": 0.7,
+      "experimental": 0.9,
+      "exotic": 0.8,
+      "molecular": 0.9
+    },
+    "nostalgic": {
+      "american": 0.8,
+      "diner": 0.9,
+      "comfort_food": 0.8,
+      "family_style": 0.7,
+      "traditional": 0.8,
+      "homestyle": 0.9
+    }
+  },
+  "restaurant_mood_attributes": {
+    "comfort_level": {
+      "description": "How comfortable and cozy the restaurant feels",
+      "factors": [
+        "seating_comfort",
+        "temperature",
+        "noise_level",
+        "familiarity"
+      ]
+    },
+    "energy_level": {
+      "description": "How energetic and vibrant the atmosphere is",
+      "factors": [
+        "music_volume",
+        "crowd_energy",
+        "lighting_brightness",
+        "activity_level"
+      ]
+    },
+    "social_intimacy": {
+      "description": "How intimate vs social the setting is",
+      "factors": [
+        "table_spacing",
+        "lighting_dimness",
+        "privacy_level",
+        "romantic_elements"
+      ]
+    },
+    "adventure_factor": {
+      "description": "How adventurous and experimental the experience is",
+      "factors": [
+        "menu_uniqueness",
+        "cuisine_exoticism",
+        "presentation_creativity",
+        "novelty"
+      ]
+    },
+    "stress_relief": {
+      "description": "How effective the environment is for stress relief",
+      "factors": [
+        "quietness",
+        "calmness",
+        "service_pace",
+        "relaxation_elements"
+      ]
+    },
+    "romance_factor": {
+      "description": "How romantic the atmosphere is",
+      "factors": [
+        "lighting_mood",
+        "privacy",
+        "ambiance_romance",
+        "intimate_seating"
+      ]
+    }
+  },
+  "contextual_emotion_modifiers": {
+    "weather": {
+      "sunny": { "happy": 1.2, "energetic": 1.1, "calm": 0.9 },
+      "rainy": { "sad": 1.1, "nostalgic": 1.2, "calm": 1.1, "cozy": 1.3 },
+      "cloudy": { "neutral": 1.1, "contemplative": 1.2 },
+      "stormy": { "anxious": 1.2, "excited": 0.8, "stressed": 1.1 }
+    },
+    "time_of_day": {
+      "morning": { "energetic": 1.2, "optimistic": 1.1, "fresh": 1.2 },
+      "afternoon": { "calm": 1.1, "neutral": 1.1, "productive": 1.1 },
+      "evening": { "romantic": 1.3, "social": 1.2, "relaxed": 1.1 },
+      "night": { "intimate": 1.2, "adventurous": 1.1, "mysterious": 1.2 }
+    },
+    "day_of_week": {
+      "monday": { "stressed": 1.2, "tired": 1.1 },
+      "tuesday": { "focused": 1.1, "determined": 1.1 },
+      "wednesday": { "neutral": 1.1, "steady": 1.1 },
+      "thursday": { "anticipatory": 1.1, "hopeful": 1.1 },
+      "friday": { "excited": 1.3, "celebratory": 1.2, "social": 1.2 },
+      "saturday": { "relaxed": 1.2, "adventurous": 1.2, "fun": 1.3 },
+      "sunday": { "peaceful": 1.2, "contemplative": 1.1, "family": 1.2 }
+    }
+  }
+}
