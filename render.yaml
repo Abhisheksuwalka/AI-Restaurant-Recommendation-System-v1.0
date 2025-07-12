@@ -2,8 +2,7 @@ services:
   - type: web
     name: ai-restaurant-recommendation-system
     env: python
-    runtime: python
-    buildCommand: pip install --upgrade pip setuptools wheel && pip install --only-binary=all -r requirements-minimal.txt
+    buildCommand: pip install --upgrade pip && pip install -r requirements-deploy.txt
     startCommand: ./start.sh
     plan: free
     envVars:
