@@ -1,66 +1,152 @@
 """
-Deployment-safe main application that handles missing dependencies gracefully
+Production-Ready Restaurant Recommendation System
+Uses fallback data and built-in algorithms - no external ML dependencies required
 """
 import streamlit as st
-import sys
+import pandas as pd
+import numpy as np
 import os
-from typing import Dict, List, Any, Optional
-
-# Try to import required packages, fall back gracefully
-try:
-    import pandas as pd
-    import numpy as np
-    PANDAS_AVAILABLE = True
-except ImportError:
-    PANDAS_AVAILABLE = False
-
-try:
-    import plotly.express as px
-    import plotly.graph_objects as go
-    PLOTLY_AVAILABLE = True
-except ImportError:
-    PLOTLY_AVAILABLE = False
-
-try:
-    from datetime import datetime
-    DATETIME_AVAILABLE = True
-except ImportError:
-    DATETIME_AVAILABLE = False
-
-# Try to import project modules
-try:
-    from config import Config
-    CONFIG_AVAILABLE = True
-except ImportError:
-    CONFIG_AVAILABLE = False
-    # Fallback config
-    class Config:
-        PAGE_TITLE = "AI Restaurant Recommendation System"
-        PAGE_ICON = "🍽️"
-        N_RECOMMENDATIONS = 10
+import re
+from typing import Dict, List, Any, Optional, Tuple
 
 # Page configuration
 st.set_page_config(
-    page_title=Config.PAGE_TITLE,
-    page_icon=Config.PAGE_ICON,
+    page_title="🍽️ AI Restaurant Recommendation System",
+    page_icon="🍽️",
     layout="wide"
 )
 
-def load_data_safe():
-    """Safely load data with fallback options"""
+def load_fallback_data() -> Tuple[bool, Optional[pd.DataFrame], Optional[pd.DataFrame], 
+                                  Optional[pd.DataFrame], Optional[pd.DataFrame]]:
+    """Load the fallback datasets"""
     try:
-        if PANDAS_AVAILABLE:
-            # Try to load CSV files
-            restaurants = pd.read_csv('data/restaurants.csv')
-            users = pd.read_csv('data/users.csv') 
-            ratings = pd.read_csv('data/ratings.csv')
-            reviews = pd.read_csv('data/reviews.csv')
-            return restaurants, users, ratings, reviews, True
-        else:
-            return None, None, None, None, False
+        fallback_dir = 'data/fallback'
+        
+        restaurants = pd.read_csv(os.path.join(fallback_dir, 'restaurants.csv'))
+        users = pd.read_csv(os.path.join(fallback_dir, 'users.csv'))
+        ratings = pd.read_csv(os.path.join(fallback_dir, 'ratings.csv'))
+        reviews = pd.read_csv(os.path.join(fallback_dir, 'reviews.csv'))
+        
+        return True, restaurants, users, ratings, reviews
+        
     except Exception as e:
-        st.error(f"Error loading data: {e}")
-        return None, None, None, None, False
+        st.error(f"Error loading fallback data: {e}")
+        return False, None, None, None, None
+
+def analyze_sentiment(text: str) -> float:
+    """Simple sentiment analyzer using keyword matching"""
+    if not text or not isinstance(text, str):
+        return 0.0
+        
+    positive_words = {
+        'excellent', 'amazing', 'fantastic', 'wonderful', 'great', 'good', 'nice', 
+        'delicious', 'tasty', 'fresh', 'clean', 'friendly', 'fast', 'quick',
+        'love', 'perfect', 'awesome', 'brilliant', 'outstanding', 'superb',
+        'recommend', 'best', 'favorite', 'impressed', 'satisfied', 'enjoy'
+    }
+    
+    negative_words = {
+        'terrible', 'awful', 'bad', 'horrible', 'disgusting', 'slow', 'dirty',
+        'rude', 'unfriendly', 'cold', 'overpriced', 'expensive', 'small',
+        'disappointing', 'worst', 'hate', 'avoid', 'never', 'waste',
+        'poor', 'lacking', 'insufficient', 'unacceptable', 'mediocre'
+    }
+        
+    # Clean and tokenize
+    words = re.findall(r'\w+', text.lower())
+    
+    positive_count = sum(1 for word in words if word in positive_words)
+    negative_count = sum(1 for word in words if word in negative_words)
+    
+    if positive_count + negative_count == 0:
+        return 0.0
+        
+    # Normalize sentiment score
+    sentiment = (positive_count - negative_count) / (positive_count + negative_count)
+    return sentiment
+
+def get_recommendations(restaurants: pd.DataFrame, ratings: pd.DataFrame, 
+                       reviews: pd.DataFrame, num_recommendations: int = 10) -> List[Dict]:
+    """Get restaurant recommendations using built-in algorithms"""
+    try:
+        # Calculate restaurant statistics
+        restaurant_stats = ratings.groupby('restaurant_id').agg({
+            'rating': ['mean', 'count', 'std']
+        }).round(3)
+        restaurant_stats.columns = ['avg_rating', 'rating_count', 'rating_std']
+        restaurant_stats['rating_std'] = restaurant_stats['rating_std'].fillna(0)
+        
+        # Calculate sentiment scores for each restaurant
+        restaurant_sentiments = {}
+        if reviews is not None and 'review_text' in reviews.columns:
+            for _, review in reviews.iterrows():
+                if pd.notna(review['review_text']):
+                    sentiment = analyze_sentiment(review['review_text'])
+                    restaurant_id = review['restaurant_id']
+                    
+                    if restaurant_id not in restaurant_sentiments:
+                        restaurant_sentiments[restaurant_id] = []
+                    restaurant_sentiments[restaurant_id].append(sentiment)
+            
+            # Average sentiment per restaurant
+            restaurant_sentiments = {
+                rid: np.mean(scores) for rid, scores in restaurant_sentiments.items()
+            }
+        
+        # Merge restaurant data with stats
+        restaurants_with_stats = restaurants.merge(
+            restaurant_stats,
+            left_on='restaurant_id',
+            right_index=True,
+            how='left'
+        )
+        
+        # Fill missing values
+        restaurants_with_stats['avg_rating'] = restaurants_with_stats['avg_rating'].fillna(4.0)
+        restaurants_with_stats['rating_count'] = restaurants_with_stats['rating_count'].fillna(1)
+        
+        # Add sentiment scores
+        restaurants_with_stats['sentiment_score'] = restaurants_with_stats['restaurant_id'].map(
+            lambda x: restaurant_sentiments.get(x, 0.0)
+        )
+        
+        # Calculate popularity score
+        restaurants_with_stats['popularity_score'] = (
+            restaurants_with_stats['avg_rating'] * 0.4 +
+            np.log1p(restaurants_with_stats['rating_count']) * 0.4 +
+            (restaurants_with_stats['sentiment_score'] + 1) * 2.5 * 0.2
+        )
+        
+        # Get top recommendations
+        top_restaurants = restaurants_with_stats.nlargest(num_recommendations, 'popularity_score')
+        
+        recommendations = []
+        for _, restaurant in top_restaurants.iterrows():
+            rec = {
+                'restaurant_id': restaurant['restaurant_id'],
+                'name': restaurant['name'],
+                'cuisine': restaurant['cuisine'],
+                'location': restaurant.get('location', 'Unknown'),
+                'price_range': restaurant.get('price_range', 'Unknown'),
+                'avg_rating': float(restaurant['avg_rating']),
+                'rating_count': int(restaurant['rating_count']),
+                'sentiment_score': float(restaurant['sentiment_score']),
+                'recommendation_score': float(restaurant['popularity_score']),
+                'method': 'popularity_based'
+            }
+            
+            # Add additional fields if available
+            for field in ['description', 'phone', 'website']:
+                if field in restaurant and pd.notna(restaurant[field]):
+                    rec[field] = restaurant[field]
+            
+            recommendations.append(rec)
+        
+        return recommendations
+        
+    except Exception as e:
+        st.error(f"Error generating recommendations: {e}")
+        return []
 
 def initialize_recommender_safe(restaurants, users, ratings, reviews):
     """Safely initialize recommender system"""
@@ -140,183 +226,217 @@ def main():
     
     # Header
     st.title("🍽️ AI-Powered Restaurant Recommendation System")
+    st.markdown("*Production-ready system with built-in algorithms and fallback data*")
+    
+    # Load fallback data
+    data_loaded, restaurants, users, ratings, reviews = load_fallback_data()
+    
+    if not data_loaded:
+        st.error("❌ Unable to load data. Please check your installation.")
+        return
     
     # System status
     with st.expander("🔧 System Status", expanded=False):
         col1, col2, col3 = st.columns(3)
         
         with col1:
-            st.write("**Dependencies:**")
-            st.write(f"• Pandas: {'✅' if PANDAS_AVAILABLE else '❌'}")
-            st.write(f"• Plotly: {'✅' if PLOTLY_AVAILABLE else '❌'}")
-            st.write(f"• Config: {'✅' if CONFIG_AVAILABLE else '❌'}")
+            st.write("**Core Dependencies:**")
+            st.write("• Pandas: ✅")
+            st.write("• NumPy: ✅")
+            st.write("• Streamlit: ✅")
             
         with col2:
-            st.write("**ML Capabilities:**")
-            try:
-                import sklearn
-                st.write("• Scikit-learn: ✅")
-            except ImportError:
-                st.write("• Scikit-learn: ❌")
-            
-            try:
-                import nltk
-                st.write("• NLTK: ✅")
-            except ImportError:
-                st.write("• NLTK: ❌")
-                
-        with col3:
             st.write("**Data Status:**")
-            restaurants, users, ratings, reviews, data_loaded = load_data_safe()
-            st.write(f"• Data Loading: {'✅' if data_loaded else '❌'}")
-            if data_loaded:
-                st.write(f"• Restaurants: {len(restaurants)}")
-                st.write(f"• Users: {len(users)}")
-                st.write(f"• Ratings: {len(ratings)}")
+            st.write(f"• Restaurants: {len(restaurants)}")
+            st.write(f"• Users: {len(users)}")
+            st.write(f"• Ratings: {len(ratings)}")
+            st.write(f"• Reviews: {len(reviews)}")
+            
+        with col3:
+            st.write("**AI Capabilities:**")
+            st.write("• Built-in Recommender: ✅")
+            st.write("• Sentiment Analysis: ✅")
+            st.write("• Popularity-based: ✅")
     
-    # Load data
-    restaurants, users, ratings, reviews, data_loaded = load_data_safe()
-    
-    if not data_loaded:
-        st.error("⚠️ Unable to load data. Using demo mode.")
-        # Import and run demo app
-        try:
-            import app_demo
-            app_demo.main()
-            return
-        except ImportError:
-            st.error("Demo app not available. Please check your installation.")
-            return
+    st.success("✅ AI System Ready!")
     
     # Sidebar for user input
     st.sidebar.header("🎯 Your Preferences")
     
-    # User selection
-    if PANDAS_AVAILABLE and users is not None:
-        user_options = ['Random User'] + list(users['user_id'].unique())
-        selected_user = st.sidebar.selectbox("Select User:", user_options)
-        
-        if selected_user == 'Random User':
-            selected_user = users['user_id'].sample(1).iloc[0]
-    else:
-        selected_user = "demo_user"
-    
     # Preference filters
-    if PANDAS_AVAILABLE and restaurants is not None:
-        cuisines = ['All'] + list(restaurants['cuisine'].unique())
-        selected_cuisine = st.sidebar.selectbox("Preferred Cuisine:", cuisines)
-        
-        min_rating = st.sidebar.slider("Minimum Rating:", 1.0, 5.0, 3.0, 0.1)
-        num_recommendations = st.sidebar.slider("Number of Recommendations:", 5, 20, 10)
-    else:
-        selected_cuisine = 'All'
-        min_rating = 3.0
-        num_recommendations = 10
+    cuisines = ['All'] + list(restaurants['cuisine'].unique())
+    selected_cuisine = st.sidebar.selectbox("Preferred Cuisine:", cuisines)
+    
+    price_ranges = ['All'] + list(restaurants['price_range'].unique())
+    selected_price = st.sidebar.selectbox("Price Range:", price_ranges)
+    
+    min_rating = st.sidebar.slider("Minimum Rating:", 1.0, 5.0, 3.0, 0.1)
+    num_recommendations = st.sidebar.slider("Number of Recommendations:", 5, 20, 10)
     
     # Get recommendations
     st.header("🎯 Recommended Restaurants")
     
-    with st.spinner("Generating recommendations..."):
-        # Try to use advanced recommender
-        recommender, recommender_ready = initialize_recommender_safe(restaurants, users, ratings, reviews)
+    with st.spinner("🔍 Generating recommendations..."):
+        recommendations = get_recommendations(restaurants, ratings, reviews, num_recommendations * 2)
+    
+    # Apply filters
+    filtered_recommendations = []
+    for rec in recommendations:
+        # Cuisine filter
+        if selected_cuisine != 'All' and rec['cuisine'] != selected_cuisine:
+            continue
         
-        if recommender and recommender_ready:
-            try:
-                recommendations = recommender.get_recommendations(
-                    str(selected_user), 
-                    num_recommendations
-                )
-                st.success("✅ Using Advanced AI Recommendations")
-            except Exception as e:
-                st.warning(f"Advanced recommender failed: {e}. Using basic recommendations.")
-                recommendations = get_basic_recommendations(restaurants, ratings, num_recommendations)
-        else:
-            recommendations = get_basic_recommendations(restaurants, ratings, num_recommendations)
-            st.info("ℹ️ Using Basic Popularity-Based Recommendations")
+        # Price filter
+        if selected_price != 'All' and rec['price_range'] != selected_price:
+            continue
+        
+        # Rating filter
+        if rec['avg_rating'] < min_rating:
+            continue
+        
+        filtered_recommendations.append(rec)
     
     # Display recommendations
-    if recommendations:
-        # Apply filters
-        if selected_cuisine != 'All':
-            recommendations = [r for r in recommendations if r.get('cuisine', '').lower() == selected_cuisine.lower()]
-        
-        recommendations = [r for r in recommendations if r.get('avg_rating', 0) >= min_rating]
-        
-        if not recommendations:
-            st.warning("No restaurants match your criteria. Try adjusting your filters.")
-        else:
-            # Display recommendations in a nice format
-            for i, rec in enumerate(recommendations[:num_recommendations], 1):
-                with st.expander(f"{i}. {rec['name']} ⭐ {rec.get('avg_rating', 'N/A')}", expanded=i<=3):
-                    col1, col2 = st.columns([3, 1])
-                    
-                    with col1:
-                        st.write(f"**Cuisine:** {rec.get('cuisine', 'Unknown')}")
-                        if 'address' in rec:
-                            st.write(f"**Address:** {rec['address']}")
-                        if 'price_range' in rec:
-                            st.write(f"**Price Range:** {rec['price_range']}")
-                        st.write(f"**Rating:** {rec.get('avg_rating', 'N/A')}/5.0")
-                        if 'rating_count' in rec:
-                            st.write(f"**Reviews:** {rec['rating_count']} reviews")
-                        st.write(f"**Method:** {rec.get('method', 'Unknown')}")
-                        
-                    with col2:
-                        score = rec.get('recommendation_score', 0)
-                        st.metric("Recommendation Score", f"{score:.2f}")
-                        
-                        # Progress bar for score
-                        max_score = max([r.get('recommendation_score', 0) for r in recommendations])
-                        if max_score > 0:
-                            progress = min(score / max_score, 1.0)
-                            st.progress(progress)
+    if not filtered_recommendations:
+        st.warning("🔍 No restaurants match your criteria. Try adjusting your filters.")
     else:
-        st.warning("No recommendations available. Please check your data and try again.")
+        st.success(f"✨ Found {len(filtered_recommendations)} recommendations!")
+        
+        # Display recommendations
+        for i, rec in enumerate(filtered_recommendations[:num_recommendations], 1):
+            with st.expander(
+                f"{i}. **{rec['name']}** ⭐ {rec['avg_rating']:.1f} - {rec['cuisine']} - {rec['price_range']}", 
+                expanded=i <= 3
+            ):
+                col1, col2 = st.columns([2, 1])
+                
+                with col1:
+                    st.write(f"🍽️ **Cuisine:** {rec['cuisine']}")
+                    st.write(f"📍 **Location:** {rec['location']}")
+                    st.write(f"💰 **Price Range:** {rec['price_range']}")
+                    st.write(f"⭐ **Rating:** {rec['avg_rating']:.1f}/5.0 ({rec['rating_count']} reviews)")
+                    
+                    if 'sentiment_score' in rec:
+                        sentiment = rec['sentiment_score']
+                        if sentiment > 0.1:
+                            sentiment_emoji = "😊 Positive"
+                        elif sentiment < -0.1:
+                            sentiment_emoji = "😞 Negative"  
+                        else:
+                            sentiment_emoji = "😐 Neutral"
+                        st.write(f"💭 **Sentiment:** {sentiment_emoji} ({sentiment:.2f})")
+                    
+                    st.write(f"🤖 **Method:** {rec['method'].replace('_', ' ').title()}")
+                    
+                    # Additional info
+                    if 'description' in rec:
+                        st.write(f"📝 **Description:** {rec['description']}")
+                    if 'phone' in rec:
+                        st.write(f"📞 **Phone:** {rec['phone']}")
+                    if 'website' in rec:
+                        st.write(f"🌐 **Website:** {rec['website']}")
+                
+                with col2:
+                    score = rec.get('recommendation_score', 0)
+                    st.metric("🎯 Recommendation Score", f"{score:.2f}")
+                    
+                    # Progress bar for score
+                    max_score = max([r.get('recommendation_score', 0) for r in filtered_recommendations])
+                    if max_score > 0:
+                        progress = min(score / max_score, 1.0)
+                        st.progress(progress)
+                    
+                    # Rating breakdown
+                    if rec['rating_count'] > 0:
+                        st.write("📊 **Quick Stats:**")
+                        st.write(f"Reviews: {rec['rating_count']}")
+                        
+                        # Star rating visualization
+                        full_stars = int(rec['avg_rating'])
+                        half_star = 1 if rec['avg_rating'] - full_stars >= 0.5 else 0
+                        empty_stars = 5 - full_stars - half_star
+                        
+                        star_display = "⭐" * full_stars + "⭐" * half_star + "☆" * empty_stars
+                        st.write(f"Rating: {star_display}")
     
-    # Analytics section
-    if PANDAS_AVAILABLE and PLOTLY_AVAILABLE and restaurants is not None:
-        st.header("📊 System Analytics")
+    # Analytics
+    st.header("📊 System Analytics")
+    
+    col1, col2, col3 = st.columns(3)
+    
+    with col1:
+        st.subheader("📈 Key Metrics")
+        st.metric("Total Restaurants", len(restaurants))
+        st.metric("Total Ratings", len(ratings))
+        st.metric("Average Rating", f"{ratings['rating'].mean():.2f}")
+    
+    with col2:
+        st.subheader("🍽️ Cuisine Distribution")
+        cuisine_counts = restaurants['cuisine'].value_counts()
         
-        col1, col2 = st.columns(2)
+        cuisine_data = pd.DataFrame({
+            'Count': cuisine_counts.values
+        }, index=cuisine_counts.index)
+        st.bar_chart(cuisine_data)
+    
+    with col3:
+        st.subheader("💰 Price Range Distribution")
+        price_counts = restaurants['price_range'].value_counts()
         
-        with col1:
-            # Cuisine distribution
-            st.subheader("Cuisine Distribution")
-            cuisine_counts = restaurants['cuisine'].value_counts()
-            
-            fig_pie = px.pie(
-                values=cuisine_counts.values,
-                names=cuisine_counts.index,
-                title="Restaurant Types"
-            )
-            st.plotly_chart(fig_pie, use_container_width=True)
-        
-        with col2:
-            # Rating distribution
-            st.subheader("Rating Distribution")
-            if ratings is not None:
-                fig_hist = px.histogram(
-                    ratings,
-                    x='rating',
-                    nbins=10,
-                    title="Rating Distribution",
-                    labels={'rating': 'Rating', 'count': 'Count'}
-                )
-                st.plotly_chart(fig_hist, use_container_width=True)
+        price_data = pd.DataFrame({
+            'Count': price_counts.values
+        }, index=price_counts.index)
+        st.bar_chart(price_data)
+    
+    # Rating distribution
+    st.subheader("⭐ Rating Distribution")
+    rating_counts = ratings['rating'].value_counts().sort_index()
+    rating_data = pd.DataFrame({
+        'Count': rating_counts.values
+    }, index=rating_counts.index)
+    st.bar_chart(rating_data)
+    
+    # Additional insights
+    st.header("🔍 System Insights")
+    
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        st.subheader("🏆 Top Cuisines")
+        top_cuisines = restaurants['cuisine'].value_counts().head(5)
+        for cuisine, count in top_cuisines.items():
+            st.write(f"• **{cuisine}:** {count} restaurants")
+    
+    with col2:
+        st.subheader("⭐ Highest Rated")
+        top_rated = ratings.groupby('restaurant_id')['rating'].mean().nlargest(5)
+        for rest_id, rating in top_rated.items():
+            try:
+                name = restaurants[restaurants['restaurant_id'] == rest_id]['name'].iloc[0]
+                st.write(f"• **{name}:** {rating:.1f}⭐")
+            except:
+                st.write(f"• Restaurant {rest_id}: {rating:.1f}⭐")
     
     # Footer
     st.markdown("---")
     st.markdown("""
-    ### 🚀 AI Restaurant Recommendation System
+    ### 🚀 AI Restaurant Recommendation System - Production Ready
     
-    **System Capabilities:**
-    - 🤖 **Hybrid ML Algorithms** - Collaborative + Content-based filtering
-    - 🎯 **Personalized Recommendations** - Based on user preferences and history
-    - 📊 **Data Analytics** - Real-time insights and visualizations
-    - 🌐 **Web Interface** - Interactive Streamlit application
-    - ☁️ **Cloud Deployment** - Scalable and accessible anywhere
+    **System Features:**
+    - 🤖 **Built-in AI Algorithms** - No external ML dependencies
+    - 🎯 **Smart Recommendations** - Popularity + sentiment analysis
+    - 💭 **Sentiment Analysis** - Keyword-based review analysis
+    - 📊 **Real-time Analytics** - Interactive data visualizations
+    - 🌐 **Web Interface** - Responsive Streamlit application
+    - ☁️ **Cloud Ready** - Optimized for deployment with fallback data
     
-    *Built with Python, Streamlit, Scikit-learn, and deployed on Render*
+    **Technical Stack:**
+    - Frontend: Streamlit
+    - Backend: Python with built-in algorithms
+    - Data: Curated fallback datasets (200 restaurants, 100 users, 1000 ratings)
+    - Deployment: Render-optimized with zero external ML dependencies
+    
+    *Built for production deployment - fast, reliable, and self-contained!*
     """)
 
 if __name__ == "__main__":
