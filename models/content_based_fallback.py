@@ -17,9 +17,9 @@ class ContentBasedFilteringFallback:
         """Prepare data for content-based filtering"""
         try:
             # Simple feature engineering without sklearn
-            if 'cuisine_type' in self.restaurants_df.columns:
+            if 'cuisine' in self.restaurants_df.columns:
                 # Create simple cuisine encoding
-                cuisines = self.restaurants_df['cuisine_type'].unique()
+                cuisines = self.restaurants_df['cuisine'].unique()
                 self.cuisine_mapping = {cuisine: i for i, cuisine in enumerate(cuisines)}
                 
             # Aggregate ratings for restaurants
@@ -68,8 +68,8 @@ class ContentBasedFilteringFallback:
             }
             
             # Cuisine preferences
-            if 'cuisine_type' in user_restaurants.columns:
-                cuisine_ratings = user_restaurants.groupby('cuisine_type')['rating'].mean()
+            if 'cuisine' in user_restaurants.columns:
+                cuisine_ratings = user_restaurants.groupby('cuisine')['rating'].mean()
                 profile['preferences']['cuisine'] = cuisine_ratings.to_dict()
             
             return profile
@@ -105,7 +105,7 @@ class ContentBasedFilteringFallback:
                 
                 # Boost score based on cuisine preference
                 if 'cuisine' in user_profile['preferences']:
-                    cuisine = restaurant.get('cuisine_type', 'Unknown')
+                    cuisine = restaurant.get('cuisine', 'Unknown')
                     if cuisine in user_profile['preferences']['cuisine']:
                         cuisine_score = user_profile['preferences']['cuisine'][cuisine]
                         score = score * 0.7 + cuisine_score * 0.3
@@ -135,7 +135,7 @@ class ContentBasedFilteringFallback:
             rec = {
                 'restaurant_id': restaurant['restaurant_id'],
                 'name': restaurant.get('name', 'Unknown Restaurant'),
-                'cuisine_type': restaurant.get('cuisine_type', 'Unknown'),
+                'cuisine': restaurant.get('cuisine', 'Unknown'),
                 'avg_rating': float(restaurant.get('avg_rating', 4.0)),
                 'rating_count': int(restaurant.get('rating_count', 1)),
                 'recommendation_score': float(restaurant.get('content_score', restaurant.get('avg_rating', 4.0))),

@@ -14,27 +14,7 @@ APP_FILE="app_safe.py"
 echo "🎯 Using deployment-safe application"
 
 # Download NLTK data if available
-python -c "
-try:
-    import nltk
-    import ssl
-    try:
-        _create_unverified_https_context = ssl._create_unverified_context
-    except AttributeError:
-        pass
-    else:
-        ssl._create_default_https_context = _create_unverified_https_context
-
-    try:
-        nltk.download('vader_lexicon', quiet=True)
-        nltk.download('punkt', quiet=True)
-        nltk.download('stopwords', quiet=True)
-        print('✅ NLTK data downloaded successfully')
-    except Exception as e:
-        print(f'⚠️  NLTK download warning: {e}')
-except ImportError:
-    print('⚠️  NLTK not available, skipping download')
-"
+python download_nltk.py
 
 # Start the Streamlit app
 echo "🎬 Launching Streamlit application: $APP_FILE"

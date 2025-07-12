@@ -2,7 +2,7 @@ services:
   - type: web
     name: ai-restaurant-recommendation-system
     env: python
-    buildCommand: pip install --upgrade pip && pip install -r requirements-deploy.txt
+    buildCommand: pip install --upgrade pip && pip install -r requirements-deploy.txt && chmod +x start.sh && python download_nltk.py
     startCommand: ./start.sh
     plan: free
     envVars:

@@ -126,7 +126,7 @@ class CollaborativeFilteringFallback:
                     rec = {
                         'restaurant_id': item,
                         'name': restaurant.get('name', 'Unknown Restaurant'),
-                        'cuisine_type': restaurant.get('cuisine_type', 'Unknown'),
+                        'cuisine': restaurant.get('cuisine', 'Unknown'),
                         'recommendation_score': float(avg_score),
                         'similar_users_count': count,
                         'method': 'collaborative_fallback'
@@ -189,7 +189,7 @@ class CollaborativeFilteringFallback:
                 rec = {
                     'restaurant_id': restaurant['restaurant_id'],
                     'name': restaurant.get('name', 'Unknown Restaurant'),
-                    'cuisine_type': restaurant.get('cuisine_type', 'Unknown'),
+                    'cuisine': restaurant.get('cuisine', 'Unknown'),
                     'avg_rating': float(restaurant.get('avg_rating', 4.0)),
                     'rating_count': int(restaurant.get('rating_count', 1)),
                     'recommendation_score': float(restaurant.get('popularity_score', 4.0)),

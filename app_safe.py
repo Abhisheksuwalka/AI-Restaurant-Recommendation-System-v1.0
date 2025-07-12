@@ -115,7 +115,7 @@ def get_basic_recommendations(restaurants, ratings, num_recommendations=10):
             rec = {
                 'restaurant_id': restaurant['restaurant_id'],
                 'name': restaurant.get('name', 'Unknown Restaurant'),
-                'cuisine_type': restaurant.get('cuisine_type', 'Unknown'),
+                'cuisine': restaurant.get('cuisine', 'Unknown'),
                 'avg_rating': float(restaurant.get('avg_rating', 4.0)),
                 'rating_count': int(restaurant.get('rating_count', 1)),
                 'recommendation_score': float(restaurant.get('popularity_score', 4.0)),
@@ -203,7 +203,7 @@ def main():
     
     # Preference filters
     if PANDAS_AVAILABLE and restaurants is not None:
-        cuisines = ['All'] + list(restaurants['cuisine_type'].unique())
+        cuisines = ['All'] + list(restaurants['cuisine'].unique())
         selected_cuisine = st.sidebar.selectbox("Preferred Cuisine:", cuisines)
         
         min_rating = st.sidebar.slider("Minimum Rating:", 1.0, 5.0, 3.0, 0.1)
@@ -238,7 +238,7 @@ def main():
     if recommendations:
         # Apply filters
         if selected_cuisine != 'All':
-            recommendations = [r for r in recommendations if r.get('cuisine_type', '').lower() == selected_cuisine.lower()]
+            recommendations = [r for r in recommendations if r.get('cuisine', '').lower() == selected_cuisine.lower()]
         
         recommendations = [r for r in recommendations if r.get('avg_rating', 0) >= min_rating]
         
@@ -251,7 +251,7 @@ def main():
                     col1, col2 = st.columns([3, 1])
                     
                     with col1:
-                        st.write(f"**Cuisine:** {rec.get('cuisine_type', 'Unknown')}")
+                        st.write(f"**Cuisine:** {rec.get('cuisine', 'Unknown')}")
                         if 'address' in rec:
                             st.write(f"**Address:** {rec['address']}")
                         if 'price_range' in rec:
@@ -282,7 +282,7 @@ def main():
         with col1:
             # Cuisine distribution
             st.subheader("Cuisine Distribution")
-            cuisine_counts = restaurants['cuisine_type'].value_counts()
+            cuisine_counts = restaurants['cuisine'].value_counts()
             
             fig_pie = px.pie(
                 values=cuisine_counts.values,

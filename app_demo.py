@@ -32,7 +32,7 @@ def load_demo_data():
         {
             "restaurant_id": "R001",
             "name": "Spice Palace",
-            "cuisine_type": "Indian",
+            "cuisine": "Indian",
             "avg_rating": 4.5,
             "rating_count": 150,
             "address": "123 Curry Street",
@@ -41,7 +41,7 @@ def load_demo_data():
         {
             "restaurant_id": "R002", 
             "name": "Pasta Paradise",
-            "cuisine_type": "Italian",
+            "cuisine": "Italian",
             "avg_rating": 4.2,
             "rating_count": 89,
             "address": "456 Pizza Avenue",
@@ -50,7 +50,7 @@ def load_demo_data():
         {
             "restaurant_id": "R003",
             "name": "Sushi Zen",
-            "cuisine_type": "Japanese", 
+            "cuisine": "Japanese", 
             "avg_rating": 4.7,
             "rating_count": 203,
             "address": "789 Sashimi Lane",
@@ -59,7 +59,7 @@ def load_demo_data():
         {
             "restaurant_id": "R004",
             "name": "Taco Fiesta", 
-            "cuisine_type": "Mexican",
+            "cuisine": "Mexican",
             "avg_rating": 4.1,
             "rating_count": 67,
             "address": "321 Salsa Street",
@@ -68,7 +68,7 @@ def load_demo_data():
         {
             "restaurant_id": "R005",
             "name": "Dragon Garden",
-            "cuisine_type": "Chinese",
+            "cuisine": "Chinese",
             "avg_rating": 4.3,
             "rating_count": 112,
             "address": "654 Noodle Road",
@@ -100,7 +100,7 @@ def get_recommendations(user_preferences: Dict[str, Any], restaurants: List[Dict
         score = restaurant['avg_rating']
         
         # Boost score for preferred cuisine
-        if preferred_cuisine and restaurant['cuisine_type'].lower() == preferred_cuisine.lower():
+        if preferred_cuisine and restaurant['cuisine'].lower() == preferred_cuisine.lower():
             score += 0.5
             
         # Check rating filter
@@ -182,7 +182,7 @@ def main():
                     col_a, col_b = st.columns([3, 1])
                     
                     with col_a:
-                        st.write(f"**Cuisine:** {rec['cuisine_type']}")
+                        st.write(f"**Cuisine:** {rec['cuisine']}")
                         st.write(f"**Address:** {rec['address']}")
                         st.write(f"**Price Range:** {rec['price_range']}")
                         st.write(f"**Rating:** {rec['avg_rating']}/5.0 ({rec['rating_count']} reviews)")
@@ -214,7 +214,7 @@ def main():
         st.subheader("Cuisine Distribution")
         cuisine_counts = {}
         for r in restaurants:
-            cuisine = r['cuisine_type']
+            cuisine = r['cuisine']
             cuisine_counts[cuisine] = cuisine_counts.get(cuisine, 0) + 1
             
         fig = px.pie(
