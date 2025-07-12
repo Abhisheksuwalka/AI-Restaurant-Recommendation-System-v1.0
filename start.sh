@@ -9,16 +9,11 @@ echo "🚀 Starting AI Restaurant Recommendation System"
 echo "🌐 Port: $STREAMLIT_SERVER_PORT"
 echo "📍 Address: $STREAMLIT_SERVER_ADDRESS"
 
-# Check if we have the full dependencies or should use demo
-if python -c "import pandas, numpy" 2>/dev/null; then
-    echo "✅ Full dependencies available, starting main app"
-    APP_FILE="app.py"
-else
-    echo "⚠️  Using demo mode (limited dependencies)"
-    APP_FILE="app_demo.py"
-fi
+# Use the deployment-safe app that handles missing dependencies gracefully
+APP_FILE="app_safe.py"
+echo "🎯 Using deployment-safe application"
 
-# Download NLTK data with better error handling (only if needed)
+# Download NLTK data if available
 python -c "
 try:
     import nltk
@@ -32,6 +27,8 @@ try:
 
     try:
         nltk.download('vader_lexicon', quiet=True)
+        nltk.download('punkt', quiet=True)
+        nltk.download('stopwords', quiet=True)
         print('✅ NLTK data downloaded successfully')
     except Exception as e:
         print(f'⚠️  NLTK download warning: {e}')
@@ -40,5 +37,5 @@ except ImportError:
 "
 
 # Start the Streamlit app
-echo "🎬 Launching Streamlit application..."
+echo "🎬 Launching Streamlit application: $APP_FILE"
 streamlit run $APP_FILE --server.port=$STREAMLIT_SERVER_PORT --server.address=$STREAMLIT_SERVER_ADDRESS

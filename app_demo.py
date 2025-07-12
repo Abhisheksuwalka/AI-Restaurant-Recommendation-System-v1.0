@@ -11,6 +11,13 @@ import json
 import os
 from typing import List, Dict, Any
 
+# Try to load environment variables, but continue without if not available
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass
+
 # Set page config
 st.set_page_config(
     page_title="AI Restaurant Recommendation System",

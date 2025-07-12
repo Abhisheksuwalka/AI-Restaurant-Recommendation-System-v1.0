@@ -1,3 +1,27 @@
+# Full app requirements with compatible versions for Python 3.13
 streamlit>=1.28.0
 plotly>=5.0.0
 requests>=2.25.0
+python-dotenv>=1.0.0
+
+# Data processing - use specific versions that work with Python 3.13
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Machine Learning - use newer versions compatible with Python 3.13
+scikit-learn>=1.4.0
+
+# Text processing
+nltk>=3.8.0
+textblob>=0.17.0
+vaderSentiment>=3.3.2
+
+# Additional visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Utilities
+emoji>=2.8.0
+pytz>=2023.3
+python-dateutil>=2.8.2
+joblib>=1.3.0
