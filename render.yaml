@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: ai-restaurant-recommendation-system
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: ./start.sh
+    plan: free
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: STREAMLIT_SERVER_PORT
+        value: 10000
+      - key: STREAMLIT_SERVER_ADDRESS
+        value: 0.0.0.0
